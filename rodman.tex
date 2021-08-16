@@ -1,0 +1,84 @@
+% For Stacey to use in place of JIBLM.tex.  Removed identification of JIBLM.
+
+\documentclass[oneside]{book}
+\usepackage{enumerate}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{amsthm}
+\usepackage{mathptmx}
+\usepackage{verbatim}
+\usepackage{endnotes}
+   
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\renewcommand{\chaptermark}[1] {\markboth{#1}{}}%
+
+\setlength{\oddsidemargin}{63pt}
+\setlength{\evensidemargin}{63pt}
+
+\setlength{\parskip}{1mm}
+\setlength{\textwidth}{5.0in}
+\setlength{\textheight}{8.5in}
+\let\affiliation\date
+
+\makeatletter
+\def\maketitle{%
+  \null
+  \thispagestyle{empty}%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \normalfont
+  \vspace{2in}
+\begin{center}\leavevmode
+{\Huge \@title\par}%
+\vspace{20mm}
+{\Large \@author\par}%
+\vspace{5mm}
+{\Large \@date\par}
+{\Large \ }
+\end{center}
+  \vfill
+  \null
+  \cleardoublepage
+ \let\newauthor\@author
+ }%
+\makeatother
+
+\lhead{ \leftmark} \chead{} \rhead{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\usepackage{comment}
+\newcommand{\InstructorVersion}{\includecomment{annotation}}
+\newcommand{\StudentVersion}{\excludecomment{annotation}}
+
+\makeatletter
+\renewcommand{\@makechapterhead}[1]{%
+\vspace*{50\p@}%
+  {\parindent \z@ \raggedright \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+      \if@mainmatter
+        \huge \@chapapp\space \thechapter                
+        \par\nobreak
+        \vskip 20\p@
+      \fi
+    \fi
+    \interlinepenalty\@M
+    \LARGE\bfseries  #1\par\nobreak                        
+    \vskip 40\p@
+  }}
+
+\renewcommand{\@makeschapterhead}[1]{%
+  \vspace*{50\p@}%
+  {\parindent \z@ \raggedright
+    \normalfont
+    \interlinepenalty\@M
+    \LARGE\bfseries  #1\par\nobreak                      
+    \vskip 40\p@
+  }}
+
+\makeatother
+
+\newtheorem{theorem}{Theorem}
+
