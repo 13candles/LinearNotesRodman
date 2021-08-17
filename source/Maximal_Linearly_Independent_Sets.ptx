@@ -1,0 +1,42 @@
+<section xml:id="Maximal_Linearly_Independent_Sets">
+  <title>Maximal Linearly Independent Sets</title>
+  <exercise>
+    <statement>
+      <p>
+        Is <m>\mathbb{S} = \{ \ot{1}{2}{3},\ot{1}{2}{0},\ot{1}{0}{0} \}</m> a basis for <m>\mathbb{R}^3</m>?
+        Explain.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Is <m>\mathbb{S} = \{x^2+1, x+1, x-1 \}</m> a basis for <m>\mathbb{P}_3</m>?
+        Explain.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        State Theorem 15 in words.
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <statement>
+      <p>
+        <m>\mathbb{S}</m> is a basis for
+        <m>\mathbb{L}</m> if and only if it is a maximal linearly independent subset of <m>\mathbb{L}</m>.
+        In other words,
+        <m>\mathbb{S}</m> is a basis for <m>\mathbb{L}</m> if and only if
+        <m>\mathbb{S}</m> is linearly independent and not a proper subset of any other linearly independent set.
+      </p>
+    </statement>
+  </theorem>
+  <aside>
+    <p>
+      You may need to talk about the concept of maximal which is not the same as biggest.
+    </p>
+  </aside>
+</section>

@@ -1,0 +1,57 @@
+<section xml:id="Properties_of_Linearly_Independent_Sets">
+  <title>Properties of Linearly Independent Sets</title>
+  <exercise>
+    <statement>
+      <p>
+        Is there an infinite subset in C[0,1] which is linearly independent?
+        To demonstrate such a set one option is to use pictures and establish a pattern.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Describe how to extend a linearly independent set to get a basis.
+        Will this always work?
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Use negation to rewrite Theorem 16.
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <statement>
+      <p>
+        If <m>\mathbb{L}</m> has a basis
+        <m>\mathbb{B} = \{ \mathbf{P}_1, \mathbf{P}_2,\ldots,\mathbf{P}_n \}</m> with a finite number of points,
+        then the following hold:
+        <ol>
+          <li>
+            <p>
+              uad \= No linearly independent set contains more than <m>n</m> points.
+            </p>
+          </li>
+          <li>
+            <p>
+              Every linearly independent set with <m>n</m> points is a basis.
+            </p>
+          </li>
+          <li>
+            <p>
+              Every linearly independent set is contained in a basis.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </theorem>
+  <aside>
+    <p>
+      Here the hard work of the previous theorems pay off.
+    </p>
+  </aside>
+</section>

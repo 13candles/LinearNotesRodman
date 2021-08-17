@@ -1,0 +1,150 @@
+<section xml:id="The_Big_Equivalences_Theorem">
+  <title>The Big Equivalences Theorem</title>
+  <p>
+    Recall that the point <m>\vect{v} = \oq{v_1}{v_2}{\ldots}{v_n} \in \mathbb{R}^n</m> can be written as the list of coefficients using the standard basis <m>\beta</m> which gives the <m>n \times 1</m> matrix
+    <me>
+      \vect{v} =[(v_1,v_2, ..,v_n)]_{\beta} = \left[ \begin{array}{c} v_1\\v_2\\ \vdots \\v_n \end{array} \right]
+    </me>
+  </p>
+  <p>
+    This allows multiplication on the left by an
+    <m>n \times n</m> matrix <c>M</c> to result in a new vector <m>\vect{b} \in \mathbb{R}^n</m> written:
+    <m>\mtx{M}\vect{v} = \vect{b}</m>.
+  </p>
+  <exercise>
+    <statement>
+      <p>
+        For any <m>\vect{u}=\ot{u_1}{u_2}{u_3}, \vect{v}=\ot{v_1}{v_2}{v_3}</m>,
+        <m>\vect{w}=\ot{w_1}{w_2}{w_3}</m> and <m>\vect{a}=\ot{a_1}{a_2}{a_3} \in \mathbb{R}^3</m>,
+        with <m>c_i \in \mathbb{R}</m>, write the equation:
+      </p>
+      <p>
+        <m>c_1\vect{u}+c_2\vect{v}+c_3\vect{w} = \vect{a}</m> as:
+        <ol>
+          <li>
+            <p>
+              uad \= a linear combination:
+              <fillin/> <m>\left[ \begin{array}{c} \underline{\hspace{.2in} } \\ \underline{\hspace{.2in} } \\ \underline{\hspace{.2in} } \end{array} \right] + \underline{\hspace{.2in} } \left[ \begin{array}{c} \underline{\hspace{.2in} } \\ \underline{\hspace{.2in} } \\ \underline{\hspace{.2in} } \end{array} \right]+ \underline{\hspace{.2in} } \left[ \begin{array}{c} \underline{\hspace{.2in} } \\ \underline{\hspace{.2in} } \\ \underline{\hspace{.2in} } \end{array} \right] = \left[ \begin{array}{c} \underline{\hspace{.2in} } \\ \underline{\hspace{.2in} } \\ \underline{\hspace{.2in} } \end{array} \right]</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              an augmented matrix:
+              <m>\left[ \begin{array}{ccccc} \underline{\hspace{.2in} } \amp \underline{\hspace{.2in} } \amp \underline{\hspace{.2in} } \amp \vdots \amp \underline{\hspace{.2in} } \\ \underline{\hspace{.2in} } \amp \underline{\hspace{.2in} } \amp \underline{\hspace{.2in} } \amp \vdots \amp \underline{\hspace{.2in} } \\ \underline{\hspace{.2in} } \amp \underline{\hspace{.2in} } \amp \underline{\hspace{.2in} } \amp \vdots \amp \underline{\hspace{.2in} } \end{array} \right]</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              a matrix equation:
+              <m>\left[ \begin{array}{ccc} \underline{\hspace{.2in} } \amp \underline{\hspace{.2in} } \amp \underline{\hspace{.2in} } \\ \underline{\hspace{.2in} } \amp \underline{\hspace{.2in} } \amp \underline{\hspace{.2in} } \\ \underline{\hspace{.2in} } \amp \underline{\hspace{.2in} } \amp \underline{\hspace{.2in} } \end{array} \right]</m>
+              <m>\left[ \begin{array}{c} \underline{\hspace{.2in} } \\ \underline{\hspace{.2in} } \\ \underline{\hspace{.2in} } \end{array} \right]</m> = <m>\left[ \begin{array}{c} \underline{\hspace{.2in} } \\ \underline{\hspace{.2in} } \\ \underline{\hspace{.2in} } \end{array} \right]</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Write the augmented matrix obtained by setting
+        <m>\vect{a} = \ot{a_1}{a_2}{a_3}</m> equal to a linear combination of the vectors <m>\{ \ot{1}{4}{2}, \ot{0}{2}{1}, \ot{-1}{0}{0}, \ot{1}{2}{3} \}</m>.
+        Determine if these vectors are linearly independent and span <m>\mathbb{R}^3</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        For a given <m>r \times c</m> matrix <m>\mtx{A}</m>,
+        sort the following statements into two groups such that the statements in each group are equivalent to each other:
+      </p>
+      <p>
+        The columns of <m>\mtx{A}</m> are linearly independent.
+      </p>
+      <p>
+        The columns of <m>\mtx{A}</m> span <m>\mathbb{R}^r</m>.
+      </p>
+      <p>
+        There is a leading 1 in each row when <m>\mtx{A}</m> is row reduced.
+      </p>
+      <p>
+        There is a leading 1 in each column when <m>\mtx{A}</m> is row reduced.
+      </p>
+      <p>
+        Any system of equations with coefficients from <m>\mtx{A}</m> will have <m>\leq 1</m> solution.
+      </p>
+      <p>
+        Any system of equations with coefficients from <m>\mtx{A}</m> will have <m>\geq 1</m> solution.
+      </p>
+      <p>
+        The matrix equation <m>\mtx{A}\vect{x}=\vect{b}</m> will have <m>\leq 1</m> solution.
+      </p>
+      <p>
+        The matrix equation <m>\mtx{A}\vect{x}=\vect{b}</m> will have <m>\geq 1</m> solution.
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <title>The Big Theorem</title>
+    <statement>
+      <p>
+        For <m>\mtx{A}</m> an <m>n \times n</m> matrix,
+        the following are equivalent:
+        <ol>
+          <li>
+            <p>
+              uad \= <m>det(A) \neq 0</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              The columns of <c>A</c> span <m>\mathbb{R}^n</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              The columns of <c>A</c> are linearly independent
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\mtx{A}\vect{x}=\vect{b}</m> has a unique solution,
+              <m>x \in \mathbb{R}^n</m>, for each \mathbf{b} in <m>\mathbb{R}^n</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <c>A</c> has a multiplicative inverse
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </theorem>
+  <aside>
+    <p>
+      This theorem,
+      or even more extensive versions of it are common in standard Linear Algebra texts.
+      If there is time I show such a theorem in class and talk about terms like rank,
+      nullity, null space and column space.
+    </p>
+  </aside>
+  <p>
+    <project>
+      The following can be added to the above list
+    </project>
+    <ol>
+      <li>
+        <p>
+          uad \= \kill \em{vi.} \> \em{The rows of <c>A</c> form a basis for} <m>\mathbb{R}^n</m>
+        </p>
+      </li>
+    </ol>
+  </p>
+  <p>
+    <term>Discussion Question 31.</term>
+    For an <m>n \times n</m> matrix <c>A</c> with <m>det(\mtx{A}) \neq 0</m>,
+    how can elementary operations be used to find <m>\mtx{A}^{-1}</m>?
+  </p>
+</section>

@@ -1,0 +1,53 @@
+<section xml:id="Linear_Dependence">
+  <title>Linear Dependence</title>
+  <exercise>
+    <statement>
+      <p>
+        Is the set <m>\mathbb{S} = \{x^2-1,\ x+1,\ x-1 \}</m> linearly independent in <m>\mathbb{P}_3</m>?
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Is the set <m>\mathbb{S} = \{1,\ sin^2(x),\ cos^2(x) \}</m> linearly independent in C[0,1]?
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Use Theorem 12 to write another condition for
+        <m>\mathbb{S}</m> to be linearly dependent.
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <statement>
+      <p>
+        Let <m>\mathbb{S}</m> be a subset of a linear space
+        <m>\mathbb{L}</m> containing more than one point.
+        <m>\mathbb{S}</m> is linearly dependent if and only if some point of
+        <m>\mathbb{S}</m> is a linear combination of the other points of <m>\mathbb{S}</m>.
+      </p>
+    </statement>
+  </theorem>
+  <aside>
+    <p>
+      I often arrange for weakers students to be in the same group for this theorem since here they can demonstrate mastery of proving
+      <q>if and only if</q>
+      statements and the definition of linearly dependent.
+    </p>
+  </aside>
+  <p>
+    <term>Discussion Question 14.</term>
+    The definition, Theorem 12,
+    and Theorem 14 give three equivalent criteria for a set to be linearly independent.
+    Which matches the meaning of
+    <q>independent</q>
+    most closely?
+    Which seems easiest to use to prove set is linearly independent?
+    Which makes the most sense paired with the definition of span?
+    What do traditional Linear Algebra texts have for the definition of linearly independent?
+  </p>
+</section>

@@ -1,0 +1,84 @@
+<section xml:id="Span">
+  <title>Span</title>
+  <definition>
+    <statement>
+      <p>
+        A point <m>\mathbf{P}</m> is said to be a
+        <term>linear combination of the points</term>:
+        <m>\mathbf{P}_1 , \mathbf{P}_2,\ldots,\mathbf{P}_n</m> if
+        <m>\mathbf{P} = t_1\mathbf{P}_1+ t_2\mathbf{P}_2+ \cdots+ t_n\mathbf{P}_n</m> for some list of real numbers <m>t_i</m>.
+      </p>
+    </statement>
+  </definition>
+  <definition>
+    <statement>
+      <p>
+        The set of all linear combinations using points from a non-empty set
+      </p>
+      <p>
+        <m>\mathbb{S}=\{ \mathbf{P}_1, \mathbf{P}_2, \ldots, \mathbf{P}_n \}</m> is called the <term>span</term>
+        of <m>\mathbb{S}</m>, and written:
+        <me>
+          span\mathbb{S} = \{\ t_1\mathbf{P}_1+t_2\mathbf{P}_2+\cdots+t_n\mathbf{P}_n\ | \; t_i  \in \mathbb{R}\ \}
+        </me>
+      </p>
+    </statement>
+  </definition>
+  <definition>
+    <statement>
+      <p>
+        A set <m>\mathbb{S}</m> of points in
+        <m>\mathbb{L}</m> is said to <term>span</term>
+        <m>\mathbb{L}</m> if <m>span\mathbb{S}=\mathbb{L}</m>.
+        This means that every point in
+        <m>\mathbb{L}</m> is a linear combination of the points in <m>\mathbb{S}</m>.
+        (Note: Span has again been defined as a noun and as a verb.)
+      </p>
+    </statement>
+  </definition>
+  <exercise>
+    <statement>
+      <p>
+        Describe the span of <m>\mathbb{S} = \{ \ot{1}{0}{1},\ot{0}{1}{1}\}</m>.
+        Does <m>\mathbb{S}</m> span <m>\mathbb{R}^3</m>?
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Does <m>\mathbb{S} = \{ x,x^2\}</m> span <m>\mathbb{P}_3</m>?
+        If not, find a set that does.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Find two different sets that span <m>\mathbb{R}^3</m>?
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <statement>
+      <p>
+        If <m>\mathbb{S}</m> is a nonempty subset of a linear space <m>\mathbb{L}</m>,
+        then <m>span\mathbb{S}</m> is a subspace of <m>\mathbb{L}</m>.
+        Moreover, <m>span\mathbb{S}</m> is the smallest subspace of
+        <m>\mathbb{L}</m> containing <m>\mathbb{S}</m>, in other words,
+        any subspace of <m>\mathbb{L}</m> containing
+        <m>\mathbb{S}</m> must also contain <m>span\mathbb{S}</m>.
+      </p>
+    </statement>
+  </theorem>
+  <aside>
+    <p>
+      This is a good opportunity for student to use Theorem 10,
+      but if they dont realize this themselves I let them check all the criteria for subspace which gives them a better understanding of Theorem 10.
+    </p>
+  </aside>
+  <p>
+    <term>Discussion Question 11.</term>
+    What definition for <m>span\{\}</m> would make Theorem 11 true without the condition that <m>\mathbb{S}</m> be non-empty?
+  </p>
+</section>

@@ -1,0 +1,6 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Notes to the Instructor</title>
+  <p>
+    \theendnotes
+  </p>
+</chapter>

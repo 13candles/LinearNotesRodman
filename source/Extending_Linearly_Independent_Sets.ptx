@@ -1,0 +1,69 @@
+<section xml:id="Extending_Linearly_Independent_Sets">
+  <title>Extending Linearly Independent Sets</title>
+  <exercise>
+    <statement>
+      <p>
+        Describe how to show a set
+        <m>\mathbb{S}</m> spans a linear space <m>\mathbb{L}</m>.
+        Describe 3 ways to show a set
+        <m>\mathbb{S}</m> is linearly independent.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Show <m>\{ \oq{1}{1}{0}{0},\oq{0}{1}{1}{0},\oq{0}{0}{1}{1} \}</m> is linear independent in <m>\mathbb{R}^4</m>.
+        Does is also span <m>\mathbb{R}^4</m>?
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Given that <m>\mathbb{S} = \{ \ot{1}{0}{0},\ot{0}{1}{0} \}</m> is linearly independent in <m>\mathbb{R}^3</m>,
+        find a point <m>\mathbf{P}</m> such that
+        <m>\mathbb{S} \cup \{\mathbf{P}\}</m> is also linearly independent.
+        Describe all possible such points.
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <statement>
+      <p>
+        If <m>\mathbb{S}</m> is a linearly independent subset of <m>\mathbb{L}</m> and
+        <m>\mathbf{P}</m> is a point of <m>\mathbb{L}</m>,
+        not in <m>span(\mathbb{S})</m>,
+        then <m>\mathbb{S} \cup \{ \mathbf{P} \}</m> is also linearly independent.
+      </p>
+    </statement>
+  </theorem>
+  <aside>
+    <p>
+      For this theorem students can use any of the three equivalent criteria for linear independence.
+      You may have to point out that just not being able to write the new point as a linear combination of the old points is not good enough,
+      they would also have to show that no old point can be written as a linear combination of union of the new point and the other old points.
+    </p>
+  </aside>
+  <definition>
+    <statement>
+      <p>
+        A finite subset <m>\mathbb{B}</m> of a linear space
+        <m>\mathbb{L}</m> is a <term>basis</term>
+        if each point in <m>\mathbb{L}</m> can be written in one and only one way as a linear combination of elements of <m>\mathbb{B}</m>.
+        In other words,
+        <m>\mathbb{B}</m> is a basis for <m>\mathbb{L}</m> if it spans
+        <m>\mathbb{L}</m> and is linearly independent.
+      </p>
+    </statement>
+  </definition>
+  <p>
+    <term>Discussion Question 15.</term>
+    For infinite subsets <m>\mathbb{B}</m> of <m>\mathbb{L}</m> define
+    <m>span(\mathbb{B})</m> to be the set of all linear combinations involving a finite number of element of <m>\mathbb{B}</m>.
+    With this addition the definitions of span and linearly independent can be extended to infinite subsets of <m>\mathbb{L}</m>.
+    Thus a basis may contain an infinite number of elements;
+    however, only a finite number of them may be used when making linear combinations.
+    What problems could occur if infinite sums were allowed for linear combinations?
+  </p>
+</section>

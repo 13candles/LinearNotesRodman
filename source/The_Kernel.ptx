@@ -1,0 +1,94 @@
+<section xml:id="The_Kernel">
+  <title>The Kernel</title>
+  <definition>
+    <statement>
+      <p>
+        Given a linear transformation <m>T:\mathbb{L}_1 \longrightarrow \mathbb{L}_2</m> the set of points in
+        <m>\mathbb{L}_1</m> that <m>T</m> sends to <m>\mathbf{0} \in \mathbb{L}_2</m> is called the
+        <term>kernel</term> of <m>T</m> and written:
+        <me>
+          ker(T)= \{ \mathbf{P} \in \mathbb{L}_1  \ |\ T(\mathbf{P}) = \mathbf{0} \}
+        </me>
+      </p>
+    </statement>
+  </definition>
+  <exercise>
+    <statement>
+      <p>
+        Describe the kernel of <m>T:\mathbb{R}^3 \longrightarrow \mathbb{R}^3</m> if T is the linear transformation that
+        <ol>
+          <li>
+            <p>
+              uad \= rotates all points around the z-axis by 90<m>^\circ</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              projects all points perpendicularly onto the xy-plane
+            </p>
+          </li>
+          <li>
+            <p>
+              projects all points horizontally onto the z-axis
+            </p>
+          </li>
+          <li>
+            <p>
+              reflects all points across the xy-plane
+            </p>
+          </li>
+          <li>
+            <p>
+              moves all points straight out to twice their distance from origin
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        What is the kernel of <m>T:C[0,1] \longrightarrow C[0,1]</m> if <m>T</m> is the linear transformation defined by <m>T(f) = f'</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        For <m>T:\mathbb{R}^2 \longrightarrow \mathbb{R}^3</m> find <m>ker(T)</m> and
+        <m>dim(ker(T))</m> if T is the linear transformation defined by
+        <ol>
+          <li>
+            <p>
+              uad \= <m>T(x,y) = (0, 0, 0)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>T(x,y) = (0, 0 ,x+y)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>T(x,y) = (x,y,0)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>T(x,y) = (x, y, x+y)</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <statement>
+      <p>
+        For any linear transformation <m>T:\mathbb{L}_1 \longrightarrow \mathbb{L}_2</m>,
+        <m>ker(T) = \{\mathbf{0}\}</m> if and only if <m>T</m> is <m>1-1</m>.
+      </p>
+    </statement>
+  </theorem>
+</section>

@@ -1,0 +1,117 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>To the Instructor</title>
+  <p>
+    Students who take our Linear Algebra course have been introduced to proof in a discrete math course,
+    but this is their first proof intensive class.
+    I have organized the notes so students can focus on one theorem at a time,
+    with accompanying computational exercises to provide hints,
+    direction and familiarity with new concepts.
+    Once I realized I needed to tell students specifically that the main goal of the course is for them to gain the important skill of "teaching themselves," student response has been very positive.
+  </p>
+  <p>
+    The notes begin in the familiar world of real 3-dimensional space where students solve systems of equations and are introduced to the key ideas of existence and uniqueness.
+    The second chapter introduces general linear spaces,
+    focusing on the importance of carefully making and using definitions.
+    The second chapter culminates with the definition of dimension.
+    The final chapter returns to real n-space to complete the course by defining matrices and matrix operations.
+    In this chapter students figure out how the elementary row operations they used for solving systems of equations can be thought of as multiplication by a sequence of elementary matrices.
+    The determinant is defined and shown to capture information about those operations which allows students to prove a simplified version of the standard Linear Algebra theorem identifying equivalent statements.
+  </p>
+  <p>
+    I am sure there are lots of ways to use these notes.
+    In my course the students are given four different learning tasks:
+    doing exercises, proving theorems,
+    presenting their proofs and reflecting on their progress.
+  </p>
+  <p>
+    The exercises are computational and help the students understand the concepts they will need for each days proof.
+    Students should come to class each day with the current day's exercises done.
+    Their understanding can be checked and reinforced with a brief quiz or a class discussion.
+    I have used the open source homework system WeBWorK to create on-line versions of the questions which I would be happy to share.
+  </p>
+  <p>
+    The students are then ready to begin the proof that follows those exercises.
+    I put the students in groups of 3-4 and have them work at the board.
+    Their first goal is to understand the statement of the theorem and what "shape" the proof might have:
+    direct, contradiction or contrapositive.
+    For each type of proof the students identify what they would need to assume and what would need to be shown.
+    The proofs get more difficult as the course progresses.
+    Comments specific to each proof can be found in the section titled "Notes to the Instructor" at the end of this document.
+    After class the students individually produce a typed up proof of the day's theorem and turn it in so that I can comment on it before the next class period.
+    I use the learning platform, Moodle,
+    but this could also be done over email or with paper copies.
+    Typesetting is minimal,
+    mostly requiring only superscripts and subscripts so programs such as Microsoft Word are sufficient.
+  </p>
+  <p>
+    The next day the students return to their groups from the previous day and combine their efforts to put their best version of the proof on the board.
+    I walk around the room answering questions and helping identify possible issues.
+    I then select one group and one person from that group to present to the class and take questions.
+    Students whose group is not selected to present in a given week come to my office to present a proof from that week individually.
+  </p>
+  <p>
+    Once a week students add to their reflection journal.
+    I have them do this as a Moodle assignment,
+    but it could be done in paper notebooks.
+    They identify which course goal:
+    problem solving, communication,
+    evaluating arguments, or understanding fundamental principles,
+    they feel they made the most progress on that week.
+    During the course I point out when I see a student making progress in one of these areas and suggest it as a good journal entry.
+    This reflection helps students identify and appreciate the progress they are making.
+    As long as their weekly entry clearly identifies a course goal and specifies what activity led to their progress in that area they get full credit.
+    Some write only one sentence, others much more.
+  </p>
+  <p>
+    Motivation for success is built into the structure of the course.
+    Reading the notes and doing the exercises before class means that the student will get farther on the days proof while in class and be more prepared to type it up after class.
+    A well organized and clearly written proof will get better feedback for the next day.
+    Students are motivated to pay attention and ask questions of the person presenting because they can turn in corrections and regain half the points they may have lost on their proof.
+    Students are required to present one proof each week.
+    They can accomplish this by coming to my office and presenting their choice of one of the most recent 3 proofs.
+    If their group is chosen to present in class,
+    that presentation counts for all group members.
+    This motivates the students to not only prepare good proof presentations,
+    but also to make sure it is well understood by all group members.
+    I allow plus or minus one week of flexibility on when students present.
+    This means if they have already presented and their group is chosen,
+    the group presentation can count for the next week.
+    It also means that if they have a particularly busy week they can miss a presentation and present two times during a later week.
+  </p>
+  <p>
+    Bookkeeping can be an issue.
+    The daily exercise sets are worth 3 points with no late problems accepted.
+    Students earn 1 point for each problem done.
+    Theorems must also be turned in on time for a score out of 5 points,
+    but then corrections can be submitted one week later where students can earn half the points lost.
+    Students earn 2 points for just restating the theorem, 3 for correctly identify what needs to be assumed and what needs to be shown demonstrating an understanding of any terms used. 4 points if they have one major error or two minor ones and 5 points for a nearly perfect proof.
+    If there is a challenge problem it is only graded if a student's proof is perfect and can earn them 1 extra credit point.
+    Student presentations are 5 points each.
+    Students earn 4 or 5 points, or 0 points with the chance to redo.
+    Each week's reflection is worth 3 points.
+  </p>
+  <p>
+    I typically teach 2 sections of 20 students each year and find the grading to be manageable since the student's proofs are typed and corrections are generally good since they are due after we have discussed the proof as a class.
+    The class adapts well for a variety of ability levels.
+    Some students focus on setting up the proofs and understanding the definitions,
+    and often don't have a perfect proof until after they have seen it presented in class.
+    Other students strive to get all of proofs and the Challenge problems.
+  </p>
+  <p>
+    We have thirty seven 75 minute long class periods.
+    I found it worked well for each class period to have three parts.
+    First students would work in small groups to put the key steps of the most recently turned in proof on the board.
+    Then I have one person present.
+    After talking about the presented proof we would move on and make sure everyone understands the definitions and problems for that day.
+    During the last part of the class the students begin to work on proving the next theorem.
+  </p>
+  <p>
+    At the beginning of the term I use the Pythagorean Theorem as a low stress introduction to how the class will work.
+    Day one the students brainstorm in groups, with guidance from me.
+    There are several proofs that need only basic geometry and a hint in the form of a picture to get them started.
+    On the second day students work in small groups and put their proofs of the Pythagorean Theorem on the board.
+    I help them focus on organizing their board work,
+    justifying each step and introducing their theorem to the class.
+    We then move on to talk about the first three exercises after which the class is ready to begin working in small groups on Theorem 1.
+  </p>
+</chapter>

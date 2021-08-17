@@ -1,0 +1,48 @@
+<section xml:id="When_the_Scalar_Multiple_is_1">
+  <title>When the Scalar Multiple is 1</title>
+  <exercise>
+    <statement>
+      <p>
+        What is the notation for the additive inverse of <m>-\mathbf{Q}</m>?
+        Find a vector other than <m>\mathbf{Q}</m> which satisfies the definition of additive inverse for<nbsp/><m>-\mathbf{Q}</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Show: <m>-(-\mathbf{Q})=1\mathbf{Q}</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Can a linear space have exactly one element?
+        Include justification.
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <statement>
+      <p>
+        For any point <m>\mathbf{P}</m> in linear space <m>\mathbb{L}</m>:
+        <me>
+          1\mathbf{P} = \mathbf{P}
+        </me>
+      </p>
+    </statement>
+  </theorem>
+  <aside>
+    <p>
+      This theorem can be proven in two very different ways.
+      The more subtle way is hinted at in the excercises and relys on the uniquenss of the inverse of <m>-\mathbf{P}</m>.
+      The other way uses that <m>\mathbf{P} +-1\mathbf{P} = \mathbf{0}</m> from theorem 6 and that <m>0\mathbf{P} =\mathbf{0}</m> from Axiom 4.
+    </p>
+  </aside>
+  <p>
+    <project>
+      Can a linear space have exactly two elements?
+    </project>
+  </p>
+</section>

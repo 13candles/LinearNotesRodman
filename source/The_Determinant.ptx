@@ -1,0 +1,110 @@
+<section xml:id="The_Determinant">
+  <title>The Determinant</title>
+  <exercise>
+    <statement>
+      <p>
+        Given that for <m>T:\mathbb{R}^2 \rightarrow \mathbb{R}^2</m>,
+        <m>T(1,0) = (2,3)</m> and <m>T(0,1) = (4,5)</m>,
+        find a formula for <m>T(x_1,x_2)</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Let <m>f:\mathbb{R}^2 \rightarrow \mathbb{R}^3</m> be defined by <m>f(x_1,x_2) =(x_1, x_1\cdot x_2,x_2)</m>.
+        Is <m>f</m> a linear transformation?
+        If possible find a matrix <c>A</c> such that
+        <me>
+          f(x_1,x_2) = \mtx{A}\left[ \begin{array}{c} x_1 \\ x_2 \end{array}  \right]
+        </me>
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Let <m>g:\mathbb{R}^2 \rightarrow \mathbb{R}^3</m> be defined by <m>g(x_1,x_2) =(x_1, x_1+x_2,x_2)</m>.
+        Is <m>g</m> a linear transformation?
+        If possible find a matrix <c>A</c> such that
+        <me>
+          g(x_1,x_2) = \mtx{A}\left[ \begin{array}{c} x_1 \\ x_2 \end{array}  \right]
+        </me>
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <statement>
+      <p>
+        A function <m>f: \mathbb{R}^m \longrightarrow \mathbb{R}^n</m> is a linear transformation if and only if it can be defined as multiplication by a matrix:
+        <m>f(\vect{v} ) = \mtx{A}\vect{v}</m>.
+        The size of the matrix will be <m>\underline{\hspace{.1in} } \times \underline{\hspace{.1in} }</m>.
+      </p>
+    </statement>
+  </theorem>
+  <aside>
+    <p>
+      While this can be proven without choosing specific bases,
+      students are most comfortable using the standard bases for
+      <m>\mathbb{R}^n</m> and <m>\mathbb{R}^m</m>.
+    </p>
+  </aside>
+  <p>
+    To indicate the linear transformation that results from multiplication by the matrix <m>\mtx{A}</m>,
+    write <m>T_\mtx{A} :\mathbb{R}^m \longrightarrow \mathbb{R}^n</m>.
+  </p>
+  <p>
+    <project>
+      What must be true about the columns of <c>A</c> for the linear transformation <m>T_\mtx{A}</m> to be onto? What must be true about the columns of <c>A</c> for <m>T_\mtx{A}</m> to be <m>1-1</m>?
+    </project>
+  </p>
+  <p>
+    To indicate the matrix for a given linear transformation
+    <m>T:\mathbb{L}_1 \longrightarrow \mathbb{L}_2</m> uses <m>\alpha</m> as the basis for
+    <m>\mathbb{L}_1</m> and <m>\beta</m> as the basis for
+    <m>\mathbb{L}_2</m> the matrix is written <m>[T]_{\beta, \alpha}</m>.
+    This means <m>[T(P)]_{\beta} =[T]_{\beta, \alpha}[P]_{\alpha}</m> and
+    <m>[T_2 \circ T_1]_{\gamma, \alpha}</m> and <m>[T_2]_{\gamma, \beta}[T_1]_{\beta, \alpha}</m>.
+  </p>
+  <definition>
+    <statement>
+      <p>
+        There is a useful process for assigning a real number,
+        called the <term>determinant</term>, to any square matrix.
+        For <m>n\times n</m> matrix <c>A</c> this number is written det(<c>A</c>) or <m>|\mtx{A}|</m>.
+      </p>
+      <p>
+        The determinant for <m>2 \times 2</m> matrix <m>\mtx{A}= \left[ \begin{array}{cc}a\amp b\\c\amp d \end{array}  \right]</m> is the real number:
+        <me>
+          \left| \begin{array}{cc}a\amp b\\c\amp d \end{array}  \right| = ad-bc
+        </me>
+      </p>
+      <p>
+        The determinant for a <m>3 \times 3</m> matrix is:
+        <me>
+          \left| \begin{array}{ccc}a\amp b\amp c\\d\amp e\amp f\\g\amp h\amp i \end{array}  \right| = aei+bfg+cdh-ceg-bdi-afh
+        </me>
+      </p>
+    </statement>
+  </definition>
+  <p>
+    <term>Discussion Question 29.</term>
+    There are many ways this sum can be factored,
+    each giving a different way of understanding the determinant of a
+    <m>3 \times 3</m> matrix, one example is:
+  </p>
+  <p>
+    <m>a(ei-fh)-b(di-fg)+c(dh-eg) = a\left| \begin{array}{cc}e\amp f\\h\amp i \end{array} \right|-b\left| \begin{array}{cc}d\amp f\\g\amp i \end{array} \right| +c\left| \begin{array}{cc}d\amp e\\g\amp h \end{array} \right|</m>
+  </p>
+  <p>
+    Another example is:
+  </p>
+  <p>
+    <m>-b(di-fg) + e(ei-cg) - h(af-cd) = -b\left| \begin{array}{cc}d\amp f\\g\amp i \end{array} \right| + e\left| \begin{array}{cc}a\amp c\\g\amp i \end{array} \right| -h\left| \begin{array}{cc}a\amp c\\d\amp f \end{array} \right|</m>
+  </p>
+  <p>
+    Find another example.
+    What pattern do all of these examples have in common.
+    This pattern can be used to extend the definition of determinant to larger square matrices.
+  </p>
+</section>

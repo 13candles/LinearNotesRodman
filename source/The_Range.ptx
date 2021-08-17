@@ -1,0 +1,112 @@
+<section xml:id="The_Range">
+  <title>The Range</title>
+  <definition>
+    <statement>
+      <p>
+        Given a linear transformation <m>T:\mathbb{L}_1 \longrightarrow \mathbb{L}_2</m> the set of points in
+        <m>\mathbb{L}_2</m> that are the result of <m>T</m> applied to at least one element of <m>\mathbb{L}_1</m> is called the
+        <term>range</term> of <m>T</m> and written:
+        <me>
+          T(\mathbb{L}_1)= \{ T(\mathbf{P}) \  |\ \mathbf{P} \in \mathbb{L}_1  \}
+        </me>
+      </p>
+    </statement>
+  </definition>
+  <exercise>
+    <statement>
+      <p>
+        Describe the range of <m>T:\mathbb{R}^3 \longrightarrow \mathbb{R}^3</m> if T is the linear transformation that
+        <ol>
+          <li>
+            <p>
+              uad \= rotates all points around the z-axis by 90<m>^\circ</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              projects all points perpendicularly onto the xy-plane
+            </p>
+          </li>
+          <li>
+            <p>
+              projects all points horizontally onto the z-axis
+            </p>
+          </li>
+          <li>
+            <p>
+              reflects all points across the xy-plane
+            </p>
+          </li>
+          <li>
+            <p>
+              moves all points straight out to twice their distance from origin
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        What is the range of <m>T:\mathbb{P} \longrightarrow \mathbb{P}</m> if <m>T</m> is the linear transformation defined by <m>T(p(x)) = x\cdot p(x)</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        For <m>T:\mathbb{R}^2 \longrightarrow \mathbb{R}^3</m> find <m>T(\mathbb{R}^2)</m> and
+        <m>dim(T(\mathbb{R}^2))</m> if T is the linear transformation defined by
+        <ol>
+          <li>
+            <p>
+              uad \= <m>T(x,y) = (0, 0, 0)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>T(x,y) = (0, 0 ,x+y)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>T(x,y) = (x,y,0)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>T(x,y) = (x, y, x+y)</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <statement>
+      <p>
+        For any linear transformation <m>T:\mathbb{L}_1 \longrightarrow \mathbb{L}_2</m>
+        <ol>
+          <li>
+            <p>
+              uad \=the kernel of <m>T</m>,
+              <m>ker(T)</m> is a subspace of <m>\mathbb{L}_1</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              the range of <m>T</m>,
+              <m>T(\mathbb{L}_1)</m> is a subspace of <m>\mathbb{L}_2</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </theorem>
+  <p>
+    <project>
+      Prove for any linear transformation <m>T:\mathbb{L}_1 \longrightarrow \mathbb{L}_2</m> where <m>\mathbb{L}_1</m> is a finite dimensional linear space: <m>dim(ker(T))+dim(T(\mathbb{L}_1)) = dim(\mathbb{L}_1)</m>
+    </project>
+  </p>
+</section>

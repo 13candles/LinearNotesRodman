@@ -1,0 +1,155 @@
+<section xml:id="Systems_of_Linear_Equations">
+  <title>Systems of Linear Equations</title>
+  <definition>
+    <statement>
+      <p>
+        A <term>linear equation</term> is an equation of the form:
+        <me>
+          a_1 x + a_2 y + a_3 z=b
+        </me>
+        where the <m>a_i</m> represent specific real numbers called <term>constants</term>,
+        <m>b</m> is also a real number and <m>x</m>,
+        <m>y</m> and <m>z</m> are <term>variables</term>
+        or <term>unknowns</term>.
+        The <term>solution</term> to a linear equation is the set of ordered triples of real numbers, \ot{x}{y}{z} for which the equation is true.
+      </p>
+    </statement>
+  </definition>
+  <p>
+    It is often important to be able to find solutions that work for multiple linear equations.
+    To solve such a system of linear equations,
+    transform it into simpler and simpler systems whose solutions are identical to the given system.
+    Then use the simplified system to describe the values of <m>x</m>,
+    <m>y</m> and <m>z</m> that make all equations in the system true,
+    and give the result using set notation:
+    <m>\mathbb{S}= \{\ot{ }{ }{ } | \hspace{.5in} \}</m>.
+    This set may be empty,
+    contain one ordered triple or more than one ordered triple.
+  </p>
+  <definition>
+    <statement>
+      <p>
+        The three ways that can be used to transform a system of equations into a new system with exactly the same solutions are called
+        <term>elementary row operations</term>.
+        They are:
+        <ol>
+          <li>
+            <p>
+              rearrange the order of the rows
+            </p>
+          </li>
+          <li>
+            <p>
+              multiply a row by a non-zero number
+            </p>
+          </li>
+          <li>
+            <p>
+              add a multiple of one row to another
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </definition>
+  <p>
+    When working with systems of equations it is more efficient to write only the constants,
+    making sure to keep them in columns so their variables can be reattached once the matrix is fully simplified.
+    The result is called an augmented matrix.
+    <me>
+      \begin{array}{lcr} \left[ \begin{array}{ccccccc} a_{11}x \amp  + \amp  a_{12}y \amp  + \amp  a_{13}z \amp  = \amp  b_{1} \\ a_{21}x \amp  + \amp  a_{22}y \amp  + \amp  a_{23}z \amp  = \amp  b_{2} \\ a_{31}x \amp  + \amp  a_{32}y \amp  + \amp  a_{33}z \amp  = \amp  b_{3} \end{array}  \right] \amp  or \amp \left[ \begin{array}{ccccc} a_{11} \amp   a_{12} \amp   a_{13} \amp  : \amp  b_{1} \\ a_{21} \amp   a_{22} \amp   a_{23} \amp  : \amp  b_{2}  \\ a_{31} \amp   a_{32} \amp   a_{33} \amp  : \amp  b_{3} \end{array}   \right] \end{array}
+    </me>
+  </p>
+  <p>
+    The elementary row operations apply to either the system of equations or the associated matrix.
+    Ideally, but not always, the most simplified version looks like:
+    <me>
+      \begin{array}{lcr} \left[ \begin{array}{ccccccc} x \amp   \amp     \amp   \amp    \amp  = \amp  s_{1} \\ \amp   \amp   y \amp   \amp    \amp  = \amp  s_{2} \\ \amp   \amp     \amp   \amp  z \amp  = \amp  s_{3} \end{array}  \right] \amp  or \amp \left[ \begin{array}{ccccc} 1 \amp   0 \amp   0 \amp  : \amp  s_{1} \\ 0 \amp   1 \amp   0 \amp  : \amp  s_{2}  \\ 0 \amp   0 \amp   1 \amp  : \amp  s_{3} \end{array}   \right] \end{array}
+    </me>
+  </p>
+  <p>
+    The solution in this case is a set with one ordered triple:
+    <me>
+      \mathbb{S} = \{ \ot{x}{y}{z}|\    x =s_1,y=s_2,z=s_3 \} = \{ \ot{s_1}{s_2}{s_3} \}
+    </me>
+  </p>
+  <exercise>
+    <statement>
+      <p>
+        Solve the following system of equations by transforming it into simpler and simpler systems of linear equations whose solution is identical to the given system.
+        <me>
+          \begin{array}{lcr} \left[ \begin{array}{ccccccc} 3x \amp  + \amp  2y \amp  - \amp  z \amp  = \amp  1 \\ x \amp  + \amp  y \amp   \amp   \amp  = \amp  6 \\ \amp   \amp  -y \amp  + \amp  z \amp  = \amp  0 \end{array}  \right] \amp  or \amp \left[ \begin{array}{ccccc} 3 \amp   2 \amp   -1 \amp  : \amp  1 \\ 1 \amp   1 \amp   0 \amp  : \amp  6  \\ 0 \amp   -1 \amp   1 \amp  : \amp  0 \end{array}   \right] \end{array}
+        </me>
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Solve the following system of equations.
+        How many solutions are there?
+        <me>
+          \left[ \begin{array}{ccccccc} 2x \amp  + \amp  4y \amp  + \amp  6z \amp  = \amp  8 \\ x \amp  + \amp  3y \amp  +  \amp  5z \amp  = \amp  7 \\ 2x \amp  + \amp  5y \amp  + \amp  8z \amp  = \amp  10 \end{array}  \right]
+        </me>
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Solve the following system of equations.
+        How many solutions are there?
+        <me>
+          \left[ \begin{array}{ccccccc} 2x \amp  + \amp  4y \amp  + \amp  6z \amp  = \amp  8 \\ x \amp  + \amp  3y \amp  +  \amp  5z \amp  = \amp  7 \\ 2x \amp  + \amp  5y \amp  + \amp  8z \amp  = \amp  11 \end{array}  \right]
+        </me>
+      </p>
+      <p>
+        Write the solution in each of the following ways:
+        <me>
+          \mathbb{S} = \{\ \ot{x}{y}{z} \ | \; x=  ,\  y= ,\  z= \}
+        </me>
+        <me>
+          \mathbb{S} = \{\ \ot{  }{  }{  }\ |\ t \in \mathbb{R}\}
+        </me>
+        <me>
+          \mathbb{S} = \{\  \ot{}{}{}+t\ot{ }{}{} \   | \ t \in \mathbb{R} \}
+        </me>
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <statement>
+      <p>
+        There exists a way to transform any system of linear equations in three unknowns into a well defined simplest form using only the three elementary row operations.
+        This simplest form will allow any conditions on the three unknowns to be quickly identified.
+      </p>
+      <p>
+        { (Write an algorithm for simplifying any given system of equations in three unknowns.
+        Describe how to identify when it is completely simplified and how to then identify the solution.
+        Use the term
+        <q>leading 1</q>
+        for when 1 is the first non-zero number in a row.) }
+      </p>
+    </statement>
+  </theorem>
+  <aside>
+    <p>
+      This is a chance for the student to try to come up with their own algorithm instead of just being told the steps to follow.
+      Some students are able to get close and some have seen this algorithm before,
+      but all of them have a better appreciatiation for the Gauss-Jordon elimination alghorithm after trying to come up with it themselves.
+      Students present their algorithm by using it to simplify systems I give them,
+      starting with ones that simplify to the identity matrix.
+      I usually have to help them recognize the usefulness of creating
+      <q>leading 1's.</q>
+    </p>
+  </aside>
+  <investigation>
+    <p>
+      Why are only the elementary row operations allowed when solving a system of equations?
+      As a system of equations is simplified: What produces the possibility for no solutions?
+      What produces the possibility for an infinite number of solutions?
+      What might a fully reduced matrix look like in each case?
+      Consider systems of two, three or four equations.
+    </p>
+  </investigation>
+</section>

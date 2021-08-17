@@ -1,0 +1,72 @@
+<section xml:id="When_a_Set_Contains_0">
+  <title>When a Set Contains 0</title>
+  <exercise>
+    <statement>
+      <p>
+        Negate the following:
+        <ol>
+          <li>
+            <p>
+              uad &#298;t is raining <m>\Longrightarrow</m> there are clouds in the sky
+            </p>
+          </li>
+          <li>
+            <p>
+              For any math problem there is a solution.
+            </p>
+          </li>
+          <li>
+            <p>
+              For all integers, prime <m>\Longrightarrow</m> odd
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>x=1, \; y=2</m>, and <m>z=3</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
+  <p>
+    <term>Discussion Question 13.</term>
+    Do the following mean the same thing?
+  </p>
+  <p>
+    <q>For any <ellipsis/></q>
+    <q>For all<ellipsis/></q>
+    <q>For every<ellipsis/></q>
+  </p>
+  <exercise>
+    <statement>
+      <p>
+        Negate the definition of <m>\mathbb{S}</m> being linearly independent to get a definition for
+        <m>\mathbb{S}</m> being linearly dependent.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Show how to write the point
+        <m>\ot{a}{b}{c}</m> as a linear combination of the points in <m>\mathbb{S} = \{ \ot{1}{2}{0}, \ot{1}{0}{0}, \ot{1}{1}{1} \}</m>.
+        Is the set <m>\mathbb{S}</m> linearly independent?
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <statement>
+      <p>
+        If <m>\mathbb{S}</m> is a subset of a linear space
+        <m>\mathbb{L}</m> and \mathbf{0} <m>\in \mathbb{S}</m>,
+        then <m>\mathbb{S}</m> is linearly dependent.
+      </p>
+    </statement>
+  </theorem>
+  <aside>
+    <p>
+      This is a very short proof and I find it best not to give the students too much help except perhaps to help them identify that this is a proof of existence and as such the more specific they can be the better.
+    </p>
+  </aside>
+</section>

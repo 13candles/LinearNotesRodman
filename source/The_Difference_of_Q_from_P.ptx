@@ -1,0 +1,87 @@
+<section xml:id="The_Difference_of_Q_from_P">
+  <title>The Difference of Q from P</title>
+  <p>
+    To define a specific Linear Space a set of points must be given and the actions of sum and scalar product described for these points.
+  </p>
+  <exercise>
+    <statement>
+      <p>
+        Does the set <m>\mathbb{R}^3</m> with operations as defined in Chapter 1 satisfy all the conditions to be a linear space?
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Which conditions of linear space does the set
+        <m>\mathbb{R}^2</m> satisfy when the sum and scalar product are defined in each of the following ways:
+        <ol>
+          <li>
+            <p>
+              uad \= <m>\op{p_1}{p_2}+\op{q_1}{q_2} = \op{0}{0}</m> and <m>t\op{p_1}{p_2} = \op{0}{0}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\op{p_1}{p_2}+\op{q_1}{q_2} = \op{p_1 \cdot q_1}{p_2 \cdot q_2}</m> and <m>t\op{p_1}{p_2} = \op{p_1^t}{p_2^t}</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
+  <definition>
+    <statement>
+      <p>
+        The <term>set of all continuous functions defined on the interval [0,1]</term>
+        is denoted: C[0,1]. Given functions <m>f</m> and <m>g</m>,
+        and real number <m>c</m>,
+        define the functions <m>f+g</m> and <m>cf</m> by what they do to a given real number <m>x</m>,
+        in this case:
+        <m>(f+g)(x):=f(x) +g(x)</m> and <m>(cf)(x) := c \cdot f(x)</m>.
+        Recall, a function <m>f</m> is continuous at <m>x</m> if <m>\lim_{w \rightarrow x} f(w) = f(x)</m>.
+      </p>
+    </statement>
+  </definition>
+  <exercise>
+    <statement>
+      <p>
+        For the graphs of continuous functions <m>f</m> and <m>g</m> given below,
+        sketch graphs of the functions <m>f+g</m> and <m>3g</m>.
+        Are these functions continuous on [0,1]? Will the sum of continuous functions always be continuous?
+        Will a scalar multiple of a continuous function always be continuous?
+        A good justification will use the definition of continuous.
+        <me>
+          \begin{array}{ccc} f(x) \amp   \amp  g(x)\\ <image width="45%" source="f"/>  \amp   \amp  <image width="45%" source="g"/> \end{array}
+        </me>
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <statement>
+      <p>
+        For any points <m>\mathbf{P}</m> and
+        <m>\mathbf{Q}</m> in linear space <m>\mathbb{L}</m>,
+        there is a unique point <m>\mathbf{Y}</m> such that <m>\mathbf{P}+\mathbf{Y} = \mathbf{Q}</m>.
+      </p>
+    </statement>
+  </theorem>
+  <aside>
+    <p>
+      Again, remind the students that they have proved this before in the special case
+      <m>\mathbb{L} = \mathbb{R}^3</m> but that now they must use the definition of linear space and not assume points are triples of real numbers.
+      Students who struggled with the last proof often gain confidence after proving this one.
+    </p>
+  </aside>
+  <definition>
+    <statement>
+      <p>
+        Let <m>\mathbf{P}</m> and <m>\mathbf{Q}</m> be points in linear space <m>\mathbb{L}</m>.
+        The <term>difference of <m>\mathbf{Q}</m> from \mathbf{P}</term> is the point,
+        written <m>\mathbf{Q}-\mathbf{P}</m>,
+        that when added to <m>\mathbf{P}</m> results in <m>\mathbf{Q}</m>.
+        In symbols: <m>\mathbf{Q}-\mathbf{P}</m> is the vector such that <m>\mathbf{P} + (\mathbf{Q}-\mathbf{P}) = \mathbf{Q}</m>.
+      </p>
+    </statement>
+  </definition>
+</section>

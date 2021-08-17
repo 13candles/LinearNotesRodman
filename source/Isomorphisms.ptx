@@ -1,0 +1,80 @@
+<section xml:id="Isomorphisms">
+  <title>Isomorphisms</title>
+  <definition>
+    <statement>
+      <p>
+        A function <m>F:\mathbb{L}_1\longrightarrow \mathbb{L}_2</m> is an <term>Isomorphism</term>
+        if <m>F</m> is a linear transformation that is <m>1-1</m> and maps onto <m>\mathbb{L}_2</m>.
+      </p>
+    </statement>
+  </definition>
+  <exercise>
+    <statement>
+      <p>
+        Given that <m>T: \mathbb{R}^3 \longrightarrow \mathbb{R}^2</m> is a linear transformation such that <m>T(1,1,0) = (1,2)</m>,
+        <m>T(0,0,1)=(0,-1)</m> and <m>T(0,1,0) =(2,0)</m>.
+        Determine <m>T(3,3,0)</m>,
+        <m>T(1,2,3)</m>, and <m>T(x,y,z)</m>.
+      </p>
+    </statement>
+  </exercise>
+  <p>
+    <term>Discussion Question 27.</term>
+    Describe the problems that could occur if the set on which the linear transformation is defined is:
+    <ol>
+      <li>
+        <p>
+          uad \= not a spanning set for <m>\mathbb{R}^3</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          not linearly independent
+        </p>
+      </li>
+    </ol>
+  </p>
+  <exercise>
+    <statement>
+      <p>
+        Use a system of equations to
+        <ol>
+          <li>
+            <p>
+              uad \= write (5,4,3) as a linear combination of (1,1,1),(0,1,1) and (0,0,1).
+            </p>
+          </li>
+          <li>
+            <p>
+              write <m>5+4x +3x^2</m> as a linear combination of <m>1+x+x^2</m>,
+              <m>x+x^2</m> and <m>x^2</m>.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Define a linear transformation from
+        <m>\mathbb{P}_3</m> to <m>\mathbb{R}^3</m>.
+        Is it 1-1?
+        Is it onto?
+        What is its inverse transformation?
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <statement>
+      <p>
+        Any n-dimensional linear space is isomorphic to <m>\mathbb{R}^{n}</m>
+      </p>
+    </statement>
+  </theorem>
+  <p>
+    <project>
+      Prove any two n-dimensional linear spaces are isomorphic.
+    </project>
+  </p>
+</section>

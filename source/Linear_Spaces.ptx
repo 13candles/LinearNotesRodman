@@ -1,0 +1,21 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="Linear_Spaces">
+  <title>Linear Spaces</title>
+  <xi:include  href="Additive_Inverses.ptx"/>
+  <xi:include  href="The_Difference_of_Q_from_P.ptx"/>
+  <xi:include  href="Distributing_over_a_Difference.ptx"/>
+  <xi:include  href="When_the_Scalar_Multiple_is_1.ptx"/>
+  <xi:include  href="Subspaces.ptx"/>
+  <xi:include  href="Span.ptx"/>
+  <xi:include  href="Linear_Independence.ptx"/>
+  <xi:include  href="When_a_Set_Contains_0.ptx"/>
+  <xi:include  href="Linear_Dependence.ptx"/>
+  <xi:include  href="Extending_Linearly_Independent_Sets.ptx"/>
+  <xi:include  href="Maximal_Linearly_Independent_Sets.ptx"/>
+  <xi:include  href="Reducing_a_Spanning_Set.ptx"/>
+  <xi:include  href="Minimal_Spanning_Sets.ptx"/>
+  <xi:include  href="The_Replacement_Lemma.ptx"/>
+  <xi:include  href="Preparing_to_Define_Dimension.ptx"/>
+  <xi:include  href="Properties_of_Linearly_Independent_Sets.ptx"/>
+  <xi:include  href="Properties_ofSpanning_Sets.ptx"/>
+  <xi:include  href="When_the_vectors_are_the_Rows.ptx"/>
+</chapter>

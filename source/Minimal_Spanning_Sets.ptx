@@ -1,0 +1,42 @@
+<section xml:id="Minimal_Spanning_Sets">
+  <title>Minimal Spanning Sets</title>
+  <exercise>
+    <statement>
+      <p>
+        Find a basis for <m>\mathbb{R}^n</m>.
+        Now find a different basis for <m>\mathbb{R}^n</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Find two different bases for <m>\mathbb{P}_n</m>.
+        Find a basis for <m>\mathbb{P}</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        State theorem 17 in words.
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <statement>
+      <p>
+        <m>\mathbb{S}</m> is a basis for <m>\mathbb{L}</m> if and only if
+        <m>\mathbb{S}</m> is a minimal spanning set for <m>\mathbb{L}</m>.
+        In other words <m>\mathbb{S}</m> is a basis for <m>\mathbb{L}</m> if and only if <m>\mathbb{S}</m> spans
+        <m>\mathbb{L}</m> and no proper subset of
+        <m>\mathbb{S}</m> spans <m>\mathbb{L}</m>.
+      </p>
+    </statement>
+  </theorem>
+  <aside>
+    <p>
+      This theorem is similar to Theorem 16.
+    </p>
+  </aside>
+</section>

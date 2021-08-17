@@ -1,0 +1,8 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="Euclidean_Space">
+  <title>Euclidean Space</title>
+  <xi:include  href="Ordered_Triples.ptx"/>
+  <xi:include  href="Vector_Operations.ptx"/>
+  <xi:include  href="Sets_of_Ordered_Triples.ptx"/>
+  <xi:include  href="Systems_of_Linear_Equations.ptx"/>
+  <xi:include  href="Spanning_and_Linear_Independence.ptx"/>
+</chapter>

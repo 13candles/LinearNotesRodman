@@ -1,0 +1,42 @@
+<section xml:id="Reducing_a_Spanning_Set">
+  <title>Reducing a Spanning Set</title>
+  <exercise>
+    <statement>
+      <p>
+        Show how to write the point
+        <m>\mathbf{A} = \ot{a}{b}{c}</m> as a linear combination of the points in <m>\mathbb{S} = \{ \ot{1}{0}{-1},\ot{1}{2}{3},\ot{3}{2}{1},\ot{0}{1}{0} \}</m>.
+        Are all the points in <m>\mathbb{S}</m> necessary?
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Find a subset of <m>\mathbb{S} = \{ \ot{1}{0}{-1},\ot{1}{2}{3},\ot{3}{2}{1},\ot{0}{1}{0} \}</m> that spans <m>\mathbb{R}^3</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Find a subset of <m>\mathbb{S} = \{ \ot{1}{0}{-1},\ot{1}{2}{3},\ot{3}{2}{1},\ot{0}{1}{0} \}</m> that does not span <m>\mathbb{R}^3</m>.
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <statement>
+      <p>
+        If <m>\mathbb{S}</m> spans
+        <m>\mathbb{L}</m> and <m>\mathbf{P}</m> is a point of
+        <m>\mathbb{S}</m> such that \mathbf{P} <m>\in span(\mathbb{S}-\{\mathbf{P}\})</m> then
+        <m>\mathbb{S}-\{\mathbf{P}\}</m> also spans <m>\mathbb{L}</m>.
+      </p>
+    </statement>
+  </theorem>
+  <aside>
+    <p>
+      Here is a good proof to get students used to identifying what they are being asked to prove,
+      and in this case identify what a proof that a set spans <m>\mathbb{L}</m> should look like.
+    </p>
+  </aside>
+</section>

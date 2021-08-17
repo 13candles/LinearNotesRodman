@@ -1,0 +1,52 @@
+<section xml:id="When_an_Eigenvalue_is_0">
+  <title>When an Eigenvalue is 0</title>
+  <exercise>
+    <statement>
+      <p>
+        Recall that if there are elementary matrices <m>\mtx{E}_1</m>,
+        <m>\mtx{E}_2</m>,...<m>\mtx{E}_k</m> such that
+        <m>\mtx{E}_k\cdots\mtx{E}_2\mtx{E}_1\mtx{A} = \mtx{I}</m> then <m>\mtx{A}^{-1}= \mtx{E}_k\cdots\mtx{E}_2\mtx{E}_1</m>.
+        For <m>\mtx{A} = \left[ \begin{array}{rrr} 3 \amp 0 \amp 1 \\ 0 \amp 2 \amp 1 \\ 1 \amp 1 \amp 1 \end{array} \right]</m> find <m>\mtx{A}^{-1}</m> by starting with
+        <m>[\mtx{A}:\mtx{I}]</m> then using the same elementary row operation on both sides to get <m>[\mtx{I}:\mtx{A}^{-1}]</m>.
+        Check your answer by computing <m>\mtx{A}^{-1}\mtx{A}</m>.
+      </p>
+    </statement>
+  </exercise>
+  <p>
+    <term>Discussion Question 33.</term> Can eigenvalues be zero?
+    What would it mean if a vector's eigenvalue were zero?
+  </p>
+  <exercise>
+    <statement>
+      <p>
+        Compute the eigenvalues and their corresponding eigenspaces for <m>\mtx{A} = \left[ \begin{array}{rr} 2 \amp -4 \\ -3 \amp 6 \end{array} \right]</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Compute the eigenvalues and their corresponding eigenspaces for <m>\mtx{A} = \left[ \begin{array}{rrr} 1 \amp 1 \amp -1 \\ 1 \amp -1 \amp 1 \\ 1 \amp 1 \amp -1 \end{array} \right]</m>.
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <statement>
+      <p>
+        An <m>n \times n</m> matrices <c>A</c> is invertible if and only if none of its eigenvalues are zero.
+      </p>
+    </statement>
+  </theorem>
+  <aside>
+    <p>
+      As an "if and only if" statement this proof will have two parts,
+      set them up carefully.
+      The definition, <c>A</c> v = <m>\lambda</m>\mathbf{v}, and "The Big Theorem" will be useful.
+    </p>
+  </aside>
+  <p>
+    <project>
+      Given an invertible square matrix <c>A</c> with eigenvector \mathbf{v} and eigenvalue <m>\lambda</m>, show <m>\mtx{A}^{-1}</m> also has eigenvector <m>\vect{v}</m>,but with eigenvalue <m>\frac{1}{\lambda}</m>.
+    </project>
+  </p>
+</section>
