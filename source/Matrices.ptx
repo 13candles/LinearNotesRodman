@@ -1,0 +1,200 @@
+<section xml:id="Matrices">
+  <title>Matrices</title>
+  <p>
+    From now on assume all linear spaces are finite dimensional and a basis,
+    <m>\beta</m>, has been chosen.
+    Each point <m>\mathbf{P}</m> in the linear space can then be uniquely identified using the list of coefficients used to write
+    <m>\mathbf{P}</m> as a linear combination of the points in <m>\beta</m>.
+    This list is called its coordinate vector and is written
+    <me>
+      _{\beta} = \left[  \begin{array}{c} c_1\\c_2\\ \vdots \\c_n \end{array}  \right]\in\mathbb{R}^n
+    </me>
+  </p>
+  <p>
+    For example if <m>\beta=\{1,x,x^2\}</m> and <m>\alpha = \{1+x+x^2,x+x^2,x^2\}</m>
+    <me>
+      [5+4x+3x^2]_{\beta}= \left[  \begin{array}{c} 5\\4\\3 \end{array}  \right]  \ \ \text{ and }  \ \ [5+4x+3x^2]_{\alpha}= \left[  \begin{array}{r} 5\\-1\\-1 \end{array}  \right]
+    </me>
+  </p>
+  <p>
+    Lists of coordinate vectors can be organized into what are called coordinate matrices.
+  </p>
+  <definition>
+    <statement>
+      <p>
+        A <term>Matrix</term> is a rectangular array of numbers, written
+        <me>
+          \mtx{A}_{r \times c}= [a_{ij}] =\left[ \begin{array}{cccc} a_{11} \amp  a_{12} \amp  \cdots \amp   a_{1c}  \\ a_{21} \amp  a_{22} \amp  \cdots \amp   a_{2c}  \\ \vdots \amp  \vdots \amp  \ddots \amp  \vdots  \\ a_{r1} \amp  a_{r2} \amp  \cdots \amp  a_{rc} \end{array}  \right]
+        </me>
+      </p>
+    </statement>
+  </definition>
+  <definition>
+    <statement>
+      <p>
+        For matrices <m>\mtx{A}_{r \times c} =[a_{ij}]</m> and <m>\mtx{B}_{ m \times n} = [b_{ij}]</m>
+        <ol>
+          <li>
+            <p>
+              uad \= The <term>sum</term> of <c>A</c> and <c>B</c> is possible when <m>r=m</m> and <m>c=n</m> and is defined by \>
+              <m>\mtx{A}+\mtx{B} = [s_{ij}]</m> where <m>s_{ij}=a_{ij} + b_{ij}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              The <term>scalar product</term> of
+              <m>t \in \mathbb{R}</m> and <c>A</c> is defined by \>
+              <m>t\mtx{A} = [q_{ij}]</m> where <m>q_{ij} = ta_{ij}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              The <term>product</term> of <c>A</c> and <c>B</c> is possible when <m>c=m</m> and is defined by \>
+              <m>\mtx{AB} = [p_{ij}]</m> where <m>p_{ij} = a_{i1}b_{1j}+a_{i2}b_{2j}+\cdots+a_{in}b_{nj}</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </definition>
+  <exercise>
+    <statement>
+      <p>
+        Perform, if possible, the indicated matrix operations.
+        <me>
+          \begin{array}{ccc} A=\left[ \begin{array}{ccc} 1\amp 2\amp 3 \\ 4\amp 5\amp 6\\ 7\amp 8\amp 9 \end{array} \right] \amp  B=\left[ \begin{array}{rrr} -1\amp 0\amp 1 \\ 1\amp -1\amp 0\\ 0\amp 0\amp 0 \end{array} \right] \amp  C=\left[ \begin{array}{ccc} 1\amp 10\amp 100 \\ 0\amp -1\amp 0 \end{array} \right] \end{array}
+        </me>
+        <ol>
+          <li>
+            <p>
+              uad \= <m>3A=</m> \= v. \= <m>3+A =</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>A+B =</m> \> vi. \> <m>A+C =</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>AB =</m> \> vii. \> <m>BA =</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>AC =</m> \> viii. \> <m>CA =</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
+  <definition>
+    <statement>
+      <p>
+        An <term>additive identity</term>
+        for the set of <m>n \times n</m> matrices is an
+        <m>n \times n</m> matrix <c>O</c> such that for all
+        <m>n \times n</m> matrices <c>M</c>,
+        <m>\mtx{M}+\mtx{O} = \mtx{M}</m>. <c>O</c> is also called the zero matrix.
+        A <term>multiplicative identity</term>
+        for the set of <m>n \times n</m> matrices is an
+        <m>n \times n</m> matrix <c>I</c> such that for all
+        <m>n \times n</m> matrices <c>M</c>,
+        <m>\mtx{MI} = \mtx{M}</m> and <m>\mtx{IM} = \mtx{M}</m>.
+      </p>
+    </statement>
+  </definition>
+  <exercise>
+    <statement>
+      <p>
+        Show that for the set of <m>3 \times 3</m> matrices there exists a unique additive identity and a unique multiplicative identity.
+      </p>
+    </statement>
+  </exercise>
+  <definition>
+    <statement>
+      <p>
+        A <term>multiplicative inverse</term>
+        of a matrix <c>A</c> is a matrix <m>\mtx{A}^{-1}</m> such that
+        <m>\mtx{AA}^{-1}=\mtx{I}</m> and <m>\mtx{A}^{-1}\mtx{A}=\mtx{I}</m> .
+      </p>
+    </statement>
+  </definition>
+  <exercise>
+    <statement>
+      <p>
+        Does a multiplicative inverse exist for all matrices?
+        Is the multiplicative inverse of a given matrix unique?
+      </p>
+    </statement>
+  </exercise>
+  <p>
+    <term>Discussion Question 28:</term>
+    Where else is the notation <m>()^{-1}</m> used?
+    Is this notation used consistently?
+  </p>
+  <theorem>
+    <statement>
+      <p>
+        For any <m>2 \times 2</m> matrices:
+        <me>
+          \begin{array}{ccc}  \mtx{A}=\left[ \begin{array}{cc}a_{11}\amp a_{12}\\a_{21}\amp a_{22} \end{array}  \right]  \amp  \mtx{B}=\left[ \begin{array}{cc}b_{11}\amp b_{12}\\b_{21}\amp b_{22} \end{array}  \right] \amp  \mtx{C}=\left[ \begin{array}{cc}c_{11}\amp c_{12}\\c_{21}\amp c_{22} \end{array}  \right] \end{array}
+        </me>
+        <ol>
+          <li>
+            <p>
+              uad \= <m>k(\mtx{AB}) = (k\mtx{A})\mtx{B}=\mtx{A}(k\mtx{B})</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>(\mtx{AB})\mtx{C} = \mtx{A}(\mtx{BC})</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\mtx{A}+\mtx{B}=\mtx{B}+\mtx{A}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\mtx{A}(\mtx{B}+\mtx{C})=\mtx{AB}+\mtx{AC}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\mtx{A}^{-1} = \frac{1}{a_{11}a_{22}-a_{12}a_{21}}\left[ \begin{array}{cc}a_{22}\amp -a_{12}\\-a_{21}\amp a_{11} \end{array} \right]</m> if
+              <m>a_{11}a_{22}-a_{12}a_{21} \neq 0</m> *i - iv. will hold for any matrices for which the required operations are defined.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </theorem>
+  <aside>
+    <p>
+      For this theorem I make an exception and let the students turn in handwritten proofs.
+      Notice for part {v.} the students need only check that the matrix given meets the definition of multiplicative inverse.
+      After the students are comfortable with elementary matrices,
+      applying the elementary operations that reduce a matrix to the identity matrix will make sense as a method for finding inverses.
+    </p>
+  </aside>
+  <p>
+    <project>
+      Prove or disprove:
+    </project>
+    <ol>
+      <li>
+        <p>
+          uad \= (<m>\mtx{A} \neq \mtx{O}</m> and <m>\mtx{AB} = \mtx{AC}) \Longrightarrow \mtx{B} = \mtx{C}</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>\mtx{AB} = \mtx{O} \Longrightarrow (\mtx{A}=\mtx{O}</m> or <m>\mtx{B} = \mtx{O})</m>
+        </p>
+      </li>
+    </ol>
+  </p>
+</section>

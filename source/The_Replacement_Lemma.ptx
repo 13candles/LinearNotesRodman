@@ -1,0 +1,51 @@
+<section xml:id="The_Replacement_Lemma">
+  <title>The Replacement Lemma</title>
+  <exercise>
+    <statement>
+      <p>
+        Is the set <m>\{1, x, x^2, x^3, \ldots,x^n, \ldots\}</m> a basis for C[0,1]?
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Consider the set <m>\mathbb{S}=\{\ot{1}{0}{1}, \ot{0}{1}{0} \}</m> which spans some subspace <m>\mathbb{L} \subseteq \mathbb{R}^3</m>.
+        Notice \ot{2}{3}{2} is a linear combination of the points in
+        <m>\mathbb{S}</m> since <m>\ot{2}{3}{2} =2\ot{1}{0}{1}+ 3\ot{0}{1}{0}</m>.
+        Consider the set <m>\mathbb{S}' = \{ \ot{1}{0}{1}, \ot{2}{3}{2} \}</m>.
+        Show how the point \ot{0}{1}{0} can be written as a linear combination of the points in <m>\mathbb{S}'</m>?
+        Does <m>\mathbb{S}'</m> also span <m>\mathbb{L}</m>?
+        Explain.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        If <m>\mathbf{Q} = 2\mathbf{P}_1+3\mathbf{P}_2 + 0\mathbf{P}_3 + 4\mathbf{P}_4 + -1\mathbf{P}_5 + 0\mathbf{P}_6</m> which \mathbf{P}'s can be written as linear combinations
+        <m>\mathbf{Q}</m> and the other \mathbf{P}'s?
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <title>Replacement Lemma</title>
+    <statement>
+      <p>
+        Suppose that <m>\mathbb{S}</m> spans <m>\mathbb{L}</m>,
+        <m>\mathbf{Q} \in \mathbb{L}</m> and
+        <m>\mathbf{P}</m> is a point of <m>\mathbb{S}</m> such that when
+        <m>\mathbf{Q}</m> is written as a linear combination of points of <m>\mathbb{S}</m>,
+        the coefficient of <m>\mathbf{P}</m> is not zero.
+        If <m>\mathbb{S}'</m> is the set obtained from <m>\mathbb{S}</m> by replacing
+        <m>\mathbf{P}</m> with <m>\mathbf{Q}</m>,
+        then <m>\mathbb{S}'</m> also spans <m>\mathbb{L}</m>.
+      </p>
+    </statement>
+  </theorem>
+  <aside>
+    <p>
+      This theorem is really a lemma and a good opportunity to point out the purpose of lemmas so that students can watch for where this lemma can be used.
+    </p>
+  </aside>
+</section>

@@ -1,0 +1,67 @@
+<section xml:id="Linear_Independence">
+  <title>Linear Independence</title>
+  <definition>
+    <statement>
+      <p>
+        A subset <m>\mathbb{S} = \{ \mathbf{P}_1,\mathbf{P}_2,\ldots,\mathbf{P}_n\}</m> of a linear space <m>\mathbb{L}</m> is
+        <term>linearly independent</term>
+        if every point <m>\mathbf{Q}</m> in
+        <m>span\mathbb{S}</m> can be written in only one way as a linear combination using elements of <m>\mathbb{S}</m>.
+        More specifically, for any real numbers
+        <m>a_1,a_2,\ldots,a_n</m> and <m>b_1,b_2,\ldots,b_n</m>:
+        <me>
+          a_1\mathbf{P}_1 + a_2\mathbf{P}_2 +\cdots+a_n\mathbf{P}_n = b_1\mathbf{P}_1 + b_2\mathbf{P}_2 +\cdots+ b_n\mathbf{P}_n  \Longrightarrow a_1=b_1,\ldots a_n=b_n
+        </me>
+      </p>
+      <p>
+        A subset <m>\mathbb{S}</m> is <term>linearly dependent</term>
+        if <m>\mathbb{S}</m> is not linearly independent.
+      </p>
+    </statement>
+  </definition>
+  <exercise>
+    <statement>
+      <p>
+        Show how to write the point
+        <m>\ot{a}{b}{c}</m> as a linear combination of the points in <m>\mathbb{S} = \{ \ot{1}{2}{0},\ot{1}{0}{0},\ot{1}{1}{0} \}</m>.
+        Is the set <m>\mathbb{S}</m> linearly independent?
+        If it is not,
+        show how some point can be written in more than one way as a linear combination of the elements of <m>\mathbb{S}</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        What is the additive identity element in the linear space<nbsp/><m>\mathbb{R}^n</m>? ...in the linear space
+        <m>\mathbb{P}</m>? ..in the linear space C[0,1]?
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Describe the steps needed to prove:
+        <me>
+          (A \Longrightarrow B) \Longleftrightarrow (C \Longrightarrow D)
+        </me>
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <statement>
+      <p>
+        Let <m>\mathbb{S} = \{ \mathbf{P}_1 , \mathbf{P}_2 ,\ldots, \mathbf{P}_n \}</m> be a subset of linear space <m>\mathbb{L}</m>.
+        Then the set <m>\mathbb{S}</m> is linearly independent if and only if for all real numbers <m>c_1,c_2,\ldots,c_n</m>,
+        <m>c_1\mathbf{P}_1 + c_2\mathbf{P}_2 +\cdots+c_n\mathbf{P}_n = \mathbf{0}</m> implies all of the coefficients <m>c_i</m> are zero.
+      </p>
+    </statement>
+  </theorem>
+  <aside>
+    <p>
+      The most difficult part of this proof is setting it up correctly.
+      It is also important that student are clear that
+      <m>A \Rightarrow B</m> being true does not mean <m>A</m> must be true.
+    </p>
+  </aside>
+</section>

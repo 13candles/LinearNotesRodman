@@ -1,0 +1,87 @@
+<section xml:id="Eigenspaces">
+  <title>Eigenspaces</title>
+  <exercise>
+    <statement>
+      <p>
+        Given <m>\mtx{A} = \left[ \begin{array}{rr} 3 \amp 0 \\ 8 \amp -1 \end{array} \right]</m> and <m>\vect{v} = \op{v_1}{v_2}</m>.
+        Compute <m>\mtx{A} \vect{v} - 3\vect{v}</m> and <m>(\mtx{A} - 3 \mtx{I})\vect{v}</m>.
+        What do you notice?
+        What does it mean when <m>(\mtx{A} - 3 \mtx{I})\vect{v} = \vect{0}</m>?
+        Find at least two vectors \mathbf{v} such that <m>\mtx{A}\vect{v} = 3\vect{v}</m>.
+      </p>
+    </statement>
+  </exercise>
+  <definition>
+    <statement>
+      <p>
+        Given a square matrix <c>A</c>,
+        when there exists a non-zero vector \mathbf{v} such that
+        <m>\mtx{A}\vect{v} = \lambda \vect{v}</m> for some real number <m>\lambda</m> that vector is called an <term>eigenvector</term>
+        for <c>A</c>,
+        and <m>\lambda</m> its corresponding <term>eigenvalue</term>.
+      </p>
+    </statement>
+  </definition>
+  <p>
+    <term>Example.</term> The effect of multiplication by a matrix on a representative set of vectors is illustrated below.
+    Shown is a set of vectors and then those same vectors with the result of multiplying each of them by <m>\mtx{A} = \left[ \begin{array}{rr} 3 \amp  0 \\ 8 \amp  -1 \end{array}  \right]</m>.
+    The vectors ({0},{1}) and ({1},{2}) are eigenvectors.
+    Any scalar multiple of these vectors is also an eigenvector.
+    The eigenvalue corresponding to ({0},{1}) is
+    <m>\lambda= -1</m> and the eigenvalue corresponding to ({1},{2}) is <m>\lambda = 3</m>.
+    <me>
+      \begin{array}{cc} <image width="44%" source="Eigen1"/>  \amp   <image width="44%" source="Eigen2"/> \end{array}
+    </me>
+  </p>
+  <exercise>
+    <statement>
+      <p>
+        Given <m>\mtx{A} = \left[ \begin{array}{cc} 1 \amp  3 \\ 4 \amp  2 \end{array}  \right]</m>,
+        find all values for <m>\lambda</m> such that the matrix equation
+        <me>
+          (\mtx{A} - \lambda \mtx{I})\vect{v} = \vect{0}
+        </me>
+        has a solution other that other than <m>\vect{v} = \vect{0}</m>.
+        These are the eigenvalues for <c>A</c>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Given <m>\mtx{A} = \left[ \begin{array}{rrr} 2 \amp 0 \amp 0 \\ 3 \amp -1 \amp 0 \\ 3 \amp 0 \amp -1 \end{array} \right]</m> has eigenvalues
+        <m>\lambda_\vect{v} = 2</m> and <m>\lambda_\vect{w} = -1</m>.
+        <ol>
+          <li>
+            <p>
+              pace \= Describe the set of vectors \mathbf{v} such that <c>A</c>\mathbf{v} = 2\mathbf{v}
+            </p>
+          </li>
+          <li>
+            <p>
+              Describe the set of vectors \mathbf{w} such that <c>A</c>\mathbf{w} = -1\mathbf{w}
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
+  <p>
+    <term>Discussion Question 32.</term>
+    If an eigenvector could be zero what would the corresponding eigenvalue be?
+  </p>
+  <theorem>
+    <statement>
+      <p>
+        For any <m>n \times n</m> matrix <c>A</c>,
+        the set of eigenvectors corresponding to a given eigenvalue <m>\lambda</m> becomes a subspace of
+        <m>\mathbb{R}^n</m> if you include <m>\mathbf{0}</m>.
+      </p>
+    </statement>
+  </theorem>
+  <p>
+    <project>
+      Given matrix <c>A</c> has eigenvector \mathbf{v} with eigenvalue <m>\lambda</m> and <m>k~\in~\mathbb{R}</m>. What can you say about the eigenvectors and eigenvalues of the matrix <m>k\mtx{A}</m>? What can you say about the eigenvectors and eigenvalues of the matrix <m>\mtx{A}^k</m>? Does it matter what <m>k</m> is?
+    </project>
+  </p>
+</section>

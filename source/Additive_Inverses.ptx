@@ -1,0 +1,183 @@
+<section xml:id="Additive_Inverses">
+  <title>Additive Inverses</title>
+  <p>
+    The notes have been focusing on <m>\mathbb{R}^3</m>,
+    but what about <m>\mathbb{R}^2</m>,
+    can the same things be done there? or <m>\mathbb{R}^5</m>?
+    What about any collection that behaves like
+    <m>\mathbb{R}^3</m> in that elements can be added together and multiplied by real numbers?
+    Examples of such are <m>2\times2</m> matrices and polynomials.
+    It is a powerful tool to have a small set of elements that,
+    by making linear combinations,
+    can be used to represent the entire collection.
+    This chapter generalizes the important ideas from Chapter 1.
+  </p>
+  <definition>
+    <statement>
+      <p>
+        A <term>linear space</term> is a set
+        <m>\mathbb{L}</m> containing objects called points where for any points
+        <m>\mathbf{P}</m> and <m>\mathbf{Q}</m> in
+        <m>\mathbb{L}</m> and any real number <m>t</m> there exist unique points:
+        <ol>
+          <m>\bullet</m> \= \mathbf{P} + \mathbf{Q} \= called the sum of <m>\mathbf{P}</m> and \mathbf{Q} <m>\bullet</m> \> <m>t</m>\mathbf{P} \> called the scalar product of <m>t</m> and \mathbf{P}
+        </ol>
+      </p>
+      <p>
+        and where the following axioms are satisfied for any points
+        <m>\mathbf{P}</m>, \mathbf{Q}, \mathbf{R}
+        <m>\in \mathbb{L}</m> and any <m>a, b \in \mathbb{R}</m>:
+        <ol>
+          <li>
+            <p>
+              <m>\mathbf{P}+\mathbf{Q}=\mathbf{Q}+\mathbf{P}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\mathbf{P}+(\mathbf{Q}+\mathbf{R})=(\mathbf{P} + \mathbf{Q})+\mathbf{R}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>a(b\mathbf{P}) = (ab)\mathbf{P}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>(a+b)\mathbf{P} = a\mathbf{P} + b\mathbf{P}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>a(\mathbf{P}+\mathbf{Q}) = a\mathbf{P} + a\mathbf{Q}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              There exists a point <m>\mathbf{0}</m>,
+              called the <term>additive identity</term>,
+              such that <m>\mathbf{P}+\mathbf{0}=\mathbf{P}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>a\mathbf{P}=\mathbf{0}</m> if and only if <m>a=0</m> or <m>\mathbf{P}=\mathbf{0}</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </definition>
+  <p>
+    From this definition,
+    the goal is to discover as many consequences as possible.
+    This often involves working with equations.
+    When working with equations one side of an equation may be changed if the other is changed in exactly the same way.
+    Also, an object may be substituted with another to which it is equal.
+  </p>
+  <exercise>
+    <statement>
+      <p>
+        For points <m>\mathbf{P}</m>, \mathbf{Q}, and
+        <m>\mathbf{R}</m> in linear space <m>\mathbb{L}</m>,
+        which of the following are also defined points in <m>\mathbb{L}</m>?
+        <ol>
+          <li>
+            <p>
+              uad \= <m>1\mathbf{Q}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>1+\mathbf{Q}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\mathbf{P}\mathbf{Q}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>3\mathbf{P} + -1\mathbf{Q}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\mathbf{P} - \mathbf{Q}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>3\mathbf{P} + 5</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\mathbf{P} + \mathbf{Q}+ \mathbf{R}</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Does <m>\mathbf{0} = 0</m> ? Explain.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        For <m>\mathbf{Q}</m> in linear space <m>\mathbb{L}</m>,
+        and <m>c \in \mathbb{R}</m>, does it follow that <m>0\mathbf{Q}=\mathbf{0}</m>?
+        Does it follow that <m>c\mathbf{0} = \mathbf{0}</m>?
+        Is there a property that says <m>1\mathbf{Q} = \mathbf{Q}</m>?
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <statement>
+      <p>
+        For any point <m>\mathbf{Q}</m> in linear space <m>\mathbb{L}</m>,
+        there exists a point <m>\mathbf{X}</m> such that <m>\mathbf{Q} + \mathbf{X} = \mathbf{0}</m>.
+        In addition, for any given
+        <m>\mathbf{Q}</m> this point is unique.
+      </p>
+    </statement>
+  </theorem>
+  <aside>
+    <p>
+      Remind the students that they have proved this before in the special case
+      <m>\mathbb{L} = \mathbb{R}^3</m> but that now they must use the definition of linear space and not assume points are triples of real numbers.
+      Once students decide to use the point -1\mathbf{Q} they are tempted to assume it satisfies the desired condition, \mathbf{Q} + -1\mathbf{Q} = <m>\mathbf{0}</m>,
+      and show something true, \mathbf{0} = <m>\mathbf{0}</m>,
+      follows from that assumption.
+      I show them that I can "prove" <m>3 = 7</m> the same way:
+      <m>3 = 7 \Rightarrow 0\times 3 = 0\times 7 \Rightarrow 0=0</m>.
+      A good alternative is to name the point \mathbf{Q} + -1\mathbf{Q} =
+      <m>\mathbf{Z}</m> and show \mathbf{Z} = 0.
+      Telling them they should expect to use all of the axioms helps them look for which axioms apply instead of trying to work intuitively.
+    </p>
+  </aside>
+  <definition>
+    <statement>
+      <p>
+        Let \mathbf{Q} <m>\in \mathbb{L}</m>.
+        The <term>additive inverse</term>
+        of the point <m>\mathbf{Q}</m> is the point,
+        written <m>-\mathbf{Q}</m>,
+        that when added to <m>\mathbf{Q}</m> results in the additive identity element,
+        <m>\mathbf{0}\in \mathbb{L}</m>.
+        In symbols: <m>-\mathbf{Q}</m> is the point such that <m>\mathbf{Q} + -\mathbf{Q} = \mathbf{0}</m>.
+      </p>
+    </statement>
+  </definition>
+  <p>
+    The symbol "<m>-</m>" is now used to indicate the additive inverse of a real number and the additive inverse of a point which makes <m>-1\mathbf{Q}</m> ambiguous.
+    How can parenthesis be used to clarify which meaning of "<m>-</m>" is intended?
+  </p>
+</section>

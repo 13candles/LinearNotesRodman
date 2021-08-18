@@ -1,0 +1,23 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="Linear_Transformations">
+  <title>Linear Transformations</title>
+  <introduction>
+    <p>
+      Functions play a central role in mathematics and linear combinations play a central role in Linear Algebra.
+      We want a type of function that respects the organization of points into linear combinations.
+      Throughout <m>\mathbb{L}_1, \mathbb{L}_2</m> and
+      <m>\mathbb{L}_3</m> will be general linear spaces.
+    </p>
+  </introduction>
+  <xi:include  href="Properties_of_Linear_Transformations.ptx"/>
+  <xi:include  href="The_Kernel.ptx"/>
+  <xi:include  href="The_Range.ptx"/>
+  <xi:include  href="Isomorphisms.ptx"/>
+  <xi:include  href="Matrices.ptx"/>
+  <xi:include  href="The_Determinant.ptx"/>
+  <xi:include  href="Elementary_Matrices.ptx"/>
+  <xi:include  href="The_Big_Equivalences_Theorem.ptx"/>
+  <xi:include  href="Eigenspaces.ptx"/>
+  <xi:include  href="When_an_Eigenvalue_is_0.ptx"/>
+  <xi:include  href="When_Eigenvalues_are_Distinct.ptx"/>
+  <xi:include  href="Diagonalization.ptx"/>
+</chapter>

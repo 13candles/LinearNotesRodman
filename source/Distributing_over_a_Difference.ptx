@@ -1,0 +1,59 @@
+<section xml:id="Distributing_over_a_Difference">
+  <title>Distributing over a Difference</title>
+  <definition>
+    <statement>
+      <p>
+        The <term>set of all polynomials</term>
+        is <m>\mathbb{P}= \{ c_0+c_1x+c_2x^2+\cdots+c_kx^k | \; c_i \in \mathbb{R}, k \in \mathbb{Z}^+ \}</m>.
+        The <term>set of polynomials of degree less than n</term>
+        is <m>\mathbb{P}_n = \{ c_0+c_1x+c_2x^2+\cdots+c_kx^k | \; c_i \in \mathbb{R}, k \in \mathbb{Z}^+, k\lt n \}</m>.
+        In both cases addition and scalar multiplication are done in the traditional way.
+      </p>
+    </statement>
+  </definition>
+  <exercise>
+    <statement>
+      <p>
+        Is <m>\mathbb{P}</m> a linear space?
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Is the set of polynomials of degree exactly 3 a linear space?
+        Is the set of polynomials of degree less than 3 a linear space?
+        Why is <m>\mathbb{P}_n</m> defined the way it is?
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Write Theorem 8 as a sentence in English.
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <statement>
+      <p>
+        For any points <m>\mathbf{P}</m> and
+        <m>\mathbf{Q}</m> in linear space <m>\mathbb{L}</m>,
+        and any <m>c\in\mathbb{R}</m>:
+        <me>
+          c(\mathbf{Q}-\mathbf{P})=c\mathbf{Q}-c\mathbf{P}
+        </me>
+      </p>
+    </statement>
+  </theorem>
+  <aside>
+    <p>
+      This theorem is an exercise in careful use of the axioms and previous two theorems.
+    </p>
+  </aside>
+  <p>
+    <project>
+      Is <m>\mathbf{0}</m>, the additive identity element in a linear space, unique?
+    </project>
+  </p>
+</section>

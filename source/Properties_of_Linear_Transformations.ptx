@@ -1,0 +1,215 @@
+<section xml:id="Properties_of_Linear_Transformations">
+  <title>Properties of Linear Transformations</title>
+  <definition>
+    <statement>
+      <p>
+        A <term>linear transformation</term>
+        is a function <m>f: \mathbb{L}_1 \longrightarrow \mathbb{L}_2</m>,
+        such that for any <m>\mathbf{P}</m>, \mathbf{Q} <m>\in \mathbb{L}_1</m>,
+        and <m>c \in \mathbb{R}</m>:
+        <ol>
+          1. \= <m>f(\mathbf{P}+\mathbf{Q}) = f(\mathbf{P})+f(\mathbf{Q})</m> 2. \> <m>f(c\mathbf{P}) = cf(\mathbf{P})</m>
+        </ol>
+      </p>
+    </statement>
+  </definition>
+  <exercise>
+    <statement>
+      <p>
+        If <m>T:\mathbb{L}_1 \longrightarrow \mathbb{L}_2</m> is a linear transformation explain why:
+        <ol>
+          <li>
+            <p>
+              uad \= <m>T(\mathbf{0}) = \mathbf{0}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>T( -\mathbf{A}) = -T(\mathbf{A})</m> for any \mathbf{A} <m>\in \mathbb{L}_1</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>T(\mathbf{A}-\mathbf{B}) = T(\mathbf{A})-T(\mathbf{B})</m> for any
+              <m>\mathbf{A}</m>, \mathbf{B} <m>\in \mathbb{L}_1</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Which of the following are functions?
+        <ol>
+          <li>
+            <p>
+              uad \= <m>f:\mathbb{Q}</m> \=<m>\rightarrow \mathbb{Q}</m><nbsp/> <nbsp/> \=defined by <m>f(\frac{a}{b})= ab</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>g:\mathbb{Q}</m> \><m>\rightarrow \mathbb{Q}</m> \>defined by <m>g(\frac{a}{b}) = \frac{b}{a}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>h:\mathbb{Q}^2</m> \><m>\rightarrow \mathbb{Q}</m> \>defined by <m>h(\frac{a}{b},\frac{c}{d}) = \frac{ac}{bd}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>j:\mathbb{Q}</m> \><m>\rightarrow \mathbb{Q}^2</m> \>defined by <m>j(\frac{a}{b}) = (a,b)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>k:\mathbb{Q}</m> \><m>\rightarrow \mathbb{Q}</m> \>defined by <m>k(\frac{a}{b}) = \frac{a^2}{b^2}</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+      <p>
+        Which of the following functions are linear transformations?
+        <ol>
+          <li>
+            <p>
+              uad \= <m>f:\mathbb{R}</m> \=<m>\rightarrow \mathbb{R}</m><nbsp/> <nbsp/> \=defined by <m>f(x)= x^2</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>g:\mathbb{R}</m> \><m>\rightarrow \mathbb{R}</m> \>defined by <m>g(x) = 3x+1</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>h:\mathbb{R}^3</m> \><m>\rightarrow \mathbb{R}^2</m> \>defined by <m>h(x_1,x_2,x_3) = (x_1,x_2)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>j:\mathbb{P}</m> \><m>\rightarrow \mathbb{R}</m> \>defined by <m>k(p(x)) = p(1)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>k:C[0,1]</m> <m>\rightarrow C[0,1]</m> defined by <m>k(x) = k\ '(x)</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+      <p>
+        Which of the following functions are <m>1-1</m>?
+        <ol>
+          <li>
+            <p>
+              uad \= <m>f:\mathbb{R}^2</m> \=<m>\rightarrow \mathbb{R}^2</m><nbsp/> <nbsp/> \=defined by <m>f(x_1,x_2)= (x_2 ,x_1)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>g:\mathbb{R}^2</m> \><m>\rightarrow \mathbb{R}^2</m> \>defined by <m>g(x_1, x_2) = (x_1,0)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>h:C[0,1] \rightarrow C[0,1]</m> defined by <m>h(f) = \int^x_0f</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>j:C[0,1] \rightarrow \mathbb{R}</m> defined by <m>h(f) = \int^1_0f</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>k:\mathbb{P}</m> \><m>\rightarrow \mathbb{P}</m> \>defined by <m>k(p(x)) = x\cdot p(x)</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+      <p>
+        Which of the following functions are onto?
+        <ol>
+          <li>
+            <p>
+              uad \= <m>f:\mathbb{R}^2</m> \=<m>\rightarrow \mathbb{R}^2</m><nbsp/> <nbsp/> \=defined by <m>f(x_1,x_2)= (x_2 ,x_1)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>g:\mathbb{R}^2</m> \><m>\rightarrow \mathbb{R}^2</m> \>defined by <m>g(x_1, x_2) = (x_1,0)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>h:C[0,1] \rightarrow C[0,1]</m> defined by <m>h(f) = \int^x_0f</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>j:C[0,1] \rightarrow \mathbb{R}</m> defined by <m>h(f) = \int^1_0f</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>k:\mathbb{P}</m> \><m>\rightarrow \mathbb{P}</m> \>defined by <m>k(p(x)) = x\cdot p(x)</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
+  <p>
+    <term>Discussion Question 24.</term>
+    For a function to be <m>1-1</m> it must have the property that if you put in two different inputs,
+    <m>x \neq y</m>,
+    then their outputs are different, <m>f(x) \neq f(y)</m>.
+    Recall that the contrapositive of an implication is equivalent to that implication.
+    Use the contrapositive to rewrite what it means for a function for be <m>1-1</m>.
+    What does it mean for a function to be onto?
+  </p>
+  <exercise>
+    <statement>
+      <p>
+        Show
+        <ol>
+          <li>
+            <p>
+              uad \= <m>f:\mathbb{R}^2 \longrightarrow \mathbb{R}^3</m> defined by <m>f(x_1,x_2)= (x_1,x_1+x_2,x_1-x_2)</m> is <m>1-1</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>g:\mathbb{R}^4 \longrightarrow \mathbb{R}^2</m> defined by <m>g(x_1,x_2,x_3,x_4) = (x_1 \cdot x_2, x_3\cdot x_4)</m> is onto
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <statement>
+      <p>
+        Let <m>\mathbb{L}_1</m>,<m>\mathbb{L}_2</m> and <m>\mathbb{L}_3</m> be linear spaces.
+        <ol>
+          <li>
+            <p>
+              uad &#298;f <m>T:\mathbb{L}_1 \longrightarrow \mathbb{L}_2</m> is a linear transformation that is <m>1-1</m> and maps onto <m>\mathbb{L}_2</m> \> then the function
+              <m>T^{-1}:\mathbb{L}_2 \longrightarrow \mathbb{L}_1</m> exists and is also a linear transformation.
+            </p>
+          </li>
+          <li>
+            <p>
+              If <m>T_1:\mathbb{L}_1 \longrightarrow \mathbb{L}_2</m> and <m>T_2:\mathbb{L}_2 \longrightarrow \mathbb{L}_3</m> are <m>1-1</m>,
+              onto linear transformations \> then
+              <m>T_2 \circ T_1</m> is a 1-1, onto linear transformation.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </theorem>
+</section>

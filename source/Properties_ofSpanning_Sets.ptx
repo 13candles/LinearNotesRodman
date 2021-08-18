@@ -1,0 +1,74 @@
+<section xml:id="Properties_ofSpanning_Sets">
+  <title>Properties of Spanning Sets</title>
+  <exercise>
+    <statement>
+      <p>
+        Show that no finite set spans C[0,1].
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Describe how to reduce a spanning set to get a basis.
+        Will this always work?
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Use negation to rewrite Theorem 18.
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <statement>
+      <p>
+        If <m>\mathbb{L}</m> has a basis
+        <m>\mathbb{B} = \{ \mathbf{P}_1, \mathbf{P}_2,\ldots,\mathbf{P}_n \}</m> with a finite number of points,
+        then the following hold:
+        <ol>
+          <li>
+            <p>
+              uad \= No spanning set contains fewer than <m>n</m> points.
+            </p>
+          </li>
+          <li>
+            <p>
+              Every spanning set with <m>n</m> points is a basis.
+            </p>
+          </li>
+          <li>
+            <p>
+              Every finite spanning set containes a basis.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </theorem>
+  <aside>
+    <p>
+      Student may need help identifing why the condition of
+      <q>finite</q>
+      is given in part {iii.}
+    </p>
+  </aside>
+  <p>
+    Theorems 21 and 22 together give the result that if a linear space has a basis with <m>n</m> points,
+    then every basis must have <m>n</m> points.
+    This observation leads to the following important definition.
+  </p>
+  <definition>
+    <statement>
+      <p>
+        If a linear space <m>\mathbb{L}</m> has a basis with <m>n</m> elements <m>\mathbb{L}</m> is called an
+        <term>n dimensional vector space</term>.
+        If there is no finite set that forms a basis for <m>\mathbb{L}</m>,
+        <m>\mathbb{L}</m> is said to be
+        <term>infinite dimensional</term>.
+      </p>
+    </statement>
+  </definition>
+</section>

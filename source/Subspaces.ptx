@@ -1,0 +1,135 @@
+<section xml:id="Subspaces">
+  <title>Subspaces</title>
+  <definition>
+    <statement>
+      <p>
+        A subset <m>\mathbb{M}</m> of a linear space
+        <m>\mathbb{L}</m> is a <term>subspace</term>
+        of <m>\mathbb{L}</m> if <m>\mathbb{M}</m> is itself a linear space.
+        This means:
+      </p>
+      <p>
+        <m>\mathbb{M}\subseteq \mathbb{L}</m>
+      </p>
+      <p>
+        <m>\bullet</m> <m>\mathbb{M}</m> is closed under addition:
+        <m>\mathbf{P}</m>, \mathbf{Q} <m>\in \mathbb{M} \Rightarrow \mathbf{P} + \mathbf{Q} \in \mathbb{M}</m>
+      </p>
+      <p>
+        <m>\bullet</m> <m>\mathbb{M}</m> is closed under scalar multiplication:
+        <m>c \in \mathbb{R}</m>, \mathbf{P}
+        <m>\in \mathbb{M} \Rightarrow</m> c<m>\mathbf{P} \in \mathbb{M}</m>
+      </p>
+      <p>
+        <m>\mathbb{M}</m> satisfies Axioms <m>1- 7</m> for linear spaces
+      </p>
+    </statement>
+  </definition>
+  <exercise>
+    <statement>
+      <p>
+        Is <m>\mathbb{R}^3 \subseteq \mathbb{R}^3</m>?
+        Is <m>\{\} \subseteq \mathbb{P}</m>?
+        Is <m>\mathbb{R}^2 \subseteq \mathbb{R}^3</m>?
+        Is <m>\mathbb{P} \subseteq</m> C[0,1]?
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Write out several elements in the sets described using set notation below:
+        <ol>
+          <li>
+            <p>
+              uad \= <m>\mathbb{S}=\{ x \; |\; 3x \in \mathbb{Z} \}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              \= <m>\mathbb{S}=\{ 3x \; |\; x \in \mathbb{Z} \}</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Which of the following sets
+        <m>\mathbb{M}</m> are subspaces of the given linear space?
+        If a set is not a subspace which properties of subspace does it fail to satisfy?
+        <ol>
+          <li>
+            <p>
+              uad \= <m>\mathbb{M}=\{ \ot{x}{y}{0} \; |\; x,y \in \mathbb{R} \}\subseteq \mathbb{R}^3</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              \= <m>\mathbb{M}=\{ \ot{x}{y}{z} \;|\; z=x+y,\;x,y\in \mathbb{R}\}=\{\ot{x}{y}{x+y}\;|\; x,y \in \mathbb{R}\}\subseteq \mathbb{R}^3</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              \= <m>\mathbb{M}=\{ \ot{x}{y}{z} \; |\; x,y,z \in \mathbb{R}^+ \}\subseteq \mathbb{R}^3</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              \= <m>\mathbb{M}=\{ c_0+c_1x+c_2x^2\; |\; c_i\in \mathbb{Z} \}\subseteq \mathbb{P}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              \= <m>\mathbb{M}=\{ f(x)\in C[0,1]\; |\; f(0) = \frac{1}{4} \}\subseteq C[0,1]</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              \= <m>\mathbb{M}=\{ f(x)\in C[0,1]\; |\; f(\frac{1}{4}) = 0 \}\subseteq C[0,1]</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              \= <m>\mathbb{M}=\{ f(x)\in C[0,1]\; |\; f\ '(x) \in C[0,1] \}\subseteq C[0,1]</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <statement>
+      <p>
+        Given a non-empty subset <m>\mathbb{M}</m> of a linear space <m>\mathbb{L}</m>.
+        <m>\mathbb{M}</m> is a subspace of <m>\mathbb{L}</m> if and only if
+        <m>\mathbb{M}</m> is closed under both addition and multiplication.
+      </p>
+    </statement>
+  </theorem>
+  <aside>
+    <p>
+      This is the first of many
+      <q>if and only if</q>
+      proofs.
+      I encourage students to have a plan for proving such statments that makes it very clear at each point what they are assuming and what they are needing to show.
+      In particlar their proof should have two clearly separate parts.
+      In one of these parts the students begin by thinking they have to show each of the seven axioms hold.
+      As they write out their reasoning for each one I encourage them to try to generalize their argument. ( Something along the lines of
+      <q>If the axiom is true for all points in
+      <m>\mathbb{L}</m> then it will be true for all points in a subset set of <m>\mathbb{L}</m></q>, or
+      <q>Let \mathbf{P},\mathbf{Q} and
+      <m>\mathbf{R}</m> be points in the subset <m>\mathbb{M}</m>,
+      then they are points in <m>\mathbb{L}</m> and so Axioms 1,2,4,5,6 and 7 hold.</q>
+      Students who really get it will identify that Axiom 3, which deals with existence,
+      must be dealt with differently.)
+    </p>
+  </aside>
+  <p>
+    <project>
+      A non-empty subset <m>\mathbb{M}</m> of a linear space <m>\mathbb{L}</m> is a subspace of <m>\mathbb{L}</m> if and only if for any <m>\mathbf{P}</m> and <m>\mathbf{Q}</m> in <m>\mathbb{M}</m> and every pair of real numbers <m>a</m> and <m>b</m>, <m>a\mathbf{P}+b\mathbf{Q} \in \mathbb{M}</m>.
+    </project>
+  </p>
+</section>

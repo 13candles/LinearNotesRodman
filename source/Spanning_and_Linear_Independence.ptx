@@ -1,0 +1,189 @@
+<section xml:id="Spanning_and_Linear_Independence">
+  <title>Spanning and Linear Independence</title>
+  <definition>
+    <statement>
+      <p>
+        A vector \mathbf{v} is a <term>linear combination of the vectors:
+        <m>\vect{v_1}</m>, <m>\vect{v_2}</m>,
+        <ellipsis/> <m>\vect{v_n}</m> </term>
+        if <m>\vect{v} = t_1\vect{v_1}+t_2\vect{v_2} + \cdots + t_n\vect{v_n}</m> for some choice of real numbers <m>t_i</m>.
+        The <m>t_i</m> are called coefficients.
+      </p>
+    </statement>
+  </definition>
+  <definition>
+    <statement>
+      <p>
+        The set of all linear combinations of the vectors from non-empty set
+        <m>\mathbb{S} = \{\vect{v_1}, \vect{v_2}, \ldots, \vect{v_n} \}</m> is called the <term>span</term>
+        of <m>\mathbb{S}</m>, and written:
+        <me>
+          span\mathbb{S} = \{ t_1\vect{v_1}+t_2\vect{v_2}+\cdots+t_n\vect{v_n} | \; t_i \in \mathbb{R} \}
+        </me>
+      </p>
+    </statement>
+  </definition>
+  <exercise>
+    <statement>
+      <p>
+        Is \ot{1}{0}{-1} in the span of <m>\mathbb{S}=\{\ot{1}{2}{3}, \ot{4}{5}{6}, \ot{7}{8}{9} \}</m>?
+        If so write \ot{1}{0}{-1} as a linear combination of the vectors in <m>\mathbb{S}</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        For each of the following sets <m>\mathbb{S}</m>,
+        give a geometric description of <m>span\mathbb{S}</m>.
+        <ol>
+          <li>
+            <p>
+              uad \= <m>\mathbb{S}=\{ \ot{0}{1}{0} \}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\mathbb{S}=\{\ot{5}{-2}{7} \}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\mathbb{S}=\{\ot{0}{0}{0} \}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\mathbb{S}=\{\ot{1}{0}{0},\ot{0}{1}{1}\}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\mathbb{S}=\{\ot{6}{3}{-9},\ot{-4}{-2}{6}\}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\mathbb{S} =\{\ot{1}{0}{0},\ot{0}{1}{0},\ot{0}{0}{1}\}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\mathbb{S} =\{\ot{1}{0}{0},\ot{1}{1}{0},\ot{1}{1}{1}\}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\mathbb{S} =\{\ot{2}{0}{2},\ot{0}{3}{0},\ot{1}{1}{1}\}</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
+  <p>
+    When new vectors are made using linear combinations of vectors from a given set,
+    <m>\mathbb{S}</m>, an important questions is:
+    <q>Can all vectors in <m>\mathbb{R}^3</m> be expressed as a linear combination of the vectors in <m>\mathbb{S}</m>?</q>
+  </p>
+  <definition>
+    <statement>
+      <p>
+        A set of vectors in <m>\mathbb{R}^3</m> is said to <term>span</term>
+        <m>\mathbb{R}^3</m> if <m>span\mathbb{S}=\mathbb{R}^3</m>.
+        This means that every vector in
+        <m>\mathbb{R}^3</m> is a linear combination of the vectors in <m>\mathbb{S}</m>.
+        (Span has now been defined as a noun and as a verb.)
+      </p>
+    </statement>
+  </definition>
+  <exercise>
+    <statement>
+      <p>
+        Determine algebraically if the following sets span <m>\mathbb{R}^3</m>.
+        Showing a set spans <m>\mathbb{R}^3</m> requires showing that any point
+        <m>\vect{a} \in \mathbb{R}^3</m> can be written as a linear combination of the vectors in the given set.
+        Specifically,
+        for <m>\mathbb{S} = \{\vect{v_1},\vect{v_2},\ldots,\vect{v_n}\}</m>,
+        let <m>\vect{a}=\ot{a}{b}{c}\in\mathbb{R}^3</m> and find values for the real numbers
+        <m>t_1,t_2,\ldots,t_n</m> such that <m>\vect{a}=t_1\vect{v_1}+t_2\vect{v_2}+\cdots+t_n\vect{v_n}</m>.
+        If it is not the case that any point in
+        <m>\mathbb{R}^3</m> can be written as a linear combination of the vectors in <m>\mathbb{S}</m>,
+        describe the set of points that can.
+        Where possible write <m>\vect{a}=\ot{1}{2}{3}</m> as a linear combination of the vectors in
+        <m>\mathbb{S}</m> in more than one way.
+        <ol>
+          <li>
+            <p>
+              uad \= <m>\mathbb{S} =\{\ot{1}{2}{0},\ot{0}{0}{1},\ot{2}{4}{6} \}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\mathbb{S} =\{\ot{1}{0}{0},\ot{1}{1}{0},\ot{1}{1}{1} \}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\mathbb{S} =\{\ot{1}{0}{0},\ot{1}{1}{0},\ot{1}{1}{1},\ot{0}{1}{1}\}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\mathbb{S} =\{\ot{1}{1}{0},\ot{1}{1}{1}\}</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
+  <definition>
+    <statement>
+      <p>
+        A set <m>\mathbb{S} = \{\vect{v_1}, \vect{v_2}, \ldots, \vect{v_n} \}</m> is
+        <term>linearly independent</term>
+        if for any point in <m>span\mathbb{S}</m> the choice of coefficients used to describe that point as a linear combination of the elements of <m>\mathbb{S}</m> is unique.
+      </p>
+    </statement>
+  </definition>
+  <definition>
+    <statement>
+      <p>
+        A set that both spans <m>\mathbb{R}^3</m> and is linearly independent is called a
+        <term>basis</term> for <m>\mathbb{R}^3</m>.
+      </p>
+    </statement>
+  </definition>
+  <p>
+    The most familiar basis is
+    <m>\beta=\{\ot{1}{0}{0},\ot{0}{1}{0},\ot{0}{0}{1}\}</m> where <m>\ot{1}{2}{3}=1\ot{1}{0}{0}+2\ot{0}{1}{0}+3\ot{0}{0}{1}</m>.
+    However sometimes it may be useful to use <m>\alpha=\{\ot{1}{1}{1},\ot{0}{1}{1},\ot{0}{0}{1}\}</m>,
+    making <m>\ot{1}{2}{3}=1\ot{1}{1}{1}+1\ot{0}{1}{1}+1\ot{0}{0}{1}</m>.
+    This is called making a change of basis and the list of coefficients written:
+    <me>
+      \begin{array}{ccc} [\ot{1 }{2}{3}]_{\beta} =\left[ \begin{array}{c} 1 \\ 2 \\ 3 \end{array}  \right] \amp   \amp [\ot{1 }{2}{3}]_{\alpha} =\left[ \begin{array}{c} 1 \\ 1 \\ 1 \end{array}  \right] \end{array}
+    </me>
+  </p>
+  <theorem>
+    <statement>
+      <p>
+        Let <m>\sigma</m> and <m>\tau</m> be two bases for <m>\mathbb{R}^3</m>.
+        The process of taking <m>[\vect{v}]_\sigma</m>,
+        the list of the coefficients needed to describe some point
+        <m>\vect{v} \in \mathbb{R}^3</m> using the basis <m>\sigma</m> to <m>[\vect{v}]_\tau</m>,
+        a list of coefficients to describe that same point using the basis <m>\tau</m>,
+        is a well defined, 1-1 function that maps onto the set of all possible such lists.
+      </p>
+    </statement>
+  </theorem>
+  <aside>
+    <p>
+      This theorem relies entirely upon the definitions of linear independence and span,
+      and the definitions of well-defined, 1-1 and onto.
+      This is a good place to emphasize that words are necessary to connect ideas and convey meaning.
+      I put a list of words on the board and we group them according to their meaning and role in a proof.
+      Some of the words I use are:
+      given, know, let, assume, thus, therefore, and, and also.
+    </p>
+  </aside>
+</section>

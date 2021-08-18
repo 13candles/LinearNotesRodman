@@ -1,0 +1,56 @@
+<section xml:id="When_Eigenvalues_are_Distinct">
+  <title>When Eigenvalues are Distinct</title>
+  <exercise>
+    <statement>
+      <p>
+        Compute the eigenvalues and a representative eigenvector for
+        <m>\mtx{A} = \left[ \begin{array}{rr} 1 \amp 2 \\ 3 \amp -4 \end{array} \right]</m> and for <m>2\mtx{A} = \left[ \begin{array}{rr} 2 \amp 4 \\ 6 \amp -8 \end{array} \right]</m>.
+        What do you notice?
+      </p>
+    </statement>
+  </exercise>
+  <p>
+    <term>Discussion Question 34.</term>
+    For a given eigenvalue can there be just one corresponding eigenvector?
+    Usually books talk about eigenvectors as if there were just one,
+    why doesn't this cause problems?
+  </p>
+  <exercise>
+    <statement>
+      <p>
+        Compute the eigenvalues and eigenvectors for <m>\mtx{A} = \left[ \begin{array}{rr} 1 \amp 0 \\ 2 \amp 3 \end{array} \right]</m> .
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Compute the eigenvalues and eigenvectors for <m>\mtx{A} = \left[ \begin{array}{rrr} 1 \amp 2 \amp 3 \\ 0 \amp 4 \amp 5 \\ 0 \amp 0 \amp 6 \end{array} \right]</m>.
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <statement>
+      <p>
+        Suppose <c>A</c> is a square matrix with eigenvectors \mathbf{v} and
+        <m>\vect{w}</m>,and corresponding eigenvalues
+        <m>\lambda_\vect{v}</m> and <m>\lambda_\vect{w}</m>.
+        If <m>\lambda_\vect{v}\ \neq \lambda_\vect{w}</m> then \mathbf{v} and \mathbf{w} are linearly independent.
+      </p>
+    </statement>
+  </theorem>
+  <aside>
+    <p>
+      This theorem can be proved using any of the equivalent conditions for linearly independent.
+      Each way will involve multiplying both sides of an equation by <c>A</c> and applying the definition of eigenvector,
+      then combining the result with the original equation.
+      It will be important to note that,
+      by definition, eigenvectors cannot be zero.
+    </p>
+  </aside>
+  <p>
+    <project>
+      Given a square matrix <c>A</c> with three eigenvectors <m>\vect{u}</m>,\mathbf{v} and <m>\vect{w}</m>,having distinct corresponding eigenvalues <m>\lambda_\vect{u}</m>, <m>\lambda_\vect{v}</m> and <m>\lambda_\vect{w}</m>, show <m>\vect{u}</m>,\mathbf{v} and \mathbf{w} are linearly independent.
+    </project>
+  </p>
+</section>

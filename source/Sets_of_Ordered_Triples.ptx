@@ -1,0 +1,53 @@
+<section xml:id="Sets_of_Ordered_Triples">
+  <title>Sets of Ordered Triples</title>
+  <exercise>
+    <statement>
+      <p>
+        Give geometric representations for the set defined by
+        <me>
+          \mathbb{S}=\{\ t\ot{-1}{2}{0} \ |\ t~\in~\mathbb{R}\ \}
+        </me>
+        both using point and using vector interpretations.<nbsp/>(Unless otherwise indicated start vectors at the origin.)
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Give geometric representations for the set defined by
+        <me>
+          \mathbb{T} = \{\ \ot{3}{1}{0} + t\ot{-1}{2}{0}\ |\   t \in \mathbb{R}\ \}
+        </me>
+        both using point and using vector interpretations.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Describe the set of points on the line in
+        <m>\mathbb{R}^3</m> that passes through points
+        <m>\vect{v} = \ot{1}{2}{3}</m> and $\mathbf{w} = \ot{2}{0}{-2}.
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <statement>
+      <p>
+        For any two points \mathbf{v} and \mathbf{w} such that
+        <m>\vect{v}\neq \vect{w}</m> there exists a set of points describing a line passing through both \mathbf{v} and \mathbf{w}.
+      </p>
+    </statement>
+  </theorem>
+  <aside>
+    <p>
+      Here the goal is to show existence by defining a set using set notation and showing it contains points \mathbf{v} and \mathbf{w} and all points that lie in the same specific direction from a point that is in the set.
+      This can be done using double set containment and follows from the definition of scalar multiplication.
+      Similar triangles can be used to see that multiplication by a scalar does not change a vectors direction.
+    </p>
+  </aside>
+  <p>
+    <em>Challenge 3.</em> For any three points $\mathbf{v}<m>,\vect{w} and</m>\mathbf{u}<m>,such that</m>\mathbf{v} \neq \mathbf{w}<m>,
+    and \vect{u} is not on the line through \vect{v} and</m>\mathbf{w}<m>,there exists a set of points describing a plane which passes through points</m>\mathbf{v}$,\mathbf{w} and \mathbf{u}.
+  </p>
+</section>
