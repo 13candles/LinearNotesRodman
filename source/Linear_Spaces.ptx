@@ -14,7 +14,7 @@
     This chapter generalizes the important ideas from <xref ref="Euclidean_Spaces"/> on Euclidean Spaces.
   </p>
   </introduction>
-  <xi:include  href="Additive_Inverses.ptx"/>
+  <xi:include  href="Additive_Inverses0.ptx"/>  <!-- 0 for 2024, 1 for 2025, 2 for 2026, 3 for 2027, etc (reordered axioms)  -->
   <xi:include  href="The_Difference_of_Q_from_P.ptx"/>
   <xi:include  href="Distributing_over_a_Difference.ptx"/>
   <xi:include  href="When_the_Scalar_Multiple_is_1.ptx"/>

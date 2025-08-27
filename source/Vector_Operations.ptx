@@ -26,7 +26,7 @@
     <statement>
       <p>
         Use the vector <m>\vect{v}</m> below and give geometric representations of the vectors described by the scalar products:
-        <m>3\vect{v}</m> and <m>-1\vect{v}</m>.
+        <m>3\vect{v}</m> and <m>-1\vect{v}</m>. Use similar triangles to justify your answers.
       </p>
 		<image source="vector" width="40%"><description> Image of an arrow. </description></image>
     </statement>
@@ -40,7 +40,16 @@
         with length <m>10</m>, and with length <m>h</m>.
       </p>
     </statement>
-  </exercise>
+  </exercise>  
+  <definition>   
+	<statement>
+	  <p>
+		Let <m>\vect{v} \in \mathbb{R}^3</m>. The <term>direction</term> of <m>\vect{v}</m> is
+		the vector <m>\vect{u}</m> such that <m>\vect{v}= \|\vect{v}\|\vect{u}</m>.
+		This makes any vector equal to the scalar product of its length and direction. 
+	  </p>
+	</statement>
+  </definition>   
   <exercise>
     <statement>
       <p>

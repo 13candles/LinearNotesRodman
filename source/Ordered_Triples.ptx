@@ -60,9 +60,9 @@
       <p>
         Let <m>\vect{v}=\ot{v_1}{v_2}{v_3} \in \mathbb{R}^3</m>.
         The <term>norm</term>, also called
-        <term>length</term> or the <term>magnitude</term>
+        <term>length</term> or <term>magnitude</term>
         and denoted <m>\|\vect{v}\|</m>,
-        is the distance of the point from the origin when <m>\vect{v}</m> is interpreted as a position and the length of the arrow when <m>\vect{v}</m> is interpreted as a vector.
+        is the distance of the point from the origin when <m>\vect{v}</m> is interpreted as a position, or the length of the arrow when <m>\vect{v}</m> is interpreted as a vector.
       </p>
     </statement>
   </definition>

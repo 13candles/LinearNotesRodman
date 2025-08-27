@@ -1,0 +1,162 @@
+<section xml:id="Additive_Inverses">
+  <title>Additive Inverses</title>
+  
+  <definition xml:id="linear_space">
+    <statement>
+      <p>
+        A <term>linear space</term> is a set
+        <m>\mathbb{L}</m> containing objects called points where for any points
+        <m>\mathbf{P}</m> and <m>\mathbf{Q}</m> in
+        <m>\mathbb{L}</m> and any real number <m>t</m> there exist unique points:
+		<md>
+			<mrow> \amp \bullet \amp   \amp\mathbf{P}+\mathbf{Q} \amp \amp \text{called the sum of } \mathbf{P} \text{ and } \mathbf{Q} </mrow>
+			<mrow> \amp \bullet \amp   \amp t \mathbf{P}  \amp \amp  \text{called the scalar product of } t \text{ and } \mathbf{P} </mrow>
+		</md>
+      </p>
+      <p>
+        and where the following axioms are satisfied for any points
+        <m>\mathbf{P}</m>, <m>\mathbf{Q}</m>, <m>\mathbf{R}</m>
+        <m>\in \mathbb{L}</m> and any <m>a, b \in \mathbb{R}</m>:
+        <ol>
+		  <li>
+            <p>
+              There exists a point <m>\mathbf{0}</m>,
+              called the <term>additive identity</term>,
+              such that <m>\mathbf{P}+\mathbf{0}=\mathbf{P}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>a\mathbf{P}=\mathbf{0}</m> if and only if <m>a=0</m> or <m>\mathbf{P}=\mathbf{0}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\mathbf{P}+\mathbf{Q}=\mathbf{Q}+\mathbf{P}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\mathbf{P}+(\mathbf{Q}+\mathbf{R})=(\mathbf{P} + \mathbf{Q})+\mathbf{R}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>a(b\mathbf{P}) = (ab)\mathbf{P}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>(a+b)\mathbf{P} = a\mathbf{P} + b\mathbf{P}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>a(\mathbf{P}+\mathbf{Q}) = a\mathbf{P} + a\mathbf{Q}</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </definition>
+  <p>
+    From this definition,
+    the goal is to discover as many consequences as possible.
+    This often involves working with equations.
+    When working with equations one side of an equation may be changed if the other is changed in exactly the same way.
+    Also, an object may be substituted with another to which it is equal.
+  </p>
+  <exercise>
+    <statement>
+      <p>
+        For points <m>\mathbf{P}</m>, <m>\mathbf{Q}</m>, and
+        <m>\mathbf{R}</m> in linear space <m>\mathbb{L}</m>,
+        which of the following does the definition of Linear Space <xref ref="linear_space"/> guarantee are also points in <m>\mathbb{L}</m>?
+        <ol>
+          <li>
+            <p>
+              <m>1\mathbf{Q}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>1+\mathbf{Q}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\mathbf{P}\mathbf{Q}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>3\mathbf{P} + -1\mathbf{Q}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\mathbf{P} - \mathbf{Q}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>3\mathbf{P} + 5</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\mathbf{P} + \mathbf{Q}+ \mathbf{R}</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Does <m>\mathbf{0} = 0</m> ? Explain.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        For <m>\mathbf{Q}</m> in linear space <m>\mathbb{L}</m>,
+        and <m>c \in \mathbb{R}</m>, does it follow that <m>0\mathbf{Q}=\mathbf{0}</m>?
+        Does it follow that <m>c\mathbf{0} = \mathbf{0}</m>?
+        Is there a property that says <m>1\mathbf{Q} = \mathbf{Q}</m>?
+      </p>
+    </statement>
+  </exercise>
+  <theorem>
+    <statement>
+      <p>
+        For any point <m>\mathbf{Q}</m> in linear space <m>\mathbb{L}</m>,
+        there exists a point <m>\mathbf{X}</m> such that <m>\mathbf{Q} + \mathbf{X} = \mathbf{0}</m>.
+        In addition, for any given
+        <m>\mathbf{Q}</m> this point is unique.
+      </p>
+    </statement>
+  </theorem>
+
+  <definition>
+    <statement>
+      <p>
+        Let <m>\mathbf{Q} \in \mathbb{L}</m>.
+        The <term>additive inverse</term>
+        of the point <m>\mathbf{Q}</m> is the point,
+        written <m>-\mathbf{Q}</m>,
+        that when added to <m>\mathbf{Q}</m> results in the additive identity element,
+        <m>\mathbf{0}\in \mathbb{L}</m>.
+        In symbols: <m>-\mathbf{Q}</m> is the point such that <m>\mathbf{Q} + -\mathbf{Q} = \mathbf{0}</m>.
+      </p>
+    </statement>
+  </definition>
+  <question>
+	<p>
+		The symbol "<m>-</m>" is now used to indicate the additive inverse of a real number and the additive inverse of a point which makes <m>-1\mathbf{Q}</m> ambiguous.
+		Describe what is mean by  <m>(-1)\mathbf{Q} </m> and how it differs from <m>-(1\mathbf{Q}) </m>.  
+	</p>
+  </question>
+</section>

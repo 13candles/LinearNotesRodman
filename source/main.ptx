@@ -5,13 +5,13 @@
 	<rename element="question" >Discussion Question</rename>
 
 	<macros>
-		\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
-		\renewcommand{\notesname}{}
-		\renewcommand{\enotesize}{\normalsize}
-		\renewcommand{\headrulewidth}{0.4pt}
+		%\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+		%\renewcommand{\notesname}{}
+		%\renewcommand{\enotesize}{\normalsize}
+		%\renewcommand{\headrulewidth}{0.4pt}
 		\newcommand{\InstructorVersion}{\includecomment{annotation}}
 		\newcommand{\StudentVersion}{\excludecomment{annotation}}
-		\newcommand{\terminology}[1]{\textbf{#1}}
+		%\newcommand{\terminology}[1]{\textbf{#1}}
 		\newcommand{\oq}[4]{({#1},{#2},{#3},{#4})}
 		\newcommand{\ot}[3]{({#1},{#2},{#3})}
 		\newcommand{\op}[2]{({#1},{#2})}

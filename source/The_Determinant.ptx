@@ -57,7 +57,7 @@
     <m>\mathbb{L}_1</m> and <m>\beta</m> as the basis for
     <m>\mathbb{L}_2</m> the matrix is written <m>[T]_{\beta, \alpha}</m>.
     This means <m>[T(P)]_{\beta} =[T]_{\beta, \alpha}[P]_{\alpha}</m> and
-    <m>[T_2 \circ T_1]_{\gamma, \alpha}</m> and <m>[T_2]_{\gamma, \beta}[T_1]_{\beta, \alpha}</m>.
+    <m>[T_2 \circ T_1]_{\gamma, \alpha} = [T_2]_{\gamma, \beta}[T_1]_{\beta, \alpha}</m>.
   </p>
   <definition>
     <statement>
