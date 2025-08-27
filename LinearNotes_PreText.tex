@@ -100,7 +100,7 @@ The main goal of this course is to increase your ability to read and understand 
 
 
 
-\chapter{Euclidean Space}  \label{Euclidean Space}
+\chapter{Euclidean Spaces}  \label{Euclidean Space}
 
 \section{Ordered Triples}      \label{Ordered Triples}
 
@@ -489,11 +489,11 @@ The notes have been focusing on $\mathbb{R}^3$, but what about $\mathbb{R}^2$, c
 
 
 \begin{myexc}[\bd{c}]
-For \bd{Q} in linear space $\mathbb{L}$, and $c \in \mathbb{R}$, does it follow that $0\bd{Q}=\bd{0}$? Does it follow that $c\bd{0} = \bd{0}$? Is there a property that says $1\bd{Q} = \bd{Q}$?
+For point \bd{P} in linear space $\mathbb{L}$, and $c \in \mathbb{R}$, does it follow that $0\bd{P}=\bd{0}$? Does it follow that $c\bd{0} = \bd{0}$? Is there a property that says $1\bd{P} = \bd{P}$?
 \end{myexc}
 
 \begin{theorem}
-	For any point \bd{Q} in linear space $\mathbb{L}$, there exists a point \bd{X} such that $\bd{Q} + \bd{X} = \bd{0}$. In addition, for any given \bd{Q} this point is unique. 
+	For any point \bd{P} in linear space $\mathbb{L}$, there exists a point \bd{X} such that $\bd{P} + \bd{X} = \bd{0}$. In addition, for any given \bd{P} this point is unique. 
 \end{theorem}
 \vspace{-.3in}\hspace{5in}\begin{annotation}
 	\endnote{Remind the students that they have proved this before in the special case $\mathbb{L} = \mathbb{R}^3$  but that now they must use the definition of linear space and not assume points are triples of real numbers. Once students decide to use the point -1\bd{Q} they are tempted to assume it satisfies the desired condition, \bd{Q} + -1\bd{Q} = \bd{0}, and show something true,  \bd{0} = \bd{0}, follows from that assumption. I show them that I can "prove" $3 = 7$ the same way:  $3 = 7 \Rightarrow 0\times 3 = 0\times 7 \Rightarrow 0=0$. A good alternative is to name the point \bd{Q} + -1\bd{Q} = \bd{Z} and show \bd{Z} = 0. Telling them they should expect to use all of the axioms helps them look for which axioms apply instead of trying to work intuitively.}
@@ -501,11 +501,11 @@ For \bd{Q} in linear space $\mathbb{L}$, and $c \in \mathbb{R}$, does it follow 
  
 
 \begin{defn}
-	Let \bd{Q} $\in \mathbb{L}$. The \bd{additive inverse} of the point \bd{Q} is the point, written $-\bd{Q}$, that when added to \bd{Q} results in the additive identity element, $\bd{0}\in \mathbb{L}$. In symbols: $-\bd{Q}$ is the point such that $\bd{Q} + -\bd{Q} = \bd{0}$.
+	Let \bd{P} $\in \mathbb{L}$. The \bd{additive inverse} of the point \bd{P} is the point, written $-\bd{P}$, that when added to \bd{P} results in the additive identity element, $\bd{0}\in \mathbb{L}$. In symbols: $-\bd{Q}$ is the point such that $\bd{P} + -\bd{P} = \bd{0}$.
 \end{defn}
 
 \noindent \textbf{Discussion Questions 7.}
-The symbol "$-$" is now used to indicate the additive inverse of a real number and the additive inverse of a point which makes $-1\bd{Q}$  ambiguous. How can parenthesis be used to clarify which meaning of "$-$" is intended?
+The symbol "$-$" is now used to indicate the additive inverse of a real number and the additive inverse of a point which makes $-1\bd{P}$  ambiguous. How can parenthesis be used to clarify which meaning of "$-$" is intended?
 
 \section{The Difference of Q from P  }    \label{The Difference of Q from P}
 
@@ -1301,7 +1301,7 @@ Lists of coordinate vectors can be organized into what are called coordinate mat
  
 \vspace{.5cm}
 
-\section{The Determinant}    \label{The Determinant}
+\section{Linear Transformations as Matrix Multiplication}    \label{Linear Transformations as Matrix Multiplication}
 
 \begin{myexa}[\bd{a}]
 	Given that for $T:\mathbb{R}^2 \rightarrow \mathbb{R}^2$, $T(1,0) = (2,3)$ and $T(0,1) = (4,5)$, find a formula for $T(x_1,x_2)$.
@@ -1338,10 +1338,13 @@ To indicate the  matrix for a given linear transformation $T:\mathbb{L}_1 \longr
 \vspace{.5cm}
 
  
+
+\section{The Determinant}    \label{The Determinant}
+
  \begin{defn} 
-      There is a useful process for assigning a real number, called the \bd{determinant}, to any square matrix. For $n\times n$  matrix \mtx{A} this number is written det(\mtx{A}) or $|\mtx{A}|$.\\ 
-      The determinant for  $2 \times 2$ matrix $\mtx{A}= \left[ \begin{array}{cc}a&b\\c&d \end{array} \right]$ is the real number: \[ \left| \begin{array}{cc}a&b\\c&d \end{array} \right| = ad-bc \] 
-     The determinant for a $3 \times 3$ matrix is: \[\left| \begin{array}{ccc}a&b&c\\d&e&f\\g&h&i \end{array} \right| = aei+bfg+cdh-ceg-bdi-afh\]
+	There is a useful process for assigning a real number, called the \bd{determinant}, to any square matrix. For $n\times n$  matrix \mtx{A} this number is written det(\mtx{A}) or $|\mtx{A}|$.\\ 
+	The determinant for  $2 \times 2$ matrix $\mtx{A}= \left[ \begin{array}{cc}a&b\\c&d \end{array} \right]$ is the real number: \[ \left| \begin{array}{cc}a&b\\c&d \end{array} \right| = ad-bc \] 
+	The determinant for a $3 \times 3$ matrix is: \[\left| \begin{array}{ccc}a&b&c\\d&e&f\\g&h&i \end{array} \right| = aei+bfg+cdh-ceg-bdi-afh\]
 \end{defn}
 
 \vspace{.5cm}
@@ -1352,7 +1355,6 @@ Another example is: \\
 $-b(di-fg) + e(ei-cg) - h(af-cd) = -b\left| \begin{array}{cc}d&f\\g&i \end{array} \right| + e\left| \begin{array}{cc}a&c\\g&i \end{array} \right| -h\left| \begin{array}{cc}a&c\\d&f \end{array} \right| $\\
 Find another example. What pattern do all of these examples have in common. This pattern can be used to extend the definition of determinant to larger square matrices. 
 
-\section{Elementary Matrices}    \label{Elementary Matrices}
 
 \begin{defn}
 	An \bd{elementary matrix} is a matrix that when multiplied on the left of a given matrix performs one of the 3 elementary row operations for reducing a matrix.
