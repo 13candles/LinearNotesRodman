@@ -1,5 +1,6 @@
 <section xml:id="Sets_of_Ordered_Triples">
   <title>Sets of Ordered Triples</title>
+  
   <exercise>
     <statement>
       <p>
@@ -11,6 +12,22 @@
       </p>
     </statement>
   </exercise>
+  <definition>
+    <statement>
+      <p>
+		 A <term>line</term> extends coninuously and infinitely in one direction and the exact opposite of that direction. 
+		 This means points lie on that line at every distance in that direction or its opposite from any point on that line. 
+      </p>
+	  </statement>
+  </definition>  
+  <definition>
+    <statement>
+      <p>
+		A <term>plane</term> extends continuously and infinitely in any combination of two directions, including the exact 
+		opposite of those two directions. This means points lie on that plane at every combination of those directions from any point on the plane. 
+      </p>
+	  </statement>
+  </definition> 
   <exercise>
     <statement>
       <p>
@@ -27,27 +44,22 @@
       <p>
         Describe the set of points on the line in
         <m>\mathbb{R}^3</m> that passes through points
-        <m>\vect{v} = \ot{1}{2}{3}</m> and $\mathbf{w} = \ot{2}{0}{-2}.
+        <m>\vect{v} = \ot{1}{2}{3}</m> and <m>\vect{w} = \ot{2}{0}{-2}</m>.
       </p>
     </statement>
   </exercise>
   <theorem>
     <statement>
       <p>
-        For any two points \mathbf{v} and \mathbf{w} such that
-        <m>\vect{v}\neq \vect{w}</m> there exists a set of points describing a line passing through both \mathbf{v} and \mathbf{w}.
+        For any two points <m>\vect{v}</m> and <m>\vect{w}</m> such that
+        <m>\vect{v}\neq \vect{w}</m> there exists a set of points describing a line passing through both <m>\vect{v}</m> and <m>\vect{w}</m>.
       </p>
     </statement>
-  </theorem>
-  <aside>
-    <p>
-      Here the goal is to show existence by defining a set using set notation and showing it contains points \mathbf{v} and \mathbf{w} and all points that lie in the same specific direction from a point that is in the set.
-      This can be done using double set containment and follows from the definition of scalar multiplication.
-      Similar triangles can be used to see that multiplication by a scalar does not change a vectors direction.
-    </p>
-  </aside>
-  <p>
-    <em>Challenge 3.</em> For any three points $\mathbf{v}<m>,\vect{w} and</m>\mathbf{u}<m>,such that</m>\mathbf{v} \neq \mathbf{w}<m>,
-    and \vect{u} is not on the line through \vect{v} and</m>\mathbf{w}<m>,there exists a set of points describing a plane which passes through points</m>\mathbf{v}$,\mathbf{w} and \mathbf{u}.
-  </p>
+  </theorem> 
+  <proposition>
+	<p>
+		For any three points <m>\vect{v}</m>, <m>\vect{w}</m> and <m>\vect{u}</m>, such that <m>\vect{v} \neq \vect{w}</m>,
+		and <m>\vect{u}</m> is not on the line through <m>\vect{v}</m> and <m>\vect{w}</m>, there exists a set of points describing a plane which passes through points <m>\vect{v}</m>, <m>\vect{w}</m> and <m>\vect{u}</m>.
+	</p>
+  </proposition>
 </section>

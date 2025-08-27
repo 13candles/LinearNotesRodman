@@ -19,7 +19,7 @@
         <ol>
           <li>
             <p>
-              uad \= rotates all points around the z-axis by 90<m>^\circ</m>
+              rotates all points around the z-axis by 90<m>^\circ</m>
             </p>
           </li>
           <li>
@@ -61,7 +61,7 @@
         <ol>
           <li>
             <p>
-              uad \= <m>T(x,y) = (0, 0, 0)</m>
+              <m>T(x,y) = (0, 0, 0)</m>
             </p>
           </li>
           <li>

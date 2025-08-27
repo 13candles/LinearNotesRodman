@@ -11,12 +11,12 @@
   <exercise>
     <statement>
       <p>
-        Find <m>3 \times 3</m> elementary matrices <c>E</c> that do the following actions.
-        For each, also find det(<c>E</c>) and <m>\mtx{E}^{-1}</m>.
+        Find <m>3 \times 3</m> elementary matrices <m>\mtx{E}</m> that do the following actions.
+        For each, also find det(<m>\mtx{E}</m>) and <m>\mtx{E}^{-1}</m>.
         <ol>
           <li>
             <p>
-              uad \= switch rows 1 and 3
+              switch rows 1 and 3
             </p>
           </li>
           <li>
@@ -42,17 +42,19 @@
         <ol>
           <li>
             <p>
-              uad \= <c>A</c> = <m>\left[ \begin{array}{rrr}-1\amp 2\amp 3\\4\amp 5\amp 6\\7\amp 8\amp 9 \end{array} \right]</m>
+              <m>\mtx{A}</m> = <m>\left[ \begin{array}{rrr}-1\amp 2\amp 3\\4\amp 5\amp 6\\7\amp 8\amp 9 \end{array} \right]</m>
             </p>
           </li>
           <li>
             <p>
-              <m>\mtx{E}_1\mtx{A} = \left[ \begin{array}{rrr}4\amp 5\amp 6\\-1\amp 2\amp 3\\7\amp 8\amp 9 \end{array} \right]</m> \= where <m>\mtx{E}_1 =</m>
+              <m>\mtx{E}_1\mtx{A} = \left[ \begin{array}{rrr}4\amp 5\amp 6\\-1\amp 2\amp 3\\7\amp 8\amp 9 \end{array} \right]</m> 
+			  where <m>\mtx{E}_1 =</m>
             </p>
           </li>
           <li>
             <p>
-              <m>\mtx{E}_2\mtx{A} = \left[ \begin{array}{rrr}-10\amp 20\amp 30\\4\amp 5\amp 6\\7\amp 8\amp 9 \end{array} \right]</m> \> where <m>\mtx{E}_2 =</m>
+              <m>\mtx{E}_2\mtx{A} = \left[ \begin{array}{rrr}-10\amp 20\amp 30\\4\amp 5\amp 6\\7\amp 8\amp 9 \end{array} \right]</m> 
+			  where <m>\mtx{E}_2 =</m>
             </p>
           </li>
           <li>
@@ -62,7 +64,8 @@
           </li>
           <li>
             <p>
-              <m>\mtx{E}_3\mtx{A} = \left[ \begin{array}{ccc}-1\amp 2\amp 3\\4+-1\amp 5+2\amp 6+3\\7\amp 8\amp 9 \end{array} \right]</m> \> where <m>\mtx{E}_3 =</m>
+              <m>\mtx{E}_3\mtx{A} = \left[ \begin{array}{ccc}-1\amp 2\amp 3\\4+-1\amp 5+2\amp 6+3\\7\amp 8\amp 9 \end{array} \right]</m> 
+			  where <m>\mtx{E}_3 =</m>
             </p>
           </li>
           <li>
@@ -72,7 +75,7 @@
           </li>
           <li>
             <p>
-              <m>\mtx{A}^T = \left[ \begin{array}{rrr}-1\amp 4\amp 7\\2\amp 5\amp 8\\3\amp 6\amp 9 \end{array} \right]</m> (This is called the transpose of <c>A</c>)
+              <m>\mtx{A}^T = \left[ \begin{array}{rrr}-1\amp 4\amp 7\\2\amp 5\amp 8\\3\amp 6\amp 9 \end{array} \right]</m> (This is called the transpose of <m>\mtx{A}</m>)
             </p>
           </li>
         </ol>
@@ -83,27 +86,21 @@
     <statement>
       <p>
         <term>(Elementary Matrix Lemma)</term>
-        For any <m>n \times n</m> matrix <c>M</c> and any
-        <m>n \times n</m> elementary matrix <c>E</c>,
-        find a relationship between det(<c>EM</c>), det(<c>E</c>) and det(<c>M</c>) .
+        For any <m>n \times n</m> matrix <m>\mtx{M}</m> and any
+        <m>n \times n</m> elementary matrix <m>\mtx{E}</m>,
+        find a relationship between det(<m>\mtx{EM}</m>), det(<m>\mtx{E}</m>) and det(<m>\mtx{M}</m>) .
       </p>
     </statement>
   </exercise>
   <theorem>
     <statement>
       <p>
-        For any two <m>n \times n</m> matrices <c>A</c> and <c>B</c>:
+        For any two <m>n \times n</m> matrices <m>\mtx{A}</m> and <m>\mtx{B}</m>:
         <me>
           det(\mtx{AB})= det(\mtx{A})det(\mtx{B})
         </me>
       </p>
     </statement>
   </theorem>
-  <aside>
-    <p>
-      The key to proving this theorem is to use that <c>A</c> can be reduced using a series of elementary operations to its most simplified form.
-      This results in a matrix equation that can be used to write <c>A</c> as a product of elementary matrices followed by either the identity matrix or a matrix having a row of zeros.
-      Using the observation made in exercise 25(c) which I called the Elementary Matrix Lemma will finish the proof.
-    </p>
-  </aside>
+
 </section>

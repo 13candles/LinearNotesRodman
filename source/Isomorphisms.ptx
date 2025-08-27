@@ -18,13 +18,13 @@
       </p>
     </statement>
   </exercise>
-  <p>
-    <term>Discussion Question 27.</term>
+  <question>
+   <p>
     Describe the problems that could occur if the set on which the linear transformation is defined is:
     <ol>
       <li>
         <p>
-          uad \= not a spanning set for <m>\mathbb{R}^3</m>
+          not a spanning set for <m>\mathbb{R}^3</m>
         </p>
       </li>
       <li>
@@ -33,21 +33,22 @@
         </p>
       </li>
     </ol>
-  </p>
+   </p>
+  </question>
   <exercise>
     <statement>
       <p>
-        Use a system of equations to
+        Use a system of equations to:
         <ol>
           <li>
             <p>
-              uad \= write (5,4,3) as a linear combination of (1,1,1),(0,1,1) and (0,0,1).
+              write (5,4,3) as a linear combination of (1,1,1),(0,1,1) and (0,0,1)
             </p>
           </li>
           <li>
             <p>
               write <m>5+4x +3x^2</m> as a linear combination of <m>1+x+x^2</m>,
-              <m>x+x^2</m> and <m>x^2</m>.
+              <m>x+x^2</m> and <m>x^2</m>
             </p>
           </li>
         </ol>
@@ -72,9 +73,9 @@
       </p>
     </statement>
   </theorem>
-  <p>
-    <project>
+  <proposition>
+   <p>
       Prove any two n-dimensional linear spaces are isomorphic.
-    </project>
-  </p>
+   </p>
+  </proposition>
 </section>

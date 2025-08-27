@@ -1,14 +1,15 @@
 <section xml:id="Preparing_to_Define_Dimension">
   <title>Preparing to Define Dimension</title>
+  <question>
   <p>
-    <term>Discussion Question 20.</term>
-    What problems might occur if the Dimension of a Vector Space were defined to be the number of elements in a basis?
-    How is this similar to other situations where the term 'well defined' is used?
+    What problems might occur if the dimension of a vector space were defined to be the number of elements in a basis?
+    How is this similar to other situations where the term 'not well defined' is used?
   </p>
+  </question>
   <exercise>
     <statement>
       <p>
-        Does Theorem 16 say there is no linearly independent set with more elements than a basis?
+        Does <xref ref="thm_maximal"/> say there is no linearly independent set with more elements than a basis?
         Explain.
       </p>
     </statement>
@@ -16,18 +17,18 @@
   <exercise>
     <statement>
       <p>
-        Does Theorem 18 say there is no spanning set with fewer elements than a basis?
+        Does <xref ref="thm_minimal"/> say there is no spanning set with fewer elements than a basis?
       </p>
     </statement>
   </exercise>
   <exercise>
     <statement>
       <p>
-        Find another way to state Theorem 20.
+        Find another way to state <xref ref="thm_size"/>.
       </p>
     </statement>
   </exercise>
-  <theorem>
+  <theorem xml:id="thm_size">
     <statement>
       <p>
         Considering only finite subsets of <m>\mathbb{L}</m>,
@@ -35,15 +36,4 @@
       </p>
     </statement>
   </theorem>
-  <aside>
-    <p>
-      This may be the hardest theorem in these notes.
-      I usually give the hint that if one set is a subset of another set it can't have more points than that set.
-      This proof should start with taking an arbitrary linearly independent set and an arbitrary spanning set.
-      The replacement lemma can then be used to define a sequence of spanning sets that element by element take in every element of the linearly independent set.
-      Pictures are helpful.
-      For weaker students I suggest they start by assuming the linearly independent set has only three elements.
-      Otherwise I suggest writing out at least three iterations and then generalizing.
-    </p>
-  </aside>
 </section>

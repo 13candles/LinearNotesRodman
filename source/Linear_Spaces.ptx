@@ -1,5 +1,19 @@
 <chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="Linear_Spaces">
   <title>Linear Spaces</title>
+    <introduction>
+    <p>
+    We have been focusing on <m>\mathbb{R}^3</m>,
+    but what about <m>\mathbb{R}^2</m>,
+    can the same things be done there? or <m>\mathbb{R}^5</m>?
+    What about any collection that behaves like
+    <m>\mathbb{R}^3</m> in that elements can be added together and multiplied by real numbers?
+    Examples of such are <m>2\times2</m> matrices and polynomials.
+    It is a powerful tool to have a small set of elements that,
+    by making linear combinations,
+    can be used to represent the entire collection.
+    This chapter generalizes the important ideas from <xref ref="Euclidean_Spaces"/> on Euclidean Spaces.
+  </p>
+  </introduction>
   <xi:include  href="Additive_Inverses.ptx"/>
   <xi:include  href="The_Difference_of_Q_from_P.ptx"/>
   <xi:include  href="Distributing_over_a_Difference.ptx"/>
@@ -16,6 +30,6 @@
   <xi:include  href="The_Replacement_Lemma.ptx"/>
   <xi:include  href="Preparing_to_Define_Dimension.ptx"/>
   <xi:include  href="Properties_of_Linearly_Independent_Sets.ptx"/>
-  <xi:include  href="Properties_ofSpanning_Sets.ptx"/>
+  <xi:include  href="Properties_of_Spanning_Sets.ptx"/>
   <xi:include  href="When_the_vectors_are_the_Rows.ptx"/>
 </chapter>

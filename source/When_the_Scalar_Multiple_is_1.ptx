@@ -33,16 +33,10 @@
       </p>
     </statement>
   </theorem>
-  <aside>
-    <p>
-      This theorem can be proven in two very different ways.
-      The more subtle way is hinted at in the excercises and relys on the uniquenss of the inverse of <m>-\mathbf{P}</m>.
-      The other way uses that <m>\mathbf{P} +-1\mathbf{P} = \mathbf{0}</m> from theorem 6 and that <m>0\mathbf{P} =\mathbf{0}</m> from Axiom 4.
-    </p>
-  </aside>
-  <p>
-    <project>
+    <proposition>
+	 <p>
       Can a linear space have exactly two elements?
-    </project>
-  </p>
+	 </p>
+    </proposition>
+
 </section>

@@ -12,10 +12,12 @@
       </p>
     </statement>
   </exercise>
-  <p>
-    <term>Discussion Question 33.</term> Can eigenvalues be zero?
+  <question>
+   <p>
+    Can eigenvalues be zero?
     What would it mean if a vector's eigenvalue were zero?
-  </p>
+   </p>
+  </question>
   <exercise>
     <statement>
       <p>
@@ -33,20 +35,13 @@
   <theorem>
     <statement>
       <p>
-        An <m>n \times n</m> matrices <c>A</c> is invertible if and only if none of its eigenvalues are zero.
+        An <m>n \times n</m> matrices <m>\mtx{A}</m> is invertible if and only if none of its eigenvalues are zero.
       </p>
     </statement>
   </theorem>
-  <aside>
+  <proposition>
     <p>
-      As an "if and only if" statement this proof will have two parts,
-      set them up carefully.
-      The definition, <c>A</c> v = <m>\lambda</m>\mathbf{v}, and "The Big Theorem" will be useful.
+      Given an invertible square matrix <m>\mtx{A}</m> with eigenvector <m>\vect{v}</m> and eigenvalue <m>\lambda</m>, show <m>\mtx{A}^{-1}</m> also has eigenvector <m>\vect{v}</m>,but with eigenvalue <m>\frac{1}{\lambda}</m>.
     </p>
-  </aside>
-  <p>
-    <project>
-      Given an invertible square matrix <c>A</c> with eigenvector \mathbf{v} and eigenvalue <m>\lambda</m>, show <m>\mtx{A}^{-1}</m> also has eigenvector <m>\vect{v}</m>,but with eigenvalue <m>\frac{1}{\lambda}</m>.
-    </project>
-  </p>
+  </proposition>
 </section>

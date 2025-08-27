@@ -1,50 +1,55 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
   <docinfo>
-<macros>
-\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
-\renewcommand{\notesname}{}
-\renewcommand{\enotesize}{\normalsize}
-\renewcommand{\headrulewidth}{0.4pt}
-\newcommand{\InstructorVersion}{\includecomment{annotation}}
-\newcommand{\StudentVersion}{\excludecomment{annotation}}
-\newcommand{\terminology}[1]{\textbf{#1}}
-\newcommand{\oq}[4]{({#1},{#2},{#3},{#4})}
-\newcommand{\ot}[3]{({#1},{#2},{#3})}
-\newcommand{\op}[2]{({#1},{#2})}
-\newcommand{\vect}[1]{\mathbf{#1}}
-\newcommand{\mtx}[1]{\texttt{#1}}
-</macros>
-<latex-image-preamble>
-\usepackage{tikz}
-\usepackage{tkz-graph}
-\usepackage{tkz-euclide}
-\usetikzlibrary{patterns}
-\usetikzlibrary{positioning}
-\usetikzlibrary{matrix,arrows}
-\usetikzlibrary{calc}
-\usetikzlibrary{shapes}
-\usetikzlibrary{through,intersections,decorations,shadows,fadings}
-\usepackage{pgfplots}
-</latex-image-preamble>
+	<rename element="proposition" >Challenge</rename>
+	<rename element="question" >Discussion Question</rename>
+
+	<macros>
+		\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+		\renewcommand{\notesname}{}
+		\renewcommand{\enotesize}{\normalsize}
+		\renewcommand{\headrulewidth}{0.4pt}
+		\newcommand{\InstructorVersion}{\includecomment{annotation}}
+		\newcommand{\StudentVersion}{\excludecomment{annotation}}
+		\newcommand{\terminology}[1]{\textbf{#1}}
+		\newcommand{\oq}[4]{({#1},{#2},{#3},{#4})}
+		\newcommand{\ot}[3]{({#1},{#2},{#3})}
+		\newcommand{\op}[2]{({#1},{#2})}
+		\newcommand{\vect}[1]{\mathbf{#1}}
+		\newcommand{\mtx}[1]{\texttt{#1}}
+
+	</macros>
+	<latex-image-preamble>
+		\usepackage{tikz}
+		\usepackage{tkz-graph}
+		\usepackage{tkz-euclide}
+		\usetikzlibrary{patterns}
+		\usetikzlibrary{positioning}
+		\usetikzlibrary{matrix,arrows}
+		\usetikzlibrary{calc}
+		\usetikzlibrary{shapes}
+		\usetikzlibrary{through,intersections,decorations,shadows,fadings}
+		\usepackage{pgfplots}
+	</latex-image-preamble>
   </docinfo>
+
   <book>
-    <title>Introduction to Linear Algebra</title>
+    <title>An Inquiry Based Introduction to Linear Algebra</title>
     <frontmatter>
       <titlepage>
         <author>
-          <personname></personname>
+          <personname>Stacey Rodman</personname>
         </author>
-      </titlepage>
+      </titlepage>   
+	  <xi:include href="./Acknowledgement.ptx"/>
+	  <xi:include href="./Colophon.ptx"/>
+	  <preface>
+	   <xi:include href="./Notes_to_Student.ptx"/>
+	   <xi:include href="./Notes_to_Instructor.ptx"/>
+	  </preface>
     </frontmatter>
-    <xi:include href="./chapter1.ptx"/>
-    <xi:include href="./chapter2.ptx"/>
-    <xi:include href="./Euclidean_Space.ptx"/>
+    <xi:include href="./Euclidean_Spaces.ptx"/>
     <xi:include href="./Linear_Spaces.ptx"/>
     <xi:include href="./Linear_Transformations.ptx"/>
-    <xi:include href="./chapter6.ptx"/>
-    <backmatter>
-      <xi:include href="./bibliography.ptx"/>
-    </backmatter>
   </book>
 </pretext>

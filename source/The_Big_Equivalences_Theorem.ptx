@@ -8,7 +8,7 @@
   </p>
   <p>
     This allows multiplication on the left by an
-    <m>n \times n</m> matrix <c>M</c> to result in a new vector <m>\vect{b} \in \mathbb{R}^n</m> written:
+    <m>n \times n</m> matrix <m>\mtx{M}</m> to result in a new vector <m>\vect{b} \in \mathbb{R}^n</m> written:
     <m>\mtx{M}\vect{v} = \vect{b}</m>.
   </p>
   <exercise>
@@ -23,7 +23,7 @@
         <ol>
           <li>
             <p>
-              uad \= a linear combination:
+              a linear combination:
               <fillin/> <m>\left[ \begin{array}{c} \underline{\hspace{.2in} } \\ \underline{\hspace{.2in} } \\ \underline{\hspace{.2in} } \end{array} \right] + \underline{\hspace{.2in} } \left[ \begin{array}{c} \underline{\hspace{.2in} } \\ \underline{\hspace{.2in} } \\ \underline{\hspace{.2in} } \end{array} \right]+ \underline{\hspace{.2in} } \left[ \begin{array}{c} \underline{\hspace{.2in} } \\ \underline{\hspace{.2in} } \\ \underline{\hspace{.2in} } \end{array} \right] = \left[ \begin{array}{c} \underline{\hspace{.2in} } \\ \underline{\hspace{.2in} } \\ \underline{\hspace{.2in} } \end{array} \right]</m>
             </p>
           </li>
@@ -94,57 +94,50 @@
         <ol>
           <li>
             <p>
-              uad \= <m>det(A) \neq 0</m>
+              <m>det(A) \neq 0</m>
             </p>
           </li>
           <li>
             <p>
-              The columns of <c>A</c> span <m>\mathbb{R}^n</m>
+              The columns of <m>\mtx{A}</m> span <m>\mathbb{R}^n</m>
             </p>
           </li>
           <li>
             <p>
-              The columns of <c>A</c> are linearly independent
+              The columns of <m>\mtx{A}</m> are linearly independent
             </p>
           </li>
           <li>
             <p>
               <m>\mtx{A}\vect{x}=\vect{b}</m> has a unique solution,
-              <m>x \in \mathbb{R}^n</m>, for each \mathbf{b} in <m>\mathbb{R}^n</m>
+              <m>x \in \mathbb{R}^n</m>, for each <m>\vect{b}</m> in <m>\mathbb{R}^n</m>
             </p>
           </li>
           <li>
             <p>
-              <c>A</c> has a multiplicative inverse
+              <m>\mtx{A}</m> has a multiplicative inverse
             </p>
           </li>
         </ol>
       </p>
     </statement>
   </theorem>
-  <aside>
+   <proposition>
     <p>
-      This theorem,
-      or even more extensive versions of it are common in standard Linear Algebra texts.
-      If there is time I show such a theorem in class and talk about terms like rank,
-      nullity, null space and column space.
-    </p>
-  </aside>
-  <p>
-    <project>
       The following can be added to the above list
-    </project>
-    <ol>
+	</p>
+    <ul>
       <li>
         <p>
-          uad \= \kill \em{vi.} \> \em{The rows of <c>A</c> form a basis for} <m>\mathbb{R}^n</m>
+          The rows of <m>\mtx{A}</m> form a basis for <m>\mathbb{R}^n</m>
         </p>
       </li>
-    </ol>
-  </p>
-  <p>
-    <term>Discussion Question 31.</term>
-    For an <m>n \times n</m> matrix <c>A</c> with <m>det(\mtx{A}) \neq 0</m>,
+    </ul>
+  </proposition>
+  <question>
+   <p>
+    For an <m>n \times n</m> matrix <m>\mtx{A}</m> with <m>det(\mtx{A}) \neq 0</m>,
     how can elementary operations be used to find <m>\mtx{A}^{-1}</m>?
-  </p>
+   </p>
+  </question>
 </section>

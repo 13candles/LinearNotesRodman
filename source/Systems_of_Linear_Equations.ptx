@@ -1,5 +1,9 @@
 <section xml:id="Systems_of_Linear_Equations">
   <title>Systems of Linear Equations</title>
+  <p>
+     Finding the coefficients needed to describe a given point as a linear combination of other points often requires solving serveral linear equations
+	 simultaneously. 
+  </p>
   <definition>
     <statement>
       <p>
@@ -11,7 +15,7 @@
         <m>b</m> is also a real number and <m>x</m>,
         <m>y</m> and <m>z</m> are <term>variables</term>
         or <term>unknowns</term>.
-        The <term>solution</term> to a linear equation is the set of ordered triples of real numbers, \ot{x}{y}{z} for which the equation is true.
+        The <term>solution</term> to a linear equation is the set of ordered triples of real numbers, <m>\ot{x}{y}{z}</m> for which the equation is true.
       </p>
     </statement>
   </definition>
@@ -22,7 +26,7 @@
     Then use the simplified system to describe the values of <m>x</m>,
     <m>y</m> and <m>z</m> that make all equations in the system true,
     and give the result using set notation:
-    <m>\mathbb{S}= \{\ot{ }{ }{ } | \hspace{.5in} \}</m>.
+    <m>\mathbb{S}= \{\ot{\hspace{.1in}}{\hspace{.1in}}{\hspace{.1in}} | \hspace{.5in} \}</m>.
     This set may be empty,
     contain one ordered triple or more than one ordered triple.
   </p>
@@ -106,13 +110,13 @@
       <p>
         Write the solution in each of the following ways:
         <me>
-          \mathbb{S} = \{\ \ot{x}{y}{z} \ | \; x=  ,\  y= ,\  z= \}
+          \mathbb{S} = \{\ \ot{x}{y}{z} \ | \; x=\hspace{.25in}  ,\  y=\hspace{.25in} ,\  z=\hspace{.25in} \}
         </me>
         <me>
-          \mathbb{S} = \{\ \ot{  }{  }{  }\ |\ t \in \mathbb{R}\}
+          \mathbb{S} = \{\ \ot{\hspace{.5in}}{\hspace{.5in}}{\hspace{.5in}}\ |\ t \in \mathbb{R}\}
         </me>
         <me>
-          \mathbb{S} = \{\  \ot{}{}{}+t\ot{ }{}{} \   | \ t \in \mathbb{R} \}
+          \mathbb{S} = \{\  \ot{\hspace{.25in}}{\hspace{.25in}}{\hspace{.25in}}+t\ot{\hspace{.25in}}{\hspace{.25in}}{\hspace{.25in}} \   | \ t \in \mathbb{R} \}
         </me>
       </p>
     </statement>
@@ -124,26 +128,15 @@
         This simplest form will allow any conditions on the three unknowns to be quickly identified.
       </p>
       <p>
-        { (Write an algorithm for simplifying any given system of equations in three unknowns.
+        (Write an algorithm for simplifying any given system of equations in three unknowns.
         Describe how to identify when it is completely simplified and how to then identify the solution.
         Use the term
         <q>leading 1</q>
-        for when 1 is the first non-zero number in a row.) }
+        for when 1 is the first non-zero number in a row.)
       </p>
     </statement>
   </theorem>
-  <aside>
-    <p>
-      This is a chance for the student to try to come up with their own algorithm instead of just being told the steps to follow.
-      Some students are able to get close and some have seen this algorithm before,
-      but all of them have a better appreciatiation for the Gauss-Jordon elimination alghorithm after trying to come up with it themselves.
-      Students present their algorithm by using it to simplify systems I give them,
-      starting with ones that simplify to the identity matrix.
-      I usually have to help them recognize the usefulness of creating
-      <q>leading 1's.</q>
-    </p>
-  </aside>
-  <investigation>
+  <question>
     <p>
       Why are only the elementary row operations allowed when solving a system of equations?
       As a system of equations is simplified: What produces the possibility for no solutions?
@@ -151,5 +144,5 @@
       What might a fully reduced matrix look like in each case?
       Consider systems of two, three or four equations.
     </p>
-  </investigation>
+  </question>
 </section>

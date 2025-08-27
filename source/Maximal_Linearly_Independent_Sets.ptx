@@ -19,24 +19,20 @@
   <exercise>
     <statement>
       <p>
-        State Theorem 15 in words.
+        State <xref ref="thm_extending_lin_ind"/> in words.
       </p>
     </statement>
   </exercise>
-  <theorem>
+  <theorem xml:id="thm_maximal">
     <statement>
       <p>
         <m>\mathbb{S}</m> is a basis for
-        <m>\mathbb{L}</m> if and only if it is a maximal linearly independent subset of <m>\mathbb{L}</m>.
+        <m>\mathbb{L}</m> if and only if it is a <term>maximal linearly independent subset</term> of <m>\mathbb{L}</m>.
         In other words,
         <m>\mathbb{S}</m> is a basis for <m>\mathbb{L}</m> if and only if
         <m>\mathbb{S}</m> is linearly independent and not a proper subset of any other linearly independent set.
       </p>
     </statement>
   </theorem>
-  <aside>
-    <p>
-      You may need to talk about the concept of maximal which is not the same as biggest.
-    </p>
-  </aside>
+
 </section>

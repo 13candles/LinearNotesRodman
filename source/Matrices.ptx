@@ -10,12 +10,14 @@
       _{\beta} = \left[  \begin{array}{c} c_1\\c_2\\ \vdots \\c_n \end{array}  \right]\in\mathbb{R}^n
     </me>
   </p>
+  <example> 
   <p>
-    For example if <m>\beta=\{1,x,x^2\}</m> and <m>\alpha = \{1+x+x^2,x+x^2,x^2\}</m>
+    <term>Example.</term> If <m>\beta=\{1,x,x^2\}</m> and <m>\alpha = \{1+x+x^2,x+x^2,x^2\}</m>
     <me>
       [5+4x+3x^2]_{\beta}= \left[  \begin{array}{c} 5\\4\\3 \end{array}  \right]  \ \ \text{ and }  \ \ [5+4x+3x^2]_{\alpha}= \left[  \begin{array}{r} 5\\-1\\-1 \end{array}  \right]
     </me>
   </p>
+  </example>
   <p>
     Lists of coordinate vectors can be organized into what are called coordinate matrices.
   </p>
@@ -34,23 +36,23 @@
       <p>
         For matrices <m>\mtx{A}_{r \times c} =[a_{ij}]</m> and <m>\mtx{B}_{ m \times n} = [b_{ij}]</m>
         <ol>
-          <li>
+		  <li>
             <p>
-              uad \= The <term>sum</term> of <c>A</c> and <c>B</c> is possible when <m>r=m</m> and <m>c=n</m> and is defined by \>
-              <m>\mtx{A}+\mtx{B} = [s_{ij}]</m> where <m>s_{ij}=a_{ij} + b_{ij}</m>
+              The <term>sum</term> of <m>\mtx{A}</m> and <m>\mtx{B}</m> is possible when <m>r=m</m> and <m>c=n</m> and is defined by 
+              <me>\mtx{A}+\mtx{B} = [s_{ij}] \text{ where } s_{ij}=a_{ij} + b_{ij}</me>
             </p>
           </li>
           <li>
             <p>
               The <term>scalar product</term> of
-              <m>t \in \mathbb{R}</m> and <c>A</c> is defined by \>
-              <m>t\mtx{A} = [q_{ij}]</m> where <m>q_{ij} = ta_{ij}</m>
+              <m>t \in \mathbb{R}</m> and <m>\mtx{A}</m> is defined by 
+              <me>t\mtx{A} = [q_{ij}] \text{ where } q_{ij} = ta_{ij}</me>
             </p>
           </li>
           <li>
             <p>
-              The <term>product</term> of <c>A</c> and <c>B</c> is possible when <m>c=m</m> and is defined by \>
-              <m>\mtx{AB} = [p_{ij}]</m> where <m>p_{ij} = a_{i1}b_{1j}+a_{i2}b_{2j}+\cdots+a_{in}b_{nj}</m>
+              The <term>product</term> of <m>\mtx{A}</m> and <m>\mtx{B}</m> is possible when <m>c=m</m> and is defined by
+              <me>\mtx{AB} = [p_{ij}] \text{ where } p_{ij} = a_{i1}b_{1j}+a_{i2}b_{2j}+\cdots+a_{in}b_{nj}</me>
             </p>
           </li>
         </ol>
@@ -67,22 +69,42 @@
         <ol>
           <li>
             <p>
-              uad \= <m>3A=</m> \= v. \= <m>3+A =</m>
+              <m>3A=</m>  
+            </p>
+          </li>
+		  <li>
+            <p>
+              <m>3+A =</m>  
             </p>
           </li>
           <li>
             <p>
-              <m>A+B =</m> \> vi. \> <m>A+C =</m>
+              <m>A+B =</m> 
+            </p>
+          </li>
+		  <li>
+            <p>
+              <m>A+C =</m>
             </p>
           </li>
           <li>
             <p>
-              <m>AB =</m> \> vii. \> <m>BA =</m>
+              <m>AB =</m> 
+            </p>
+          </li>
+		  <li>
+            <p>
+              <m>BA =</m>
             </p>
           </li>
           <li>
             <p>
-              <m>AC =</m> \> viii. \> <m>CA =</m>
+              <m>AC =</m>  
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>CA =</m>
             </p>
           </li>
         </ol>
@@ -94,13 +116,13 @@
       <p>
         An <term>additive identity</term>
         for the set of <m>n \times n</m> matrices is an
-        <m>n \times n</m> matrix <c>O</c> such that for all
-        <m>n \times n</m> matrices <c>M</c>,
-        <m>\mtx{M}+\mtx{O} = \mtx{M}</m>. <c>O</c> is also called the zero matrix.
+        <m>n \times n</m> matrix <m>\mtx{O}</m> such that for all
+        <m>n \times n</m> matrices <m>\mtx{M}</m>,  
+        <m>\mtx{M}+\mtx{O} = \mtx{M}</m>. <m>\mtx{O}</m> is also called the zero matrix.
         A <term>multiplicative identity</term>
         for the set of <m>n \times n</m> matrices is an
-        <m>n \times n</m> matrix <c>I</c> such that for all
-        <m>n \times n</m> matrices <c>M</c>,
+        <m>n \times n</m> matrix <m>\mtx{I}</m> such that for all
+        <m>n \times n</m> matrices <m>\mtx{M}</m>,   
         <m>\mtx{MI} = \mtx{M}</m> and <m>\mtx{IM} = \mtx{M}</m>.
       </p>
     </statement>
@@ -116,7 +138,7 @@
     <statement>
       <p>
         A <term>multiplicative inverse</term>
-        of a matrix <c>A</c> is a matrix <m>\mtx{A}^{-1}</m> such that
+        of a matrix <m>\mtx{A}</m> is a matrix <m>\mtx{A}^{-1}</m> such that
         <m>\mtx{AA}^{-1}=\mtx{I}</m> and <m>\mtx{A}^{-1}\mtx{A}=\mtx{I}</m> .
       </p>
     </statement>
@@ -129,11 +151,12 @@
       </p>
     </statement>
   </exercise>
-  <p>
-    <term>Discussion Question 28:</term>
-    Where else is the notation <m>()^{-1}</m> used?
-    Is this notation used consistently?
-  </p>
+  <question>
+	<p>
+		Where else is the notation <m>(\ )^{-1}</m> used?
+		Is this notation used consistently?
+	</p>
+  </question>
   <theorem>
     <statement>
       <p>
@@ -144,7 +167,7 @@
         <ol>
           <li>
             <p>
-              uad \= <m>k(\mtx{AB}) = (k\mtx{A})\mtx{B}=\mtx{A}(k\mtx{B})</m>
+              <m>k(\mtx{AB}) = (k\mtx{A})\mtx{B}=\mtx{A}(k\mtx{B})</m>
             </p>
           </li>
           <li>
@@ -164,37 +187,34 @@
           </li>
           <li>
             <p>
-              <m>\mtx{A}^{-1} = \frac{1}{a_{11}a_{22}-a_{12}a_{21}}\left[ \begin{array}{cc}a_{22}\amp -a_{12}\\-a_{21}\amp a_{11} \end{array} \right]</m> if
-              <m>a_{11}a_{22}-a_{12}a_{21} \neq 0</m> *i - iv. will hold for any matrices for which the required operations are defined.
+              <m>\mtx{A}^{-1} = \frac{1}{a_{11}a_{22}-a_{12}a_{21}}\left[ \begin{array}{cc}a_{22}\amp -a_{12}\\-a_{21}\amp a_{11} \end{array} \right] 
+			  \ \text{ if } \  sersera_{11}a_{22}-a_{12}a_{21} \neq 0</m> 
             </p>
           </li>
         </ol>
       </p>
+	  <p>
+	     *1. - 4. will hold for any matrices for which the required operations are defined.
+	  </p>
     </statement>
   </theorem>
-  <aside>
-    <p>
-      For this theorem I make an exception and let the students turn in handwritten proofs.
-      Notice for part {v.} the students need only check that the matrix given meets the definition of multiplicative inverse.
-      After the students are comfortable with elementary matrices,
-      applying the elementary operations that reduce a matrix to the identity matrix will make sense as a method for finding inverses.
-    </p>
-  </aside>
-  <p>
-    <project>
+ 
+  
+  <proposition>
+	<p>
       Prove or disprove:
-    </project>
     <ol>
       <li>
         <p>
-          uad \= (<m>\mtx{A} \neq \mtx{O}</m> and <m>\mtx{AB} = \mtx{AC}) \Longrightarrow \mtx{B} = \mtx{C}</m>
+          (<m>\mtx{AB} = \mtx{AC}\  \text{  and  } \ \mtx{A} \neq \mtx{O}) \Longrightarrow \mtx{B} = \mtx{C}</m>
         </p>
       </li>
       <li>
         <p>
-          <m>\mtx{AB} = \mtx{O} \Longrightarrow (\mtx{A}=\mtx{O}</m> or <m>\mtx{B} = \mtx{O})</m>
+          <m>\mtx{AB} = \mtx{O} \Longrightarrow (\mtx{A}=\mtx{O}\ \text{  or   }\ \mtx{B} = \mtx{O})</m>
         </p>
       </li>
     </ol>
-  </p>
+   </p>
+  </proposition>
 </section>

@@ -1,4 +1,4 @@
-<section xml:id="Properties_ofSpanning_Sets">
+<section xml:id="Properties_of_Spanning_Sets">
   <title>Properties of Spanning Sets</title>
   <exercise>
     <statement>
@@ -22,7 +22,7 @@
       </p>
     </statement>
   </exercise>
-  <theorem>
+  <theorem xml:id="thm_spanning_prop">
     <statement>
       <p>
         If <m>\mathbb{L}</m> has a basis
@@ -31,7 +31,7 @@
         <ol>
           <li>
             <p>
-              uad \= No spanning set contains fewer than <m>n</m> points.
+              No spanning set contains fewer than <m>n</m> points.
             </p>
           </li>
           <li>
@@ -41,33 +41,26 @@
           </li>
           <li>
             <p>
-              Every finite spanning set containes a basis.
+              Every finite spanning set contains a basis.
             </p>
           </li>
         </ol>
       </p>
     </statement>
   </theorem>
-  <aside>
-    <p>
-      Student may need help identifing why the condition of
-      <q>finite</q>
-      is given in part {iii.}
-    </p>
-  </aside>
   <p>
-    Theorems 21 and 22 together give the result that if a linear space has a basis with <m>n</m> points,
+    <xref ref="thm_lin_ind_prop"/> and <xref ref="thm_spanning_prop"/> together give the result that if a linear space has a basis with <m>n</m> points,
     then every basis must have <m>n</m> points.
     This observation leads to the following important definition.
   </p>
   <definition>
     <statement>
       <p>
-        If a linear space <m>\mathbb{L}</m> has a basis with <m>n</m> elements <m>\mathbb{L}</m> is called an
-        <term>n dimensional vector space</term>.
+        If a linear space <m>\mathbb{L}</m> has a basis with <m>n</m> elements then <m>\mathbb{L}</m> is called an
+        <term>n dimensional linear space</term>.
         If there is no finite set that forms a basis for <m>\mathbb{L}</m>,
-        <m>\mathbb{L}</m> is said to be
-        <term>infinite dimensional</term>.
+        <m>\mathbb{L}</m> is said to be an 
+        <term>infinite dimensional linear space</term>.
       </p>
     </statement>
   </definition>

@@ -19,11 +19,11 @@
   <exercise>
     <statement>
       <p>
-        State theorem 17 in words.
+        State <xref ref="thm_reduce_spanning"/> in words.
       </p>
     </statement>
   </exercise>
-  <theorem>
+  <theorem xml:id="thm_minimal">
     <statement>
       <p>
         <m>\mathbb{S}</m> is a basis for <m>\mathbb{L}</m> if and only if
@@ -34,9 +34,5 @@
       </p>
     </statement>
   </theorem>
-  <aside>
-    <p>
-      This theorem is similar to Theorem 16.
-    </p>
-  </aside>
+ 
 </section>

@@ -16,7 +16,11 @@
         In this system the x,y and z axis are perpendicular and indicate the direction for the first,
         second and third coordinates respectively.
       </p>
-      <image source="images/75662c582bcacc313e403bfab76c31ab3a302d76.png"/>
+    
+	<figure>
+		<image source="axes" width="40%"><description> The xyz-axes. </description></image>
+	</figure>
+	  	  
       <p>
         As a <term>point</term> in the Cartesian coordinate system,
         <m>\vect{v} = \ot{v_1}{v_2}{v_3}</m>,
@@ -35,15 +39,14 @@
     Ordered triples can represent physical concepts such as position,
     velocity or force.
     They can also represent any triple of related data such as population of three related species:
-    mice, smakes and hawks, or three related physical properties:
+    mice, snakes and hawks, or three related physical properties:
     temperature, pressure and volume.
   </p>
   <definition>
     <statement>
       <p>
         The set of all ordered triples is called
-        <term>Euclidean space</term>
-        or <term>real 3-space</term>,
+        <term>Euclidean 3-space</term>
         and written: <m>\mathbb{R}^3</m>.
         Using set notation it is written:
         <me>
@@ -59,11 +62,11 @@
         The <term>norm</term>, also called
         <term>length</term> or the <term>magnitude</term>
         and denoted <m>\|\vect{v}\|</m>,
-        is the distance of the point from the origin when \mathbf{v} is interpreted as a position and the length of the arrow when \mathbf{v} is interpreted as a vector.
+        is the distance of the point from the origin when <m>\vect{v}</m> is interpreted as a position and the length of the arrow when <m>\vect{v}</m> is interpreted as a vector.
       </p>
     </statement>
   </definition>
-  <theorem>
+  <identity>
     <title>Pythagorean Theorem</title>
     <statement>
       <p>
@@ -73,40 +76,36 @@
         </me>
       </p>
     </statement>
-  </theorem>
+  </identity>
   <aside>
     <p>
-      When students work on proving the Pythagorean Theorem in class I tell them to use their knowledge of Geometry and give them one of three pictures to work with.
-      From easiest to hardest, the picture hints I find work best are:
-      <me>
-        \begin{array}{ccc} <image width="20%" source="Pyth2"/>  \amp <image width="30%" source="Pyth1"/> \amp <image width="30%" source="Pyth3"/> \end{array}
-      </me>
+		To prove this consider dropping a perpendicular from the vertex containing the right angle to the hypotenuse and using similar triangles.
     </p>
   </aside>
   <exercise>
     <statement>
       <p>
-        {Give geometric representations of the points <m>\vect{v} = \ot{3}{-4}{0}</m> and
-        <m>\vect{w} = \ot{3}{-4}{2}</m> using both point and vector interpretations. }
+        Give geometric representations of the points <m>\vect{v} = \ot{3}{-4}{0}</m> and
+        <m>\vect{w} = \ot{3}{-4}{2}</m> using both point and vector interpretations. 
       </p>
     </statement>
-  </exercise>
+  </exercise> 
   <exercise>
     <statement>
       <p>
-        {For <m>\vect{v} = \ot{3}{-4}{0}</m> and <m>\vect{w} = \ot{3}{-4}{2}</m> find
+        For <m>\vect{v} = \ot{3}{-4}{0}</m> and <m>\vect{w} = \ot{3}{-4}{2}</m> find
         <m>\|\vect{v}\|</m> and <m>\|\vect{w}\|</m>.
-        Show and justify each step.}
+        Show and justify each step.
       </p>
     </statement>
   </exercise>
   <exercise>
     <statement>
       <p>
-        {Consider an ordered triple <m>\vect{v}=\ot{v_1}{v_2}{v_3}</m>,
+        Consider an ordered triple <m>\vect{v}=\ot{v_1}{v_2}{v_3}</m>,
         with <m>\|\vect{v}\|=10</m>.
-        Does there exist such a \mathbf{v}? If so, is \mathbf{v} unique?
-        In other words is there exactly one such \mathbf{v}? }
+        Does there exist such a <m>\vect{v}</m>? If so, is <m>\vect{v}</m> unique?
+        In other words is there exactly one such <m>\vect{v}</m>? 
       </p>
     </statement>
   </exercise>
@@ -115,37 +114,31 @@
       <p>
         Let <m>\vect{v}=\ot{v_1}{v_2}{v_3}</m> where <m>v_1</m>,
         <m>v_2</m>, and <m>v_3</m> are arbitrary real numbers.
-        The norm of \mathbf{v} is given by the formula:
+        The norm of <m>\vect{v}</m> is given by the formula:
         <me>
-          \|\vect{v}\|=
+          \|\vect{v}\|= \sqrt{v_1^2 + v_2^2 + v_3^2 }
         </me>
       </p>
     </statement>
   </theorem>
-  <aside>
-    <p>
-      Proofs are about justifying your claims.
-      This is a good place to emphasise justifying each step.
-      Some students will already know the distance formula and many will intuitively "know" the triangles formed by moving to the point \mathbf{v} are right triangles;
-      encourage them to back up these claims by citing definitions and theorems from the text.
-      Once a student gets the big idea,
-      challenge them to consider cases where components are negative or zero.
-    </p>
-  </aside>
-  <p>
-    <em>Challenge 1.</em> In the case
-    <m>\vect{v}=\ot{v_1}{v_2}{v_3}</m> is interpreted using spherical or cylindrical coordinates the norm of \mathbf{v} is given by the formula:
-    <ol>
-      <li>
-        <p>
-          pace \= <m>\|\vect{v}\|_{spherical} =</m>
-        </p>
-      </li>
-      <li>
-        <p>
-          <m>\|\vect{v}\|_{cylindrical} =</m>
-        </p>
-      </li>
-    </ol>
-  </p>
+  <proposition>
+	<statement>
+		<p>
+		In the case
+		<m>\vect{v}=\ot{v_1}{v_2}{v_3}</m> is interpreted using spherical or cylindrical coordinates the norm of <m>\vect{v}</m> is given by the formulas:
+		<ol>
+		<li>
+			<p>
+			<m>\|\vect{v}\|_{spherical} =</m>
+			</p>
+		</li>
+		<li>
+			<p>
+			<m>\|\vect{v}\|_{cylindrical} =</m>
+			</p>
+		</li>
+		</ol>
+		</p>
+	</statement>
+  </proposition>
 </section>

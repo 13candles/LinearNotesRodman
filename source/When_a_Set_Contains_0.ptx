@@ -7,7 +7,7 @@
         <ol>
           <li>
             <p>
-              uad &#298;t is raining <m>\Longrightarrow</m> there are clouds in the sky
+              It is raining <m>\Longrightarrow</m> there are clouds in the sky
             </p>
           </li>
           <li>
@@ -29,15 +29,16 @@
       </p>
     </statement>
   </exercise>
-  <p>
-    <term>Discussion Question 13.</term>
-    Do the following mean the same thing?
-  </p>
-  <p>
+  <question>
+   <p>
+     Do the following mean the same thing in English?  What about in math?
+   </p>
+   <p>
     <q>For any <ellipsis/></q>
     <q>For all<ellipsis/></q>
     <q>For every<ellipsis/></q>
-  </p>
+   </p>
+  </question>
   <exercise>
     <statement>
       <p>
@@ -59,14 +60,9 @@
     <statement>
       <p>
         If <m>\mathbb{S}</m> is a subset of a linear space
-        <m>\mathbb{L}</m> and \mathbf{0} <m>\in \mathbb{S}</m>,
+        <m>\mathbb{L}</m> and <m>\mathbf{0} \in \mathbb{S}</m>,
         then <m>\mathbb{S}</m> is linearly dependent.
       </p>
     </statement>
   </theorem>
-  <aside>
-    <p>
-      This is a very short proof and I find it best not to give the students too much help except perhaps to help them identify that this is a proof of existence and as such the more specific they can be the better.
-    </p>
-  </aside>
 </section>

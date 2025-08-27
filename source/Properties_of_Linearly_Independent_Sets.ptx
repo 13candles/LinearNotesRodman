@@ -23,7 +23,7 @@
       </p>
     </statement>
   </exercise>
-  <theorem>
+  <theorem xml:id="thm_lin_ind_prop">
     <statement>
       <p>
         If <m>\mathbb{L}</m> has a basis
@@ -32,7 +32,7 @@
         <ol>
           <li>
             <p>
-              uad \= No linearly independent set contains more than <m>n</m> points.
+              No linearly independent set contains more than <m>n</m> points.
             </p>
           </li>
           <li>
@@ -49,9 +49,4 @@
       </p>
     </statement>
   </theorem>
-  <aside>
-    <p>
-      Here the hard work of the previous theorems pay off.
-    </p>
-  </aside>
 </section>

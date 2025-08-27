@@ -1,4 +1,4 @@
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="Notes_to_Student">
   <title>To the Student</title>
   <p>
     The main goal of this course is to increase your ability to read and understand new mathematics,
@@ -14,4 +14,4 @@
     Talking to other students is encouraged,
     but only seek out other students once you have made as much progress on the exercises and theorem for yourself as you can.
   </p>
-</chapter>
+</section>

@@ -4,7 +4,7 @@
     <statement>
       <p>
         Let <m>\vect{v}=\ot{v_1}{v_2}{v_3}</m> and <m>t \in \mathbb{R}</m>.
-        The <term> scalar product</term> of <m>t</m> and \mathbf{v} is defined by:
+        The <term> scalar product</term> of <m>t</m> and <m>\vect{v}</m> is defined by:
         <m>t\vect{v} = \ot{tv_1}{tv_2}{tv_3}</m>
       </p>
     </statement>
@@ -13,7 +13,7 @@
     <statement>
       <p>
         Let <m>\vect{v}=\ot{v_1}{v_2}{v_3}</m> and <m>\vect{w}=\ot{w_1}{w_2}{w_3}</m>.
-        The <term>sum</term> of \mathbf{v} and \mathbf{w} is defined by:
+        The <term>sum</term> of <m>\vect{v}</m> and <m>\vect{w}</m> is defined by:
         <m>\vect{v}+\vect{w} =\ot{v_1+w_1}{v_2+w_2}{v_3+w_3}</m>.
       </p>
     </statement>
@@ -25,10 +25,10 @@
   <exercise>
     <statement>
       <p>
-        Use the vector \mathbf{v} below and give geometric representations of the vectors described by the scalar products:
+        Use the vector <m>\vect{v}</m> below and give geometric representations of the vectors described by the scalar products:
         <m>3\vect{v}</m> and <m>-1\vect{v}</m>.
       </p>
-      <image source="images/f8d56d161c12300e3ce78547c5d35d489ac9275f.png"/>
+		<image source="vector" width="40%"><description> Image of an arrow. </description></image>
     </statement>
   </exercise>
   <exercise>
@@ -36,66 +36,54 @@
       <p>
         Given <m>\vect{v} = \ot{1}{-2}{2}</m>,
         find a vector with the same direction as
-        <m>\vect{v}</m>,but with length <m>1</m>,
+        <m>\vect{v}</m>, but with length <m>1</m>,
         with length <m>10</m>, and with length <m>h</m>.
       </p>
     </statement>
   </exercise>
   <exercise>
-    <title>c</title>
     <statement>
       <p>
-        Use the vectors \mathbf{v} and \mathbf{w} below to give a geometric representation of the vector which is the sum <m>\vect{v}+\vect{w}</m>.
-        If this interpretation is applied to \mathbf{w}+\mathbf{v} is the result the same?
+        Use the vectors <m>\vect{v}</m> and <m>\vect{w}</m> below to give a geometric representation of the vector which is the sum <m>\vect{v}+\vect{w}</m>.
+        If this interpretation is applied to <m>\vect{w}</m>+<m>\vect{v}</m> is the result the same?
         If this interpretation is applied to <m>(\vect{v} +\vect{w}) + \vect{u}</m> and
         <m>\vect{v} + ( \vect{w} + \vect{u})</m> are those results the same?
       </p>
-      <image source="images/aeb329ae6eb705d91ddfcad391051aef151e5cef.png"/>
+		<image source="vectors" width="90%"><description> Image of three arrows. </description></image>
     </statement>
   </exercise>
-  <theorem>
+  <theorem xml:id="show_exists">
     <statement>
       <p>
         For any ordered triple <m>\vect{v}=\ot{v_1}{v_2}{v_3} \in \mathbb{R}^{3}</m> there exists an ordered triple <m>\vect{x}=\ot{x_1}{x_2}{x_3} \in \mathbb{R}^{3}</m> such that when
-        <m>\vect{x}</m> is added to \mathbf{v} the result is the <term>origin</term>,
+        <m>\vect{x}</m> is added to <m>\vect{v}</m> the result is the <term>origin</term>,
         <m>\vect{0}=\ot{0}{0}{0}</m>.
-        For a given \mathbf{v} such an ordered triple is unique.
-        Geometrically the vector \mathbf{x} can be visualized as <fillin/>.
+        For a given <m>\vect{v}</m> such an ordered triple is unique.
+        Geometrically the vector <m>\vect{x}</m> can be visualized as <fillin/>. (Describe starting and ending positions,
+        or direction and length.)
       </p>
-      <p>
-        ({Describe starting and ending positions,
-        or direction and length.})
-      </p>
+ 
       <p>
         Also, for any ordered triples <m>\vect{v}=\ot{v_1}{v_2}{v_3} \in \mathbb{R}^{3}</m> and
         <m>\vect{w}=\ot{w_1}{w_2}{w_3} \in \mathbb{R}^{3}</m> there exists an ordered triple <m>\vect{y}=\ot{y_1}{y_2}{y_3} \in \mathbb{R}^{3}</m> such that when
-        <m>\vect{y}</m> is added to \mathbf{v} the result is <m>\vect{w}=\ot{w_1}{w_2}{w_3}</m>.
-        For any given \mathbf{v} and
+        <m>\vect{y}</m> is added to <m>\vect{v}</m> the result is <m>\vect{w}=\ot{w_1}{w_2}{w_3}</m>.
+        For any given <m>\vect{v}</m> and
         <m>\vect{w}</m> such an ordered triple is unique.
-        Geometrically the vector \mathbf{y} can be visualized as <fillin/>. ({Describe starting and ending positions,
-        or direction and length.})
+        Geometrically the vector <m>\vect{y}</m> can be visualized as <fillin/>. (Describe starting and ending positions,
+        or direction and length.)
       </p>
     </statement>
   </theorem>
-  <aside>
-    <p>
-      This theorem provides a comfortable place for students to prove their first claims of existence and uniqueness.
-      I Discuss in general that to prove something exists you must show me such a thing and justify that it is what you claim.
-      For students who think solving for
-      <m>\vect{x}</m> will prove it exists I solve the equation <m>\sqrt{x}+5= 3</m>.
-      Uniqueness involves assuming two such ordered triples exist and showing they must be the same.
-    </p>
-  </aside>
   <p>
-    Theorem 2 provides justification for the following definitions.
+    <xref ref="show_exists" /> provides justification for the following definitions.
   </p>
   <definition>
     <statement>
       <p>
         Let <m>\vect{v}=\ot{v_1}{v_2}{v_3} \in \mathbb{R}^3</m>.
         The <term>additive inverse</term>
-        of \mathbf{v} is the ordered triple, written <m>-\vect{v}</m>,
-        that, when added to \mathbf{v} results in the origin:
+        of <m>\vect{v}</m> is the ordered triple, written <m>-\vect{v}</m>,
+        that, when added to <m>\vect{v}</m> results in the origin:
         <m>\vect{0} = \ot{0}{0}{0}</m>.
         In symbols <m>-\vect{v}</m> is the ordered triple such that <m>\vect{v} + -\vect{v}=0</m>.
       </p>
@@ -105,23 +93,30 @@
     <statement>
       <p>
         Let <m>\vect{v}=\ot{v_1}{v_2}{v_3} \in \mathbb{R}^3</m> and <m>\vect{w}=\ot{w_1}{w_2}{w_3} \in \mathbb{R}^3</m>.
-        The <term>difference</term> of \mathbf{w} from \mathbf{v} is the ordered triple,
+        The <term>difference</term> of <m>\vect{w}</m> from <m>\vect{v}</m> is the ordered triple,
         written <m>\vect{w}-\vect{v}</m>,
-        which when added to \mathbf{v} results in <m>\vect{w}</m>.In symbols
+        which when added to <m>\vect{v}</m> results in <m>\vect{w}</m>. In symbols
         <m>\vect{w}-\vect{v}</m> is the ordered triple such that <m>\vect{v} +(\vect{w}-\vect{v})=\vect{w}</m>.
-      </p>
+      </p> 
     </statement>
   </definition>
-  <investigation>
+  <question>
     <p>
       Do <m>\vect{w}-\vect{v}</m> and
+      <m>\vect{v}-\vect{w}</m> describe the same ordered triple?
+	  Do <m>\vect{w}-\vect{v}</m> and
       <m>\vect{w} + \vect{-v}</m> describe the same ordered triple?
     </p>
-  </investigation>
-  <p>
-    <em>Challenge 2.</em> Let <m>\vect{v}=\ot{v_1}{v_2}{v_3} \in \mathbb{R}^3</m> and <m>k \in \mathbb{R}</m>.
-    Does <m>\|k\vect{v}\| = k\|\vect{v}\|</m>?
-    Does <m>\| \vect{v} + \vect{w}\| =\|\vect{v}\|+\|\vect{w}\|</m>?
-    Include justification.
-  </p>
+  </question>
+  <proposition>
+	<p>
+		Let <m>\vect{v}=\ot{v_1}{v_2}{v_3} \in \mathbb{R}^3</m> and <m>k \in \mathbb{R}</m>.
+		Does <m>\|k\vect{v}\| = k\|\vect{v}\|</m>?
+		Does <m>\| \vect{v} + \vect{w}\| =\|\vect{v}\|+\|\vect{w}\|</m>?
+		Include justification.
+	</p>
+  </proposition>
+
+
+  
 </section>

@@ -1,0 +1,13 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="Euclidean_Spaces">
+  <title>Euclidean  Spaces</title>
+  <introduction>
+  <p> We will begin in the world as we experience it. A world having 3 directions in which we can move. Mathematicians call 
+  this Euclidean 3-Space.
+  </p>
+  </introduction>
+  <xi:include  href="Ordered_Triples.ptx"/>
+  <xi:include  href="Vector_Operations.ptx"/>
+  <xi:include  href="Sets_of_Ordered_Triples.ptx"/>
+  <xi:include  href="Spanning_and_Linear_Independence.ptx"/>
+  <xi:include  href="Systems_of_Linear_Equations.ptx"/>
+</chapter>

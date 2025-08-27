@@ -1,6 +1,6 @@
 <section xml:id="Linear_Independence">
   <title>Linear Independence</title>
-  <definition>
+  <definition xml:id="def_lin_ind">
     <statement>
       <p>
         A subset <m>\mathbb{S} = \{ \mathbf{P}_1,\mathbf{P}_2,\ldots,\mathbf{P}_n\}</m> of a linear space <m>\mathbb{L}</m> is
@@ -48,7 +48,7 @@
       </p>
     </statement>
   </exercise>
-  <theorem>
+  <theorem xml:id="equivalent_to_lin_ind">
     <statement>
       <p>
         Let <m>\mathbb{S} = \{ \mathbf{P}_1 , \mathbf{P}_2 ,\ldots, \mathbf{P}_n \}</m> be a subset of linear space <m>\mathbb{L}</m>.
@@ -57,11 +57,5 @@
       </p>
     </statement>
   </theorem>
-  <aside>
-    <p>
-      The most difficult part of this proof is setting it up correctly.
-      It is also important that student are clear that
-      <m>A \Rightarrow B</m> being true does not mean <m>A</m> must be true.
-    </p>
-  </aside>
+
 </section>

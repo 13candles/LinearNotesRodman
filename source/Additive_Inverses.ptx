@@ -1,31 +1,21 @@
 <section xml:id="Additive_Inverses">
   <title>Additive Inverses</title>
-  <p>
-    The notes have been focusing on <m>\mathbb{R}^3</m>,
-    but what about <m>\mathbb{R}^2</m>,
-    can the same things be done there? or <m>\mathbb{R}^5</m>?
-    What about any collection that behaves like
-    <m>\mathbb{R}^3</m> in that elements can be added together and multiplied by real numbers?
-    Examples of such are <m>2\times2</m> matrices and polynomials.
-    It is a powerful tool to have a small set of elements that,
-    by making linear combinations,
-    can be used to represent the entire collection.
-    This chapter generalizes the important ideas from Chapter 1.
-  </p>
-  <definition>
+  
+  <definition xml:id="linear_space">
     <statement>
       <p>
         A <term>linear space</term> is a set
         <m>\mathbb{L}</m> containing objects called points where for any points
         <m>\mathbf{P}</m> and <m>\mathbf{Q}</m> in
         <m>\mathbb{L}</m> and any real number <m>t</m> there exist unique points:
-        <ol>
-          <m>\bullet</m> \= \mathbf{P} + \mathbf{Q} \= called the sum of <m>\mathbf{P}</m> and \mathbf{Q} <m>\bullet</m> \> <m>t</m>\mathbf{P} \> called the scalar product of <m>t</m> and \mathbf{P}
-        </ol>
+		<md>
+			<mrow> \amp \bullet \amp   \amp\mathbf{P}+\mathbf{Q} \amp \amp \text{called the sum of } \mathbf{P} \text{ and } \mathbf{Q} </mrow>
+			<mrow> \amp \bullet \amp   \amp t \mathbf{P}  \amp \amp  \text{called the scalar product of } t \text{ and } \mathbf{P} </mrow>
+		</md>
       </p>
       <p>
         and where the following axioms are satisfied for any points
-        <m>\mathbf{P}</m>, \mathbf{Q}, \mathbf{R}
+        <m>\mathbf{P}</m>, <m>\mathbf{Q}</m>, <m>\mathbf{R}</m>
         <m>\in \mathbb{L}</m> and any <m>a, b \in \mathbb{R}</m>:
         <ol>
           <li>
@@ -79,13 +69,13 @@
   <exercise>
     <statement>
       <p>
-        For points <m>\mathbf{P}</m>, \mathbf{Q}, and
+        For points <m>\mathbf{P}</m>, <m>\mathbf{Q}</m>, and
         <m>\mathbf{R}</m> in linear space <m>\mathbb{L}</m>,
-        which of the following are also defined points in <m>\mathbb{L}</m>?
+        which of the following does the definition of Linear Space <xref ref="linear_space"/> guarantee are also points in <m>\mathbb{L}</m>?
         <ol>
           <li>
             <p>
-              uad \= <m>1\mathbf{Q}</m>
+              <m>1\mathbf{Q}</m>
             </p>
           </li>
           <li>
@@ -149,24 +139,11 @@
       </p>
     </statement>
   </theorem>
-  <aside>
-    <p>
-      Remind the students that they have proved this before in the special case
-      <m>\mathbb{L} = \mathbb{R}^3</m> but that now they must use the definition of linear space and not assume points are triples of real numbers.
-      Once students decide to use the point -1\mathbf{Q} they are tempted to assume it satisfies the desired condition, \mathbf{Q} + -1\mathbf{Q} = <m>\mathbf{0}</m>,
-      and show something true, \mathbf{0} = <m>\mathbf{0}</m>,
-      follows from that assumption.
-      I show them that I can "prove" <m>3 = 7</m> the same way:
-      <m>3 = 7 \Rightarrow 0\times 3 = 0\times 7 \Rightarrow 0=0</m>.
-      A good alternative is to name the point \mathbf{Q} + -1\mathbf{Q} =
-      <m>\mathbf{Z}</m> and show \mathbf{Z} = 0.
-      Telling them they should expect to use all of the axioms helps them look for which axioms apply instead of trying to work intuitively.
-    </p>
-  </aside>
+
   <definition>
     <statement>
       <p>
-        Let \mathbf{Q} <m>\in \mathbb{L}</m>.
+        Let <m>\mathbf{Q} \in \mathbb{L}</m>.
         The <term>additive inverse</term>
         of the point <m>\mathbf{Q}</m> is the point,
         written <m>-\mathbf{Q}</m>,
@@ -176,8 +153,10 @@
       </p>
     </statement>
   </definition>
-  <p>
-    The symbol "<m>-</m>" is now used to indicate the additive inverse of a real number and the additive inverse of a point which makes <m>-1\mathbf{Q}</m> ambiguous.
-    How can parenthesis be used to clarify which meaning of "<m>-</m>" is intended?
-  </p>
+  <question>
+	<p>
+		The symbol "<m>-</m>" is now used to indicate the additive inverse of a real number and the additive inverse of a point which makes <m>-1\mathbf{Q}</m> ambiguous.
+		Describe what is mean by  <m>(-1)\mathbf{Q} </m> and how it differs from <m>-(1\mathbf{Q}) </m>.  
+	</p>
+  </question>
 </section>

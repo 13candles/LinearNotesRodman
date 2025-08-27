@@ -1,13 +1,13 @@
 <section xml:id="Diagonalization">
   <title>Diagonalization</title>
-  <exercise>
+  <exercise>  
     <statement>
       <p>
         Compute the following matrix products.
         <ol>
           <li>
             <p>
-              pace \= <m>\left[ \begin{array}{rrr} 1 \amp 2 \amp 3 \\ 4 \amp 5 \amp 6 \\ 7 \amp 8 \amp 9 \end{array} \right]\left[ \begin{array}{ccc} 10 \amp 0 \amp 0 \\ 0 \amp 100 \amp 0 \\ 0 \amp 0 \amp 1000 \end{array} \right]=</m>
+              <m>\left[ \begin{array}{rrr} 1 \amp 2 \amp 3 \\ 4 \amp 5 \amp 6 \\ 7 \amp 8 \amp 9 \end{array} \right]\left[ \begin{array}{ccc} 10 \amp 0 \amp 0 \\ 0 \amp 100 \amp 0 \\ 0 \amp 0 \amp 1000 \end{array} \right]=</m>
             </p>
           </li>
           <li>
@@ -22,7 +22,7 @@
   <exercise>
     <statement>
       <p>
-        Use that \mathbf{v_1} =(3,0,1), \mathbf{v_2} =(0,2,1) and \mathbf{v_3} =(1,1,1) are the eigenvectors corresponding to eigenvalues <m>\lambda_1 =0</m>,
+        Use that <m> \vect{v_1} =(3,0,1)</m>, <m> \vect{v_2} =(0,2,1)</m> and <m> \vect{v_3} =(1,1,1)</m> are the eigenvectors corresponding to eigenvalues <m>\lambda_1 =0</m>,
         <m>\lambda_2=2</m> and <m>\lambda_3=1</m> for the matrix
         <m>\mtx{A} = \left[ \begin{array}{rrr} -2 \amp -3 \amp 6 \\ 2 \amp 5 \amp -6 \\ 0 \amp 1 \amp 0 \end{array} \right]</m> to fill in the blanks below.
       </p>
@@ -41,27 +41,28 @@
     <statement>
       <p>
         Given <m>\mtx{A} = \left[ \begin{array}{rr} 1 \amp -1 \\ 2 \amp 4 \end{array} \right]</m>,
-        find invertible matrix <c>P</c> and diagonal matrix <c>D</c> such that <m>\mtx{A} = \mtx{P}\mtx{D}\mtx{P}^{-1}</m>
+        find invertible matrix <m>\mtx{P}</m> and diagonal matrix <m>\mtx{D}</m> such that <m>\mtx{A} = \mtx{P}\mtx{D}\mtx{P}^{-1}</m>
       </p>
     </statement>
   </exercise>
   <theorem>
     <statement>
       <p>
-        If an <m>n\times n</m> matrix has n linearly independent eigenvectors then there exists an invertible matrix <c>P</c> and a diagonal matrix <c>D</c> such that:
+        If an <m>n\times n</m> matrix has n linearly independent eigenvectors then there exists an invertible matrix <m>\mtx{P}</m> and a diagonal matrix <m>\mtx{D}</m> such that:
         <me>
           \mtx{A} = \mtx{P }\mtx{D}\ \mtx{P}^{\ -1}
         </me>
       </p>
     </statement>
   </theorem>
-  <p>
-    <project>
-      If an <m>n\times n</m> matrix <c>A</c> has n linearly independent eigenvectors then det(<c>A</c>) is the product of the n corresponding eigenvalues.
-    </project>
-  </p>
-  <p>
-    <term>Discussion Question 35.</term>
+  <proposition>
+   <p>
+      If an <m>n\times n</m> matrix <m>\mtx{A}</m> has n linearly independent eigenvectors then det(<m>\mtx{A}</m>) is the product of the n corresponding eigenvalues.
+   </p>
+  </proposition>
+  <question>
+   <p>
     How would Theorem 35 help us efficiently compute <m>\mtx{A}^{100}</m>?
-  </p>
+   </p>
+  </question>
 </section>

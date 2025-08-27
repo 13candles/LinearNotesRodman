@@ -3,8 +3,10 @@
   <introduction>
     <p>
       Functions play a central role in mathematics and linear combinations play a central role in Linear Algebra.
-      We want a type of function that respects the organization of points into linear combinations.
-      Throughout <m>\mathbb{L}_1, \mathbb{L}_2</m> and
+      In this chapter we learn about a type of function that respects the organization of points into linear combinations.
+    </p>
+    <p>	
+	  Throughout <m>\mathbb{L}_1, \mathbb{L}_2</m> and
       <m>\mathbb{L}_3</m> will be general linear spaces.
     </p>
   </introduction>

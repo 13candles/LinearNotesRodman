@@ -19,7 +19,7 @@
         <ol>
           <li>
             <p>
-              uad \= rotates all points around the z-axis by 90<m>^\circ</m>
+              rotates all points around the z-axis by 90<m>^\circ</m>
             </p>
           </li>
           <li>
@@ -61,7 +61,7 @@
         <ol>
           <li>
             <p>
-              uad \= <m>T(x,y) = (0, 0, 0)</m>
+              <m>T(x,y) = (0, 0, 0)</m>
             </p>
           </li>
           <li>
@@ -90,7 +90,7 @@
         <ol>
           <li>
             <p>
-              uad \=the kernel of <m>T</m>,
+              the kernel of <m>T</m>,
               <m>ker(T)</m> is a subspace of <m>\mathbb{L}_1</m>
             </p>
           </li>
@@ -104,9 +104,9 @@
       </p>
     </statement>
   </theorem>
-  <p>
-    <project>
+  <proposition>
+	 <p>
       Prove for any linear transformation <m>T:\mathbb{L}_1 \longrightarrow \mathbb{L}_2</m> where <m>\mathbb{L}_1</m> is a finite dimensional linear space: <m>dim(ker(T))+dim(T(\mathbb{L}_1)) = dim(\mathbb{L}_1)</m>
-    </project>
-  </p>
+     </p>
+  </proposition>
 </section>

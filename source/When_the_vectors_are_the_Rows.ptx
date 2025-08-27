@@ -3,7 +3,7 @@
   <p>
     Until now our ordered n-tuples have appeared in matrices as columns.
     They can also be placed as rows.
-    The following Theorem shows what can be learned by row-reducing such a matrix.
+    The following theorem shows what can be learned by row-reducing such a matrix.
   </p>
   <exercise>
     <statement>
@@ -19,7 +19,7 @@
       <p>
         Find a
         <q>nicer</q>
-        set that spas the same space as the set spanned by <m>\mathbb{S} = \{ \ot{3}{0}{-3}, \ot{1}{2}{3},\ot{0}{1}{0} \}</m>.
+        set that spans the same space as the set spanned by <m>\mathbb{S} = \{ \ot{3}{0}{-3}, \ot{1}{2}{3},\ot{0}{1}{0} \}</m>.
         Is this new set linearly independent?
       </p>
     </statement>
@@ -43,7 +43,7 @@
         <ol>
           <li>
             <p>
-              uad \= multiplying <m>\mathbf{P}</m> by a non-zero number <term>or</term>
+              multiplying <m>\mathbf{P}</m> by a non-zero number <term>or</term>
             </p>
           </li>
           <li>
@@ -66,12 +66,4 @@
       </p>
     </statement>
   </theorem>
-  <aside>
-    <p>
-      The first half of this theorem is another application of the Replacement Lemma.
-      For the second half,
-      that every nonzero row has a leading 1 in a position in which all the other rows will have zeros,
-      is the key to showing the nonzero rows are linearly independent.
-    </p>
-  </aside>
 </section>

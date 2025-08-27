@@ -3,7 +3,7 @@
   <definition>
     <statement>
       <p>
-        A vector \mathbf{v} is a <term>linear combination of the vectors:
+        A vector <m>\vect{v}</m> is a <term>linear combination of the vectors:
         <m>\vect{v_1}</m>, <m>\vect{v_2}</m>,
         <ellipsis/> <m>\vect{v_n}</m> </term>
         if <m>\vect{v} = t_1\vect{v_1}+t_2\vect{v_2} + \cdots + t_n\vect{v_n}</m> for some choice of real numbers <m>t_i</m>.
@@ -26,8 +26,8 @@
   <exercise>
     <statement>
       <p>
-        Is \ot{1}{0}{-1} in the span of <m>\mathbb{S}=\{\ot{1}{2}{3}, \ot{4}{5}{6}, \ot{7}{8}{9} \}</m>?
-        If so write \ot{1}{0}{-1} as a linear combination of the vectors in <m>\mathbb{S}</m>.
+        Is <m>\ot{1}{0}{-1}</m> in the span of <m>\mathbb{S}=\{\ot{1}{2}{3}, \ot{4}{5}{6}, \ot{7}{8}{9} \}</m>?
+        If so write <m>\ot{1}{0}{-1}</m> as a linear combination of the vectors in <m>\mathbb{S}</m>. 
       </p>
     </statement>
   </exercise>
@@ -39,7 +39,7 @@
         <ol>
           <li>
             <p>
-              uad \= <m>\mathbb{S}=\{ \ot{0}{1}{0} \}</m>
+              <m>\mathbb{S}=\{ \ot{0}{1}{0} \}</m>
             </p>
           </li>
           <li>
@@ -115,7 +115,7 @@
         <ol>
           <li>
             <p>
-              uad \= <m>\mathbb{S} =\{\ot{1}{2}{0},\ot{0}{0}{1},\ot{2}{4}{6} \}</m>
+              <m>\mathbb{S} =\{\ot{1}{2}{0},\ot{0}{0}{1},\ot{2}{4}{6} \}</m>
             </p>
           </li>
           <li>
@@ -176,14 +176,4 @@
       </p>
     </statement>
   </theorem>
-  <aside>
-    <p>
-      This theorem relies entirely upon the definitions of linear independence and span,
-      and the definitions of well-defined, 1-1 and onto.
-      This is a good place to emphasize that words are necessary to connect ideas and convey meaning.
-      I put a list of words on the board and we group them according to their meaning and role in a proof.
-      Some of the words I use are:
-      given, know, let, assume, thus, therefore, and, and also.
-    </p>
-  </aside>
 </section>

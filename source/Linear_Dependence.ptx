@@ -17,12 +17,12 @@
   <exercise>
     <statement>
       <p>
-        Use Theorem 12 to write another condition for
+        Use <xref ref="equivalent_to_lin_ind"/> to write another condition for
         <m>\mathbb{S}</m> to be linearly dependent.
       </p>
     </statement>
   </exercise>
-  <theorem>
+  <theorem xml:id="lin_dep_means_lin_comb">
     <statement>
       <p>
         Let <m>\mathbb{S}</m> be a subset of a linear space
@@ -32,22 +32,17 @@
       </p>
     </statement>
   </theorem>
-  <aside>
-    <p>
-      I often arrange for weakers students to be in the same group for this theorem since here they can demonstrate mastery of proving
-      <q>if and only if</q>
-      statements and the definition of linearly dependent.
-    </p>
-  </aside>
+
+  <question>
   <p>
-    <term>Discussion Question 14.</term>
-    The definition, Theorem 12,
-    and Theorem 14 give three equivalent criteria for a set to be linearly independent.
+    The definition of linear independence (<xref ref="def_lin_ind"/>), <xref ref="equivalent_to_lin_ind"/>,
+    and <xref ref="lin_dep_means_lin_comb"/> give three equivalent criteria for a set to be linearly independent.
     Which matches the meaning of
     <q>independent</q>
     most closely?
-    Which seems easiest to use to prove set is linearly independent?
+    Which seems easiest to use to prove a set is linearly independent?
     Which makes the most sense paired with the definition of span?
     What do traditional Linear Algebra texts have for the definition of linearly independent?
   </p>
+  </question>
 </section>

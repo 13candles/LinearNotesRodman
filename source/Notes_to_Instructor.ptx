@@ -1,4 +1,4 @@
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>To the Instructor</title>
   <p>
     Students who take our Linear Algebra course have been introduced to proof in a discrete math course,
@@ -98,7 +98,7 @@
     Other students strive to get all of proofs and the Challenge problems.
   </p>
   <p>
-    We have thirty seven 75 minute long class periods.
+    We have 14 week terms and 75 minute long class periods.
     I found it worked well for each class period to have three parts.
     First students would work in small groups to put the key steps of the most recently turned in proof on the board.
     Then I have one person present.
@@ -114,4 +114,4 @@
     justifying each step and introducing their theorem to the class.
     We then move on to talk about the first three exercises after which the class is ready to begin working in small groups on Theorem 1.
   </p>
-</chapter>
+</section>

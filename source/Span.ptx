@@ -39,7 +39,7 @@
   <exercise>
     <statement>
       <p>
-        Describe the span of <m>\mathbb{S} = \{ \ot{1}{0}{1},\ot{0}{1}{1}\}</m>.
+        Describe the span of <m>\mathbb{S} = \{ \ot{1}{1}{0},\ot{0}{0}{1}\}</m>.
         Does <m>\mathbb{S}</m> span <m>\mathbb{R}^3</m>?
       </p>
     </statement>
@@ -55,11 +55,11 @@
   <exercise>
     <statement>
       <p>
-        Find two different sets that span <m>\mathbb{R}^3</m>?
+        Find two different sets that span <m>\mathbb{R}^3</m>.
       </p>
     </statement>
   </exercise>
-  <theorem>
+  <theorem xml:id="spanS_is_subspace">
     <statement>
       <p>
         If <m>\mathbb{S}</m> is a nonempty subset of a linear space <m>\mathbb{L}</m>,
@@ -71,14 +71,9 @@
       </p>
     </statement>
   </theorem>
-  <aside>
-    <p>
-      This is a good opportunity for student to use Theorem 10,
-      but if they dont realize this themselves I let them check all the criteria for subspace which gives them a better understanding of Theorem 10.
-    </p>
-  </aside>
+  <question>
   <p>
-    <term>Discussion Question 11.</term>
-    What definition for <m>span\{\}</m> would make Theorem 11 true without the condition that <m>\mathbb{S}</m> be non-empty?
+    What definition for <m>span\{\}</m> would make <xref ref="spanS_is_subspace"/> true without the condition that <m>\mathbb{S}</m> be non-empty?
   </p>
+  </question>
 </section>

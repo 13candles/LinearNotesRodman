@@ -23,20 +23,14 @@
       </p>
     </statement>
   </exercise>
-  <theorem>
+  <theorem xml:id="thm_reduce_spanning">
     <statement>
       <p>
         If <m>\mathbb{S}</m> spans
         <m>\mathbb{L}</m> and <m>\mathbf{P}</m> is a point of
-        <m>\mathbb{S}</m> such that \mathbf{P} <m>\in span(\mathbb{S}-\{\mathbf{P}\})</m> then
+        <m>\mathbb{S}</m> such that <m>\mathbf{P} \in span(\mathbb{S}-\{\mathbf{P}\})</m> then
         <m>\mathbb{S}-\{\mathbf{P}\}</m> also spans <m>\mathbb{L}</m>.
       </p>
     </statement>
   </theorem>
-  <aside>
-    <p>
-      Here is a good proof to get students used to identifying what they are being asked to prove,
-      and in this case identify what a proof that a set spans <m>\mathbb{L}</m> should look like.
-    </p>
-  </aside>
 </section>

@@ -6,7 +6,7 @@
   <exercise>
     <statement>
       <p>
-        Does the set <m>\mathbb{R}^3</m> with operations as defined in Chapter 1 satisfy all the conditions to be a linear space?
+        Does the set <m>\mathbb{R}^3</m> with operations as defined in <xref ref="Euclidean_Spaces"/> on Euclidean Spaces satisfy all the conditions to be a linear space?
       </p>
     </statement>
   </exercise>
@@ -18,7 +18,7 @@
         <ol>
           <li>
             <p>
-              uad \= <m>\op{p_1}{p_2}+\op{q_1}{q_2} = \op{0}{0}</m> and <m>t\op{p_1}{p_2} = \op{0}{0}</m>
+              <m>\op{p_1}{p_2}+\op{q_1}{q_2} = \op{0}{0}</m> and <m>t\op{p_1}{p_2} = \op{0}{0}</m>
             </p>
           </li>
           <li>
@@ -50,11 +50,22 @@
         sketch graphs of the functions <m>f+g</m> and <m>3g</m>.
         Are these functions continuous on [0,1]? Will the sum of continuous functions always be continuous?
         Will a scalar multiple of a continuous function always be continuous?
-        A good justification will use the definition of continuous.
-        <me>
-          \begin{array}{ccc} f(x) \amp   \amp  g(x)\\ <image width="45%" source="f"/>  \amp   \amp  <image width="45%" source="g"/> \end{array}
-        </me>
-      </p>
+        A good justification will use the definition of continuous. 	
+		<sbsgroup widths="45% 45%" >
+			<sidebyside widths="5% 5%" >
+				<p>
+					<m>f(x)</m>
+				</p>
+				<p>
+					<m>g(x)</m>
+				</p>
+			</sidebyside>
+			<sidebyside>
+				<image source="f" width="40%"><description> The function f. </description></image>
+				<image source="g" width="40%"><description> The function g. </description></image>
+			</sidebyside>
+		</sbsgroup>
+	  </p>
     </statement>
   </exercise>
   <theorem>
@@ -66,18 +77,11 @@
       </p>
     </statement>
   </theorem>
-  <aside>
-    <p>
-      Again, remind the students that they have proved this before in the special case
-      <m>\mathbb{L} = \mathbb{R}^3</m> but that now they must use the definition of linear space and not assume points are triples of real numbers.
-      Students who struggled with the last proof often gain confidence after proving this one.
-    </p>
-  </aside>
   <definition>
     <statement>
       <p>
         Let <m>\mathbf{P}</m> and <m>\mathbf{Q}</m> be points in linear space <m>\mathbb{L}</m>.
-        The <term>difference of <m>\mathbf{Q}</m> from \mathbf{P}</term> is the point,
+        The <term>difference of <m>\mathbf{Q}</m> from <m>\mathbf{P}</m></term> is the point,
         written <m>\mathbf{Q}-\mathbf{P}</m>,
         that when added to <m>\mathbf{P}</m> results in <m>\mathbf{Q}</m>.
         In symbols: <m>\mathbf{Q}-\mathbf{P}</m> is the vector such that <m>\mathbf{P} + (\mathbf{Q}-\mathbf{P}) = \mathbf{Q}</m>.
