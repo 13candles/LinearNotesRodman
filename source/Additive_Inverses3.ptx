@@ -20,6 +20,31 @@
         <ol>
           <li>
             <p>
+              <m>\mathbf{P}+(\mathbf{Q}+\mathbf{R})=(\mathbf{P} + \mathbf{Q})+\mathbf{R}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>a(b\mathbf{P}) = (ab)\mathbf{P}</m>
+            </p>
+          </li>		  
+          <li>
+            <p>
+              <m>a(\mathbf{P}+\mathbf{Q}) = a\mathbf{P} + a\mathbf{Q}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>(a+b)\mathbf{P} = a\mathbf{P} + b\mathbf{P}</m>
+            </p>
+          </li>		  
+          <li>
+            <p>
+              <m>\mathbf{P}+\mathbf{Q}=\mathbf{Q}+\mathbf{P}</m>
+            </p>
+          </li>		  
+          <li>
+            <p>
               There exists a point <m>\mathbf{0}</m>,
               called the <term>additive identity</term>,
               such that <m>\mathbf{P}+\mathbf{0}=\mathbf{P}</m>
@@ -30,31 +55,6 @@
               <m>a\mathbf{P}=\mathbf{0}</m> if and only if <m>a=0</m> or <m>\mathbf{P}=\mathbf{0}</m>
             </p>
           </li>		
-          <li>
-            <p>
-              <m>a(b\mathbf{P}) = (ab)\mathbf{P}</m>
-            </p>
-          </li>
-          <li>
-            <p>
-              <m>\mathbf{P}+(\mathbf{Q}+\mathbf{R})=(\mathbf{P} + \mathbf{Q})+\mathbf{R}</m>
-            </p>
-          </li>
-          <li>
-            <p>
-              <m>(a+b)\mathbf{P} = a\mathbf{P} + b\mathbf{P}</m>
-            </p>
-          </li>
-          <li>
-            <p>
-              <m>a(\mathbf{P}+\mathbf{Q}) = a\mathbf{P} + a\mathbf{Q}</m>
-            </p>
-          </li>
-          <li>
-            <p>
-              <m>\mathbf{P}+\mathbf{Q}=\mathbf{Q}+\mathbf{P}</m>
-            </p>
-          </li>		  
         </ol>
       </p>
     </statement>

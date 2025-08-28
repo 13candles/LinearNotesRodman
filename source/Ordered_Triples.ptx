@@ -62,7 +62,8 @@
         The <term>norm</term>, also called
         <term>length</term> or <term>magnitude</term>
         and denoted <m>\|\vect{v}\|</m>,
-        is the distance of the point from the origin when <m>\vect{v}</m> is interpreted as a position, or the length of the arrow when <m>\vect{v}</m> is interpreted as a vector.
+        is the distance of the point from the origin when <m>\vect{v}</m> is interpreted as a position, 
+		or the length of the arrow when <m>\vect{v}</m> is interpreted as a vector.
       </p>
     </statement>
   </definition>

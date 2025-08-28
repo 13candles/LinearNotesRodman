@@ -18,6 +18,32 @@
         <m>\mathbf{P}</m>, <m>\mathbf{Q}</m>, <m>\mathbf{R}</m>
         <m>\in \mathbb{L}</m> and any <m>a, b \in \mathbb{R}</m>:
         <ol>
+          <li>
+            <p>
+              <m>\mathbf{P}+\mathbf{Q}=\mathbf{Q}+\mathbf{P}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>a(b\mathbf{P}) = (ab)\mathbf{P}</m>
+            </p>
+          </li>
+		  
+          <li>
+            <p>
+              <m>\mathbf{P}+(\mathbf{Q}+\mathbf{R})=(\mathbf{P} + \mathbf{Q})+\mathbf{R}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>a(\mathbf{P}+\mathbf{Q}) = a\mathbf{P} + a\mathbf{Q}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>(a+b)\mathbf{P} = a\mathbf{P} + b\mathbf{P}</m>
+            </p>
+          </li>		  
 		  <li>
             <p>
               There exists a point <m>\mathbf{0}</m>,
@@ -29,32 +55,7 @@
             <p>
               <m>a\mathbf{P}=\mathbf{0}</m> if and only if <m>a=0</m> or <m>\mathbf{P}=\mathbf{0}</m>
             </p>
-          </li>
-          <li>
-            <p>
-              <m>\mathbf{P}+\mathbf{Q}=\mathbf{Q}+\mathbf{P}</m>
-            </p>
-          </li>
-          <li>
-            <p>
-              <m>\mathbf{P}+(\mathbf{Q}+\mathbf{R})=(\mathbf{P} + \mathbf{Q})+\mathbf{R}</m>
-            </p>
-          </li>
-          <li>
-            <p>
-              <m>a(b\mathbf{P}) = (ab)\mathbf{P}</m>
-            </p>
-          </li>
-          <li>
-            <p>
-              <m>(a+b)\mathbf{P} = a\mathbf{P} + b\mathbf{P}</m>
-            </p>
-          </li>
-          <li>
-            <p>
-              <m>a(\mathbf{P}+\mathbf{Q}) = a\mathbf{P} + a\mathbf{Q}</m>
-            </p>
-          </li>
+          </li>		  
         </ol>
       </p>
     </statement>

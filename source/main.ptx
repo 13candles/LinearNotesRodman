@@ -35,19 +35,19 @@
 
   <book>
     <title>An Inquiry Based Introduction to Linear Algebra</title>
-    <frontmatter>
-      <titlepage>
-        <author>
-          <personname>Stacey Rodman</personname>
-        </author>
+     <frontmatter>
+     <titlepage>
+       <author>
+         <personname>Stacey Rodman</personname>
+       </author>
       </titlepage>   
-	  <xi:include href="./Acknowledgement.ptx"/>
+	<!--  <xi:include href="./Acknowledgement.ptx"/>
 	  <xi:include href="./Colophon.ptx"/>
 	  <preface>
 	   <xi:include href="./Notes_to_Student.ptx"/>
 	   <xi:include href="./Notes_to_Instructor.ptx"/>
-	  </preface>
-    </frontmatter>
+	  </preface> -->
+    </frontmatter>  
     <xi:include href="./Euclidean_Spaces.ptx"/>
     <xi:include href="./Linear_Spaces.ptx"/>
     <xi:include href="./Linear_Transformations.ptx"/>
